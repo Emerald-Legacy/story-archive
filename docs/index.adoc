@@ -1,0 +1,7 @@
+include::config/setup.adoc[]
+
+= image:el-logo.jpg[width=150] Stories
+- Archives -
+:TOC:
+
+== link:stories/27 - The Secret of Bamboo.pdf[The Secret of Bamboo]
