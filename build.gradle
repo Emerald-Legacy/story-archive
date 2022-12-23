@@ -15,47 +15,31 @@ asciidoctorj {
 }
 
 ext {
-    today = new Date()
-    versionDate = new SimpleDateFormat("yyyyMMdd").format(today)
-
-    project.version = project.file("./document.version").text
     curriculumFileName = "stories"
-    addSuffixToCurriculum = { suffix ->
-        for (extension in ["pdf"]) {
-            File source = new File("${buildDir}/${curriculumFileName}.${extension}")
-            File target = new File("${buildDir}/${curriculumFileName}${suffix}.${extension}")
-
-            source.renameTo(target)
-        }
-    }
 }
-
-
 
 
 class RenderCurriculumTask extends AsciidoctorTask {
     @Inject
-    RenderCurriculumTask(WorkerExecutor we, String curriculumFileName, String versionDate, String language, boolean withRemarks) {
+    RenderCurriculumTask(WorkerExecutor we) {
         super(we)
 
         forkOptions {
             jvmArgs "--add-opens", "java.base/sun.nio.ch=ALL-UNNAMED", "--add-opens", "java.base/java.io=ALL-UNNAMED"
         }
 
-
-        sourceDir = new File("./docs/")
+        sourceDir = new File("./docs/stories")
         baseDir = new File ("./docs/")
         sources {
-            include "index.adoc"
-            include "${curriculumFileName}.adoc"
+            include "**/*.adoc"
         }
+
         outputDir = new File("./build/")
         outputOptions {
             separateOutputDirs = false
             backends 'pdf'
         }
 
-        def fileVersion = project.version.trim() + "-" + language
 
         attributes = [
                 'icons'             : 'font',
@@ -65,8 +49,6 @@ class RenderCurriculumTask extends AsciidoctorTask {
                 'document-version'  : '',
                 'currentDate'       : '',
                 'language'          : 'EN',
-                'curriculumFileName': curriculumFileName,
-                'debug_adoc'        : false,
                 'pdf-stylesdir'     : '../pdf-theme/themes',
                 'pdf-fontsdir'      : '../pdf-theme/fonts',
                 'pdf-style'         : 'el'
@@ -74,24 +56,9 @@ class RenderCurriculumTask extends AsciidoctorTask {
     }
 }
 
-task buildDocs {
-    group 'Documentation'
-    description 'Grouping task for generating all languages in several formats'
-    dependsOn "renderEN"
+
+task renderStories(type: RenderCurriculumTask,
+        constructorArgs: [curriculumFileName]) {
 }
 
-task renderDE(type: RenderCurriculumTask,
-        constructorArgs: [curriculumFileName, versionDate, "DE", false]) {
-    doLast {
-        addSuffixToCurriculum("-de")
-    }
-}
-
-task renderEN(type: RenderCurriculumTask,
-        constructorArgs: [curriculumFileName, versionDate, "EN", false]) {
-    doLast {
-        addSuffixToCurriculum("-en")
-    }
-}
-
-defaultTasks "buildDocs"
+defaultTasks "renderEN"
