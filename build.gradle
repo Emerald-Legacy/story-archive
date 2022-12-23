@@ -32,12 +32,13 @@ class RenderCurriculumTask extends AsciidoctorTask {
         baseDir = new File ("./docs/")
         sources {
             include "stories/*.adoc"
+            include "index.adoc"
         }
 
         outputDir = new File("./build/")
         outputOptions {
             separateOutputDirs = false
-            backends 'pdf'
+            backends 'pdf', 'html'
         }
 
 
