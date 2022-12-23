@@ -1,6 +1,5 @@
 :doctype: book
 :icons: font
 :sectnumlevels: 2
-:imagesdir: images
-:chapter-label: 
+:chapter-label:
 
