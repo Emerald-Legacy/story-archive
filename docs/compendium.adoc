@@ -1,0 +1,11 @@
+include::config/setup.adoc[]
+
+= Emerald Legacy Compendium
+
+[preface]
+= Book Preface
+This book contains a collection of all Emerald Legacy stories that have been released so far.
+
+:TOC:
+
+// include::stories/27 - The Secret of Bamboo.adoc[]
