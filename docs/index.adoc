@@ -1,7 +1,11 @@
-include::config/setup.adoc[]
+:doctype: book
+:icons: font
+:chapter-label:
 
-= image:el-logo.jpg[width=150] Stories
-- Archives -
-:TOC:
+= Emerald Legacy Collected Stories
 
-== link:stories/27 - The Secret of Bamboo.pdf[The Secret of Bamboo]
+This is an overview of all stories that have been released by Emerald Legacy.
+
+== Stories
+
+link:pass:[stories/27 - The Secret of Bamboo.pdf][27 - The Secret of Bamboo]
