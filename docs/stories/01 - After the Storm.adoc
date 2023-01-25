@@ -1,6 +1,6 @@
 :doctype: book
 :icons: font
-:page-background-image: image:background_dragon.jpg[pdfwidth=100%]
+:page-background-image: image:background_neutral.jpg[pdfwidth=100%]
 
 = After the Storm
 Jeanne Kalvar
@@ -15,7 +15,7 @@ _The sea won't have me today_. It was not the sea Hitoshi feared anyway. This wa
 
 The storm was on them quickly.
 
-The wind and waves slammed into the side of the boat with the roar of an angry god. Hitoshi could feel the wet obi of his fellow sailor slipping through his grip as he felt the force of the wave drag them both towards the edge of the deck and the hungry waters below. He had grabbed Ikku out of sheer instinct when he saw the waves pluck him from the deck, but it forced him to leave his own bindings, and the sea was tearing at them both. Bitter salt filled his mouth and stung his eyes, but he hung on. With a hungry sigh, however, the wave released its grip, leaving him sputtering and gasping for sweet air, Teiljo vomiting on his hands and knees beside him. The Cap-tain, Gyukudo, did not waver, back leaning into the tiller.
+The wind and waves slammed into the side of the boat with the roar of an angry god. Hitoshi could feel the wet obi of his fellow sailor slipping through his grip as he felt the force of the wave drag them both towards the edge of the deck and the hungry waters below. He had grabbed Ikku out of sheer instinct when he saw the waves pluck him from the deck, but it forced him to leave his own bindings, and the sea was tearing at them both. Bitter salt filled his mouth and stung his eyes, but he hung on. With a hungry sigh, however, the wave released its grip, leaving him sputtering and gasping for sweet air, Teiljo vomiting on his hands and knees beside him. The Captain, Gyukudo, did not waver, back leaning into the tiller.
 
 “You take Ikku, Utari!” The third mate leapt at the order, relieving Hitoshi from his grip on the weakened sailor.
 
@@ -43,7 +43,7 @@ _Still…_
 
 “Is that land?” The young man shaded his eyes and pointed.
 
-Looking to the south east, it seemed as though the bank of the storm had split in two. One, passing to the south, bore with it the dark rainy thunderhead of the weather that had just passed. But the eastern portion of the horizon, where the clouds had been dragged to the earth by Osano Wo, clung still and calm…silver mists rising from the ocean with a placid and inviting stillness. And above those mists, lit by the occasional shaft of sunlight, Hitoshi could just barely make out a green cone, the crest of a for-ested mountain peak rising above the mists. A harbor, if they could reach it.
+Looking to the south east, it seemed as though the bank of the storm had split in two. One, passing to the south, bore with it the dark rainy thunderhead of the weather that had just passed. But the eastern portion of the horizon, where the clouds had been dragged to the earth by Osano Wo, clung still and calm…silver mists rising from the ocean with a placid and inviting stillness. And above those mists, lit by the occasional shaft of sunlight, Hitoshi could just barely make out a green cone, the crest of a forested mountain peak rising above the mists. A harbor, if they could reach it.
 
 Captain Gyukudo followed his gaze and frowned, silent for a moment before he consulted the sundial and scratched out another line on the bearing rod. “That shouldn't be there…” he muttered, and shook his head.
 
