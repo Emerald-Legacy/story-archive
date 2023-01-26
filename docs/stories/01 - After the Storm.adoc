@@ -37,6 +37,8 @@ A flood of warmth spread across Hitoshi's chest as he flushed with pride. “I'l
 
 The captain chuckled. “And to think, the mainland almost claimed a good sailor like you. Wouldn't that have been a waste? Maybe you'll take my place at the tiller of the _Six Oceans' Champion_ one day. A far more fitting title.” Gyukudo sucked in a deep breath, and, leaning his weight on the rudder, hauled himself to his feet. Hitoshi followed suit.
 
+<<<
+
 The sun had escaped the storm clouds that had moved on, spilling down in shafts of golden light, and while the sea was gray-green with the memory of the storm, the white caps just licked the sides of the ship playfully. But the _Six Oceans' Champion_ was not at its best. Sheets and sheetlets hung loose in the wind, and the mainsail was torn and several of the battens had been broken. It would take time to repair. Hitoshi scanned the horizon, looking for safe harbor. The repairs would be easier at anchor. But the storm had driven them further to sea.
 
 _Still…_
@@ -51,9 +53,7 @@ Captain Gyukudo followed his gaze and frowned, silent for a moment before he con
 
 Hitoshi's brow furrowed. “Why?”
 
-
 The captain began gesturing for his men to make preparations while Hitoshi followed.
-
 
 “Why? I've heard stories. That island only appears rarely…At times when the world is changing, they say. When you approach those waters, a heavy fog rises at your bow, day or night. On a clear day, you can see green trees and a mountain rising from those mists from afar, but when you set your rudder the course, the fog envelops the ship, and all falls into white stillness and the waves lapping your boat. Set your oars as you will, but you will never reach the shores of that island.”
 
@@ -64,3 +64,6 @@ The captain began gesturing for his men to make preparations while Hitoshi follo
 “Perhaps it is sacred to them. Perhaps, as others say, it is a shrine to the first Emperor. Or maybe it is a refuge for beings older than the Empire itself? Who can say? All I know is that there are many stories and no answers for it.”
 
 Hitoshi glanced back over his shoulder at the peaceful green spire rising above the puffy white mists. _The world is changing_, he thought. And in his heart, he knew at least that was true.
+
+
+image::story_images/01_after_the_storm.png[mountain,200,200,align="center"]
