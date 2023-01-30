@@ -30,11 +30,61 @@ If you find a typo, bad formatting, or anything else you think we should improve
 == How to translate a story
 Choose a story in our Google Drive, copy the text to a new asciidoc file, and apply asciidoc formatting. You can check the existing stories as orientation for text formatting, title/background formatting, and image inclusion.
 
+If you need access to the story directory in the Google Drive, ask programming-wolf. 
+
+=== Formatting Asciidoc
+It's not sufficient to just copy the text from the PDFs into the asciidoc files. We need to manually adjust stuff like bold style, italic style, and horizontal lines, for example. Here are the most common code formatting things:
+
+- Replace special single and double quotes with `'` and `"` respectively. They will be rendered properly by asciidoc. 
+- Remove everything that's not part of the story, like "Emerald Legacy 2021" from the footer, for example.
+- Merge lines that have been separated by page breaks.
+- If there is a paragraph break in the pdf, you can create one in asciidoc by simply leaving a blank line between two lines of text. 
+- If there is a single line break in the pdf, you can create one in asciidoc by adding
+```
+ +
+```
+to the end of the line (the whitespace in front of the `+` is important).
+
+- You can format _italic text_ like this:
+```
+_italic text_
+```
+- You can format **bold text** like this:
+```
+**bold text**
+```
+- You can format **_emphasized text_** like this:
+```
+**_emphasized text_**
+```
+- You can create a horizontal rule with this:
+```
+'''
+```
+- You can enforce a page break with this:
+```
+<<<
+```
+- You can add more space between text and an image with this:
+```
+some text.
+
+{empty} +
+
+image::some_image.jpg
+```
+- You can include an image like as follows. The numbers are width and height, respectively:
+```
+image::image_in_images_dir.jpg[alt text, 200, 200]
+```
+
+Render the document from time to time to see if you like the changes you made. 
+
 == How to build the documents
 
 Prerequisite: You need a Java Runtime(tm) installed.
 
-You build the output documents with gradle. That will produce both pdf and html.
+You build the output documents with gradle. That will produce both pdf and html. The Gradle Wrapper is included in this repository and will download the required version of Gradle on the first run.
 
 `./gradlew renderStories`
 
