@@ -27,12 +27,16 @@ toc::[]
 == How to contribute or participate
 If you find a typo, bad formatting, or anything else you think we should improve, please create an issue or a pull-request!
 
+== How to translate a story
+Choose a story in our Google Drive, copy the text to a new asciidoc file, and apply asciidoc formatting. You can check the existing stories as orientation for text formatting, title/background formatting, and image inclusion.
+
 == How to build the documents
 
 Prerequisite: You need a Java Runtime(tm) installed.
 
-You build the output documents with gradle.
-That will produce both pdf and html.
+You build the output documents with gradle. That will produce both pdf and html.
+
+`./gradlew renderStories`
 
 == Maintainers
 
