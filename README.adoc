@@ -32,6 +32,10 @@ Choose a story in our Google Drive, copy the text to a new asciidoc file, and ap
 
 If you need access to the story directory in the Google Drive, ask programming-wolf. 
 
+> **Important:** Create a new branch for every single story. Name it like the story, including the number. +
+> Example: 03-bitter-destiny +
+> We use Pull Requests to merge stories into the `main` branch.
+
 === Formatting Asciidoc
 It's not sufficient to just copy the text from the PDFs into the asciidoc files. We need to manually adjust stuff like bold style, italic style, and horizontal lines, for example. Here are the most common code formatting things:
 
