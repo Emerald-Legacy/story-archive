@@ -13,7 +13,7 @@ This is an overview of all stories that have been released by Emerald Legacy.
 // - link:pass:[stories/02 - An Empress's Legacy.pdf][02 - An Empress's Legacy]
 - link:pass:[stories/03 - Bitter Destiny.pdf][03 - Bitter Destiny]
 - link:pass:[stories/04 - Pendant.pdf][04 - Pendant]
-// - link:pass:[stories/05 - Bitter Destiny.pdf][03 - Bitter Destiny]
+- link:pass:[stories/05 - Future Ventures.pdf][05 - Future Ventures]
 - link:pass:[stories/06 - Chasing Butterflies.pdf][06 - Chasing Butterflies]
 - link:pass:[stories/07 - Fear.pdf][07 - Fear]
 - link:pass:[stories/26 - Cuckoo Bird.pdf][26 - Cuckoo Bird]

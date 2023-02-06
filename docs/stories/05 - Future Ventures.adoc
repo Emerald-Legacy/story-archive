@@ -1,0 +1,53 @@
+:doctype: book
+:icons: font
+:page-background-image: image:background_unicorn.jpg[pdfwidth=100%]
+
+= Future Ventures
+Utaku Yamada
+
+The encampment of the Unicorn Clan was a buzz of activity. The clang and clamour of weapons and horseshoes being forged, the shouts of samurai drilling for battle, the clatter of hooves of more mounted warriors arriving.
+
+It was here that the warhost of the Unicorn gathered and it was here that Shinjo Takame arrived, riding in the column behind her Taisa, Shinjo Hideaki. They had come a long way, answering a general muster but had not been told much else.
+
+The company came to a halt outside the large tent of the Champion. Here the company was given further orders on where to deploy. But when Takame dismounted, a man dressed in a decorated robe and hat approached. He grinned at her.
+
+"Nobutada?"
+
+"Takame-chan."
+
+The two embraced, smiling and laughing to one another. They were not only
+brother and sister, but shared a womb and had been born on the same day. They even resembled each other slightly, both tall, with long dark hair and the same ever- watchful dark eyes. But their lives had gone in two very different directions. Takame had taken the bushi path of their Shinjo mother, while Nobutada followed their Ide courtier father.
+
+"How did you come to be here?" Takame asked. "I thought you were still with the delegation in Otosan Uchi."
+
+"I was, but they sent me here," answered Nobutada. "I arrived yesterday with—"
+
+The reunion was cut short when one of the Champion's attendants approached them and bowed. "Forgive me, Shinjo-dono, Ide-dono, the Champion wishes to speak with you."
+
+Takame glanced questioningly at her brother, but he shook his head. They followed the attendant to the tent.
+
+The tent of the Unicorn Clan Champion was large and spacious. Colourful cushions lay on the carpeted floor, scattered around a circular, porcelain stove and several low tables. Beside one of these tables sat Shinjo Atltansarnai, Champion of the Unicorn Clan.
+
+Takame had seen the Champion before, but from a distance and in a crowd. She had never thought that they would meet in person. Altansarnai seemed to command an aura of confidence and respect. She was a woman in the prime of her life, a mother of three adult children who had let no one and nothing stand in her way of serving her clan. But the smile she greeted Takame and her brother with was kind. She rose to greet them and invited them to sit down. She offered them tea and made small talk, seeming to know details of each of their lives: Nobutada's time in Otosan Uchi, Takame serving under Hideaki.
+
+But after the second cup of tea was poured, Altansarnai's tone became more serious.
+
+"You are no doubt wondering why I asked you here," she said, turning to Nobutada. "Ide-tdono, one of the dispatches you carried was from Empress Hochiahime. She references a debt, made eight-hundred years ago, that the Unicorn owes to her title. It is a debt in recompense for her predecessor's role in allowing the Unicorn to return to their lands. At that time, our ancestors swore that they would send an expedition to lead her into a new and unknown land, if she deems it necessary for the sake of the Empire. According to this letter, that time has come. I would like the two of you to lead the Unicorn in this."
+
+Takame and Nobutada both bowed. "We live to serve you," said Takame.
+
+"This duty is like none other," said Altansarnai. "Although I do not know what drives her, I doubt it is mere foolishness. And no clan should be more willing to brave an unknown land than the Unicorn. I wish for you to choose from amongst our people, those who would be best to not only preserve our traditions but to survive, to go with you to this land. In time you will no doubt gain knowledge and adapt to this new land, as our ancestors did when Shinjo-no-kami led them out of Rokugan."
+
+"I am honoured that you would consider me for such a task," said Takame. "But I do know many of our clan would wish to stand and fight. What shall I say to them?"
+
+"That you act under my authority," said Altansarnai. She took up a paper and quickly wrote on it, stamped it with her seal and then gave it to Takame. "This will give you the means to recruit people and request supplies. But discretion is key. It would not be good for morale for these to be moved in large numbers."
+
+"It shall be done, Shinjo-ue," said Nobutada. "When do we depart for this new land?"
+
+"Three months from now you will need to gather with the groups from the other clans in Jukami Mura," said Altansarnai. "And from there, ships will take you."
+
+Takame and Nobutada left the tent in silence, both of them in awe of the task they had been given. Sure, there was the pain of leaving Rokugan behind, perhaps forever. But before them faced the unexplored new frontier over the seas, and they were to be among the first to see it.
+
+{empty} +
+
+image::mons/unicorn.svg[unicorn mon,200,200,align="center"]
