@@ -21,3 +21,4 @@ This is an overview of all stories that have been released by Emerald Legacy.
 - link:pass:[stories/26 - Cuckoo Bird.pdf][26 - Cuckoo Bird]
 - link:pass:[stories/27 - The Secret of Bamboo.pdf][27 - The Secret of Bamboo]
 - link:pass:[stories/28 - The Accursed Discovery.pdf][28 - The Accursed Discovery]
+- link:pass:[stories/29 - Field of the Fallen.pdf][289 - Field of the Fallen]
