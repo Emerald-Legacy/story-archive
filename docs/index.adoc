@@ -18,6 +18,7 @@ This is an overview of all stories that have been released by Emerald Legacy.
 - link:pass:[stories/07 - Fear.pdf][07 - Fear]
 - link:pass:[stories/08 - Scars and Failure.pdf][08 - Scars and Failure]
 - link:pass:[stories/09 - Onibaba.pdf][09 - Onibaba]
+- link:pass:[stories/11 - Blind Sight.pdf][11 - Blind Sight]
 - link:pass:[stories/26 - Cuckoo Bird.pdf][26 - Cuckoo Bird]
 - link:pass:[stories/27 - The Secret of Bamboo.pdf][27 - The Secret of Bamboo]
 - link:pass:[stories/28 - The Accursed Discovery.pdf][28 - The Accursed Discovery]
