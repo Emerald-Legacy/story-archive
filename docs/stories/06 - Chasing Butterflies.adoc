@@ -1,6 +1,6 @@
 :doctype: book
 :icons: font
-:page-background-image: image:background_crane.jpg[pdfwidth=100%]
+:page-background-image: image:background_crane.jpg[fit=fill, pdfwidth=100%]
 
 = Chasing Butterflies
 Jeanne Kalvar
