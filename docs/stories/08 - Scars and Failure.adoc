@@ -1,6 +1,6 @@
 :doctype: book
 :icons: font
-:page-background-image: image:background_lion.jpg[pdfwidth=100%]
+:page-background-image: image:background_lion.jpg[fit=fill, pdfwidth=100%]
 
 =  Scars and Failure
 Matsu "Khagdar" Kenshin and Emilio Ortiz

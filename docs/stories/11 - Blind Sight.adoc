@@ -1,6 +1,6 @@
 :doctype: book
 :icons: font
-:page-background-image: image:background_neutral.jpg[pdfwidth=100%]
+:page-background-image: image:background_neutral.jpg[fit=fill, pdfwidth=100%]
 
 = Blind Sight
 Glen Goerwell
@@ -157,7 +157,7 @@ The town had an evil air about it, and she felt uneasy as she travelled through 
 
 So someone was here, fixing things, albeit slowly.
 
-Drawing up her courage, she shouted, her voice echoing through the empty town. 
+Drawing up her courage, she shouted, her voice echoing through the empty town.
 
 "IS ANYONE HERE?"
 

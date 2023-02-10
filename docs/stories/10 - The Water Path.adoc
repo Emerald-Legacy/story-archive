@@ -1,6 +1,6 @@
 :doctype: book
 :icons: font
-:page-background-image: image:background_neutral.jpg[pdfwidth=100%]
+:page-background-image: image:background_neutral.jpg[fit=fill, pdfwidth=100%]
 
 = The Water Path
 Jeanne Kalvar
@@ -49,7 +49,7 @@ The Empress steeled herself and straightened her shoulders. Not wrong, then. The
 
 "Mighty Water Dragon," she shouted, trying to raise her voice over the fading thunder. Perhaps it was an incantation from one of the Hidden Guard, or perhaps a gift of the Water Dragon itself, but her voice carried clearly past the rain and swept across the bay. The rowers below raised their heads to see. "I am the Empress, Hantei Hochiahime, and I come with the Legacy of the Empire. I am told you will lead us to a sanctuary for the days to come."
 
-The water dragon considered her silently for moments that poured by like months. Finally, it spoke, in a voice that sounded like the rain on a tile roof. 
+The water dragon considered her silently for moments that poured by like months. Finally, it spoke, in a voice that sounded like the rain on a tile roof.
 
 *A sanctuary. Yes. I remember our agreements, little sister.*
 
