@@ -1,6 +1,6 @@
 :doctype: book
 :icons: font
-:page-background-image: image:background_lion.jpg[fit=fill, pdfwidth=100%]
+:page-background-image: image:background_neutral.jpg[fit=fill, pdfwidth=100%]
 
 = The Wave's Blade
 Chris Garvey

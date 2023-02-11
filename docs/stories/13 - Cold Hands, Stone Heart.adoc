@@ -55,6 +55,8 @@ Dropping the shattered blossom, I follow her.
 
 '''
 
+{empty} +
+
 We arrive at her home, a shelter of heavy mountain logs and a thick, thatched roof that can still be seen below the snow piled on it. It seems small, an observation confirmed when she opens the door to reveal a single room. An older man and woman - her parents I presume - sit around a fire pit.
 
 The man shouts and reaches for a weapon. The woman reaches for Rin but she jumps away. "I found him Momma! He was outside in the snow and he was naked and cold and I brought him here. I couldn't leave him out there, Papa! Can we help him?" The man, Father, puts his weapon away and the woman, Mother, guides Rin and me into the home.
@@ -124,12 +126,14 @@ Please Mother, I whisper, Let them find their way back.
 
 There is nothing left for me. I pack up what I can in an old sack they must have used when they had to make long journeys. I take the porridge but I leave the boar meat and the wine. I do not think I'll have either again.
 
-I head south east, back through the copse of trees. Back to the oogashi trees where Rin found me. To the Oogashi. Close enough.
+I head southeast, back through the copse of trees. Back to the oogashi trees where Rin found me. To the Oogashi. Close enough.
 
 Past them, amid the mume , I find another frozen blossom. In the daylight it shimmers in the crystalline ice more vibrantly than in starlight. The sun shines through the translucent petals, breaking into a thousand points of light in the sharp frost. Its beauty makes my heart ache. Father, Mother, Rin, all gone. It hurts, I wish nothing more than to be able to look upon this frozen flower, to have one thing of beauty, one moment of quiet, and I reach for it-
 
 -and I stop. I will not shatter another blossom with my thoughtless actions.
 
-South east.
+Southeast.
+
+{empty} +
 
 image::story_images/13_cold_hands_stone_heart.png[sword,200,200,align="center"]
