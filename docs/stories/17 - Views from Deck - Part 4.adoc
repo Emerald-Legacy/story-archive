@@ -1,0 +1,13 @@
+:doctype: book
+:icons: font
+:includedir: ../../build/stories/chapter_parts/
+:page-background-image: image:background_neutral.jpg[fit=fill,pdfwidth=100%]
+
+= Views from Deck - Part 4
+Tariq Ali and Kakita Kaori
+
+image::{includedir}17 - Phoenix.pdf[pages=1]
+
+<<<
+
+image::{includedir}17 - Crane.pdf[pages=1]
