@@ -10,7 +10,7 @@ _I turned to see a shore unlike anything I had ever known, and a child who becko
 {empty} +
 
 [quote, From the journal of Hantei Botan, Daughter of Emperor Hantei XXXVIII]
---
+____
 
 [.text-center]
 Wind carries petals +
@@ -31,7 +31,7 @@ Autumn leaves drift down +
 They tumble through the gray sky +
 Swirling in the wind
 
---
+____
 
 {empty} +
 
