@@ -24,6 +24,7 @@ This is an overview of all stories that have been released by Emerald Legacy.
 - link:pass:[stories/13 - Cold Hands, Stone Heart.pdf][13 - Cold Hands, Stone Heart]
 - link:pass:[stories/14 - Views from Deck - Part 1.pdf][14 - Views from Deck - Part 1]
 - link:pass:[stories/15 - Views from Deck - Part 2.pdf][15 - Views from Deck - Part 2]
+- link:pass:[stories/16 - Views from Deck - Part 3.pdf][16 - Views from Deck - Part 3]
 - link:pass:[stories/26 - Cuckoo Bird.pdf][26 - Cuckoo Bird]
 - link:pass:[stories/27 - The Secret of Bamboo.pdf][27 - The Secret of Bamboo]
 - link:pass:[stories/28 - The Accursed Discovery.pdf][28 - The Accursed Discovery]
