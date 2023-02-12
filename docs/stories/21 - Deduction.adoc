@@ -35,7 +35,7 @@ His voice trailed off as a bright blue glow appeared on his face, reflecting the
 
 '''
 
-{empty} +
+<<<
 
 Rei tightened the straps on her armor, checking that everything was in place without being restricting. It felt strange putting it on after all those months at sea but she was glad to see that everything still fit well. The armor secured, she slid her swords into her obi, again checking that the draw was clear. To the Crane iaijutsu was a method of dueling, a chance to prove one's skill with the blade. To a yojimbo it was a method of armament, a way to instantly react to a threat.
 
@@ -58,8 +58,6 @@ Satisfied, she jogged to the edge of the beach where a young man in a scholar's 
 Jianyu began walking west again. After a moment Seiji shrugged at Rei and followed the portly Agasha. Naturally, Rei followed.
 
 '''
-
-{empty} +
 
 "What do you think it is?" asked Jianyu.
 
@@ -107,15 +105,11 @@ He was interrupted by Seiji. "I can do it! I've spent most of my education study
 
 '''
 
-{empty} +
-
 The trip back was uneventful but still took two days to return to camp. Their journey up the cliffs hadn't created a path worthy of the name so they were still breaking bush the whole journey down. Slow going but Rei was glad they were taking their time. One bad step in a thousand out here and you would find out just how far from help you really were.
 
 Upon reaching the camp she quickly divested herself of Seiji and Jianyu. The latter went off to see his wife. Rei was shocked to discover that they'd spent nearly a week together and she hadn't known until now that he was married and they were expecting, at that. Meanwhile Seiji wanted to clean himself up before presenting himself to Mirumoto Hitori. Rei went to make her report first. It was the first time she'd had to herself in days, and she was going to savor every moment of it.
 
 '''
-
-{empty} +
 
 The Dragon hadn't had time to build a bathhouse, but it seemed while Seiji was away that they'd set up a tent much like soldiers on campaign. As Seiji stepped into the small dark space, he let himself feel a sense of satisfaction. His first mission and he'd already made a great discovery. Who could say his studies had been a waste of time now?
 
