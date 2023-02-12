@@ -1,0 +1,128 @@
+:doctype: book
+:icons: font
+:page-background-image: image:background_dragon.jpg[fit=fill, pdfwidth=100%]
+
+= Deduction
+Alex Jacobs
+
+[quote, From the memoirs of Kitsuki Seiji]
+____
+_There were no great cries of jubilation, no wild cheers as sailors and samurai celebrated. When the Water Ox limped into the bay, overshadowed by what would come to be known as the Cliffs of the Sea Dragon, the only sound anyone later recalled was a sigh of relief. None would yet know how short that relief was to be, myself least of all._
+____
+
+{empty} +
+
+Hitori stifled a groan. They'd been unloading The Water Ox for hours. The ship had entered the bay midday and they'd spent every drop of sunlight Lady Sun would give them ferrying supplies to the beach where a camp was being hastily constructed. Naturally he'd done his part, participating in the backbreaking labor alongside the peasants, though of course no one would say anything. Propriety be damned, it was a miracle the ship had fared as well as she had, and while Hitori wasn't a sailor - few Dragon were - he didn't fancy the ship's chances on those shoals if a storm started up in the midst of the night. Best to unload as much as they could as quickly as they could. Like it or not, these cliffs, from the sandy beach below to whatever lay atop them, were to be their new home.
+
+The groan, however, wasn't for his aching muscles or the uncertain future. It was for the venerable gentleman approaching him in the twilight.
+
+"Kitsuki-san," Hitori offered in greeting, offering a genuinely respectful bow. He might not like Masanori but the old justicar was due a great deal of respect. For his part, Masanori offered a proper bow in turn.
+
+"Mirumoto-sama. My congratulations on a successful journey." He fished out a pouch of smoke leaf and began the process of loading his pipe. "It reminds me of a time I'd traveled down south. Earthquake Fish Bay, if you must know. It was a simple thing, a merchant patron of the Yasuki - one who'd maintained family connections to cousins (by marriage) in the Crane - had been under pressure from her wife to enrich their personal accommodations. By sheer coincidence a number of funds had gone missing, including from a certain shipping combine
+with lumber ties to another certain province in the lands of the Dragonfly where I-"
+
+"Kitsuki-san, you know how much I enjoy the tales of your career and the myriad criminals you have brought to justice. But if you have a point to make, please come to it. It's very late and we are all very tired."
+
+Masanori smiled as he tapped his pipe. "You remind me of my own wife, my lord, gone three years now, bless her memory. Very well. If we're to stay here, we need to explore these lands. To that end, my young cousin," he glossed over how distant, "Seiji is perhaps singularly trained to understand them. Before he goes out, I want his safety to be seen to. Ergo, I would ask you to assign Mirumoto Rei as his yojimbo."
+
+Hitori considered the matter. Rei was the most senior of the  rank-and-file bushi that had accompanied them. He could certainly spare her for this task, and she'd likely be quite good at it, but odd that Masanori had requested Rei specifically. He could stall and look into the matter. By the gods, with his authority he could even ask Masanori outright why he wanted Rei as Seiji's yojimbo, though that was likely a poor tactic. They were going to be working very closely for the rest of their lives in these lands; no need to start things off with such antagonism. Better to get a favor.
+
+"I'll speak to her first thing in the morning, though what you think to find with one of Seiji's talents in these places is beyond..."
+
+His voice trailed off as a bright blue glow appeared on his face, reflecting the lights now shimmering in the waters below.
+
+"You know," said Hitori as he found his voice. "I think Seiji and Rei would work well together. Tell them both tomorrow there is an assignment for them."
+
+'''
+
+{empty} +
+
+Rei tightened the straps on her armor, checking that everything was in place without being restricting. It felt strange putting it on after all those months at sea but she was glad to see that everything still fit well. The armor secured, she slid her swords into her obi, again checking that the draw was clear. To the Crane iaijutsu was a method of dueling, a chance to prove one's skill with the blade. To a yojimbo it was a method of armament, a way to instantly react to a threat.
+
+Satisfied, she jogged to the edge of the beach where a young man in a scholar's cap waited for her. He was thin and scrawny, unarmed save his wakizashi though she wondered if he'd ever drawn it. He eyed her nervously. "Mirumoto Rei?" he asked in a voice that nearly squeaked. She idly wondered if he'd even started shaving yet.
+
+"Yes, sir," she answered diffidently. "If I may advise, Kitsuki-san, it may be unwise to dwell so close to the edge of the camp. This is a new frontier."
+
+"What? Oh yes, of course. I'm sorry, I just wanted to get a quick start on things. I didn't think, I'm sorry," he finished, apologizing again. She ignored it. It was improper to apologize to one's guard, but even more so to forgive one's charge.
+
+"Best be off then," she began, but before they could start the matter of where to be off to, they were interrupted, this time by a huffing, grunting bowl of a man. He looked to be no more than his mid-twenties, but was running well to fat, a fact his long robes covered in characters she didn't recognize couldn't hide.
+
+"Wait!" he cried as he reached them. "I'm coming with you. Hitori approved it."
+
+"Who are you," asked Seiji at the same time Rei stepped between him and the robed man. He didn't look like a threat, but you never knew.
+
+"Jianyu," the robed man answered as he reached them, still huffing slightly from his run. "Agasha Jianyu. You're going to explore the area, yes?" he asked. Without waiting for a reply he began walking. "We'll want to head out west. No sense heading up the cliffs directly, right? Long climb, lots of chances to fall. Well, come on, then." Seeing that Rei and Seiji weren't following, Jianyu stopped and turned to them.
+
+"It's simple. However, Hitori-dono planned for you to start your explorations, those lights in the waters spooked him so no doubt he ordered you to look into them. Fortunately for you, I'm very curious about them as well. They might be mystical, they might be a strange property of the water or the ocean floor in these lands, they might be the spirits of these lands reacting to our presence, they might be something else entirely! Who's to say? But the point is you'll want a better look and the only way that's happening," he continued, "is if you get up those cliffs." He pointed. "So clearly our best way to make the ascent is to circle around and look for an easier trail up the other side. Didn't we all grow up in the mountains? Why am I explaining this? Come on!"
+
+Jianyu began walking west again. After a moment Seiji shrugged at Rei and followed the portly Agasha. Naturally, Rei followed.
+
+'''
+
+{empty} +
+
+"What do you think it is?" asked Jianyu.
+
+"A shrine," answered Rei. Obviously.
+
+The hike had taken nearly two days. Half a day out to the west to find an approach that looked like it could be traversed, and another day and a half actually climbing up the back of the cliffs. At some point Rei supposed that Hitori would send out wood guides to break trails but for now they were bushwacking their way through untamed wilderness. It was slow going, and trying to do it uphill didn't help.
+
+They'd reached the cliff summit just as Lady Sun was disappearing on the evening of the second day. As pink and orange turned to the blue and indigo of night, it felt as if a peace came over the land. It was pleasant, not the same as home, not gentle either, but beautiful in its own way. Rei thought she could even get used to this endless body of water before her, at least until the lights began to shimmer.
+
+Bright turquoise and green, blue and cyan, they moved beneath the waves. She could see now that they were individual lights, varied in size. Some must be no larger than a man's eye, while others were great orbs, the size of an ox. An actual ox, thought Rei idly, not the ship they'd sailed in that was already being cannibalized to build their camp.
+
+But strangest of all was the structure that had appeared atop the cliffs at the same time the lights began to glow. Where before had been a bare patch of rock, now stood worked stone, carved into something resembling a pagoda.
+
+"Yes, clearly," said Jianyu as if he didn't realize he was being mocked, "but why? How? Look at that surface. See how rough and porous it is? I'd bet my smallclothes it's pumice, but I'll eat it before I could tell you why."
+
+Seiji nodded. "It's strange. Pumice is easy to carve - you can do it with wood - but that's why you wouldn't build a shrine with it. The weather alone will destroy it. Out on a clifftop like this without shelter it would be extremely vulnerable."
+
+"Yes, you see!" exclaimed Jianyu, glad that at least one other person was as excited as he was about the discovery. And look, writing!"
+
+Both Rei and Seiji looked where he was pointing. The text was hard to make out. The porous nature of the stone cast strange shadows that were hard to discern in the twilight and flicker of lights from the sea. Rei'd never had much of a head for calligraphy - probably came to the subject too late, she acknowledged - but Seiji seemed ecstatic. "I can't make it out," the young Kitsuki said, "but if I-" he squeaked as he ran over to their packs, then returned with a bit of paper and a bit of charcoal. Carefully he pushed the paper against the shrine, then rubbed the charcoal against the paper, letting the carved characters create pressure so that at the end of his efforts he held a fairly legible copy of whatever was written on the shrine.
+
+"What do you make of it?" asked Seiji. "Some look familiar but others I've never seen before, or even anything like them."
+
+Rei waited in silence, but Jianyu filled it before the threat of someone thinking became too great. "I think it's old," he said. Rei scoffed before she caught herself, but Jianyu didn't seem offended, or at least was too caught up in Seiji's discovery to notice. "Okay, that's obvious but think of it. Do you know where the kanji came from?" Seiji nodded but Jianyu was focused on Rei and proceeded to lecture for his unwilling student's benefit.
+
+"In the lands across the Burning Sands, there are empires that use what we call pictographic alphabets, which is to say each character is actually a picture and means simply whatever it's a picture of, or very close to it at any rate. Some scholars claim that our language was once the same. The character for 'sword' and 'stop' are both closely related to the character for 'samurai.' I'll let you figure out why later, Lady Yojimbo, but the point is they have a literal meaning in the text and a different everyday meaning. Do you understand?"
+
+She wanted to say no, though that would probably prompt Jianyu to go on. Fortunately, Seiji spared her.
+
+"Of course," he exclaimed. "So, if the text is older, say as old as the first Empress's proclamation...
+
+"... then we can look at the kanji symbolically and decipher their modern meaning! Yes, very good Seiji!" Seiji fairly beamed under the praise. "Of course, I don't have much experience with early Empire pre-kanji. We'll have to take it back to camp and hope someone there-"
+
+He was interrupted by Seiji. "I can do it! I've spent most of my education studying the Empire's history. It's why Kitsuki Masanori-sama recommended me for this post. Just give me a moment..." Seiji continued, sounding out the words on the shrine, his voice making strange sounds that may have been mewing cats for all the sense it made to Rei. Every now and then, though, she thought she caught a word. No not a word, a name. A name like-
+
+" 'Ŝibo,' " echoed Jianyu. "That sounds like Shiba. Do you think it could mean Shiba-no-Kami?"
+
+"Possibly," replied Seiji. "Maybe even likely. Look the character is drawn very similarly to"
+
+"Put that away," interrupted Rei firmly. "We need to leave. Now."
+
+"But why?" asked Jianyu, plainly surprised. "We've just made a great discovery. What could be so important that we need to abandon it?"
+
+"Because" said Rei, pointing out at the now-dark sea, "As soon as Seiji finished reading that, the lights went out."
+
+'''
+
+{empty} +
+
+The trip back was uneventful but still took two days to return to camp. Their journey up the cliffs hadn't created a path worthy of the name so they were still breaking bush the whole journey down. Slow going but Rei was glad they were taking their time. One bad step in a thousand out here and you would find out just how far from help you really were.
+
+Upon reaching the camp she quickly divested herself of Seiji and Jianyu. The latter went off to see his wife. Rei was shocked to discover that they'd spent nearly a week together and she hadn't known until now that he was married and they were expecting, at that. Meanwhile Seiji wanted to clean himself up before presenting himself to Mirumoto Hitori. Rei went to make her report first. It was the first time she'd had to herself in days, and she was going to savor every moment of it.
+
+'''
+
+{empty} +
+
+The Dragon hadn't had time to build a bathhouse, but it seemed while Seiji was away that they'd set up a tent much like soldiers on campaign. As Seiji stepped into the small dark space, he let himself feel a sense of satisfaction. His first mission and he'd already made a great discovery. Who could say his studies had been a waste of time now?
+
+He had the tent to himself as he quickly stripped, dumped a bucket of water over his head, and scrubbed himself down with - he couldn't help but notice - pumice stones. Possibly fresh from the beach if he wasn't mistaken. Was there volcanic activity nearby? That would explain some, but only some, of the mysterious shrine's construction. Rinsing himself off with another bucket, Seiji mentally filed the question away for later then stood and moved towards one of the large wooden tubs in the tent.
+
+The water in the tub was only lukewarm by now, but it was still pleasant enough as he climbed into the tub and leaned back against it, closing his eyes. He missed his parents and his little sister, but they'd be proud of him today, he knew. He thought he heard the tent flap open.
+
+"Hello?" Seiji called out. Maybe one of the other Dragon had gotten off duty early and decided to take a midday bath. Maybe it was one of his companions, showing some sense and cleaning up before seeing Hitori. "Rei? Jianyu?" he asked, his eyes opening.
+
+Large, round aquatic eyes stared back at him. Seiji barely had time to scream before everything went black.
