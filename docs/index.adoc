@@ -10,7 +10,7 @@ This is an overview of all stories that have been released by Emerald Legacy.
 
 [none]
 - link:pass:[stories/01 - After the Storm.pdf][01 - After the Storm]
-// - link:pass:[stories/02 - An Empress's Legacy.pdf][02 - An Empress's Legacy]
+- link:pass:[stories/02 - An Empress's Legacy.pdf][02 - An Empress's Legacy]
 - link:pass:[stories/03 - Bitter Destiny.pdf][03 - Bitter Destiny]
 - link:pass:[stories/04 - Pendant.pdf][04 - Pendant]
 - link:pass:[stories/05 - Future Ventures.pdf][05 - Future Ventures]
