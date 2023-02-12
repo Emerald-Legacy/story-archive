@@ -4,7 +4,7 @@
 :page-background-image: image:background_neutral.jpg[fit=fill,pdfwidth=100%]
 
 = Views from Deck - Part 1
-Chris Garvey & Alex Jacobs
+Chris Garvey and Alex Jacobs
 
 image::{includedir}14 - Imperial.pdf[pages=1]
 
