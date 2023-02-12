@@ -3,11 +3,11 @@
 :includedir: ../../build/stories/chapter_parts/
 :page-background-image: image:background_neutral.jpg[fit=fill,pdfwidth=100%]
 
-= Views from Deck - Part 1
-Chris Garvey & Alex Jacobs
+= Views from Deck - Part 3
+Glen Goerewll and Utaku Yamada
 
-image::{includedir}14 - Imperial.pdf[pages=1]
+image::{includedir}16 - Scorpion.pdf[pages=1]
 
 <<<
 
-image::{includedir}14 - Dragon.pdf[pages=1]
+image::{includedir}16 - Unicorn.pdf[pages=1..2]

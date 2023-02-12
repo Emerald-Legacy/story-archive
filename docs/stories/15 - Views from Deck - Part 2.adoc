@@ -3,11 +3,11 @@
 :includedir: ../../build/stories/chapter_parts/
 :page-background-image: image:background_neutral.jpg[fit=fill,pdfwidth=100%]
 
-= Views from Deck - Part 1
-Chris Garvey & Alex Jacobs
+= Views from Deck - Part 2
+Matsu "Khagdar" Kenshin and A.M. Rodriquez
 
-image::{includedir}14 - Imperial.pdf[pages=1]
+image::{includedir}15 - Lion.pdf[pages=1..2]
 
 <<<
 
-image::{includedir}14 - Dragon.pdf[pages=1]
+image::{includedir}15 - Crab.pdf[pages=1..2]
