@@ -10,4 +10,4 @@ image::{includedir}15 - Lion.pdf[pages=1..2]
 
 <<<
 
-image::{includedir}15 - Crab.pdf[pages=1..2]
+image::{includedir}15 - Crab.pdf[pages=1]
