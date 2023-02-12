@@ -1,0 +1,36 @@
+:doctype: book
+:icons: font
+:page-background-image: image:background_neutral.jpg[fit=fill,pdfwidth=100%]
+
+_I turned to see a shore unlike anything I had ever known, and a child who beckoned me to come see this new land which opened before me._
+ 
+{empty} +
+
+[.text-center]
+Wind carries petals +
+Spring lotus blossoms alone +
+On unknown Isles
+
+{empty} +
+
+[.text-left]
+My teachers are not requiring me to do my studies aboard this ship, but writing these haiku helps me collect my thoughts.
+
+I miss my mother. I didn't know her for long but I still miss her. I don't even know my father and I've heard that I have brothers. I wonder what they are like. I bet they are brave, honest, and would play with me. I've been surrounded by tutors and handmaids all my life. I wonder what it would be like to have a real family.
+
+I saw one of my Seppun guards steal a smile when a messenger arrived at my door. She is really tall and pretty. I think her name is Seppun Ryo. I like her. I wish someone would smile at me like that. So warm and friendly. What is it like to have a real friend? Back on land the courtiers pushed their kids into pretending to be my friends because I am important and now I know how I am important. My mother told me I am to be Empress of this new land. I don't understand why my mother couldn't come with me. The dragon said only one of us could go and she gave me up. I hate my mother. How could she abandon me again?
+
+Ryo told me the seas were going to be rough today because we were going to be passing by a whirlpool. I asked if I could see it, but she told me it was too dangerous. If I'm going to be the Empress, they can't hide things from me forever.
+
+{empty} +
+
+[.text-center]
+Autumn leaves drift down +
+They tumble through the gray sky +
+Swirling in the wind
+
+{empty} +
+
+[.text-right]
+-- From the journal of Hantei Botan +
+Daughter of Emperor Hantei XXXVIII
