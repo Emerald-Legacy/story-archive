@@ -31,7 +31,7 @@ This is an overview of all stories that have been released by Emerald Legacy.
 - link:pass:[stories/21 - Deduction.pdf][21 - Deduction]
 - link:pass:[stories/22 - Knowledge.pdf][22 - Knowledge]
 - link:pass:[stories/23 - Blessed are the Content.pdf][23 - Blessed are the Content]
-- link:pass:[stories/24 - Foundation of Hope.pdf][24 - Foundation of Hope]
+- link:pass:[stories/24 - Foundations of Hope.pdf][24 - Foundations of Hope]
 - link:pass:[stories/25 - Song of the World - Part 1.pdf][25 - Song of the World - Part 1]
 - link:pass:[stories/26 - Cuckoo Bird.pdf][26 - Cuckoo Bird]
 - link:pass:[stories/27 - The Secret of Bamboo.pdf][27 - The Secret of Bamboo]
