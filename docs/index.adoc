@@ -40,3 +40,4 @@ This is an overview of all stories that have been released by Emerald Legacy.
 - link:pass:[stories/30 - Honest Assessment.pdf][30 - Honest Assessment]
 - link:pass:[stories/31 - Hidden Lineage.pdf][31 - Hidden Lineage]
 - link:pass:[stories/32 - I've Got a Theory.pdf][32 - I've Got a Theory]
+- link:pass:[stories/33 - Two Steps Forward, Three Steps Back.pdf][33 - Two Steps Forward, Three Steps Back]
