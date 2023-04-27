@@ -2,8 +2,7 @@
 :icons: font
 :page-background-image: image:background_scorpion.jpg[fit=fill, pdfwidth=100%]
 
-= Two Steps Forward, +
-Three Steps Back
+= Two Steps Forward, Three Steps Back
 Glen Goerwell
 
 Words flow in streams outwards towards the Imperial Court, leaving no trace of those letters ever to ever be found. Soshi Mika considered herself a patient person, not by nature but by nurture. A Scorpion had to be patient, preparing the ground before she sprang the trap. Anything less than perfect preparation would see your opponent weasel their way out. When words were as deadly as blades, you could not do an enemy a small injury. You must either caress them or destroy them. That was the lesson that her teachers had hammered into her.
