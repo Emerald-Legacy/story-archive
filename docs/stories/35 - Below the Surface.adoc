@@ -1,7 +1,7 @@
 :doctype: book
 :icons: font
 :includedir: ../../build/stories/chapter_parts/
-:page-background-image: image:background_neutral.jpg[fit=fill,pdfwidth=100%]
+:page-background-image: image:background_scorpion.jpg[fit=fill,pdfwidth=100%]
 
 = Below the Surface
 Glen Goerwell and Chris Garvey
