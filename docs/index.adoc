@@ -42,3 +42,4 @@ This is an overview of all stories that have been released by Emerald Legacy.
 - link:pass:[stories/32 - Two Steps Forward, Three Steps Back.pdf][32 - Two Steps Forward, Three Steps Back]
 - link:pass:[stories/33 - I've Got a Theory.pdf][33 - I've Got a Theory]
 - link:pass:[stories/34 - The Flower's Emissary.pdf][34 - The Flower's Emissary]
+- link:pass:[stories/35 - Below the Surface.pdf][35 - Below the Surface]
