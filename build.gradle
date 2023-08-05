@@ -19,9 +19,9 @@ ext {
 }
 
 
-class RenderCurriculumTask extends AsciidoctorTask {
+class RenderStoryTask extends AsciidoctorTask {
     @Inject
-    RenderCurriculumTask(WorkerExecutor we) {
+    RenderStoryTask(WorkerExecutor we, String fileName) {
         super(we)
 
         forkOptions {
@@ -29,11 +29,11 @@ class RenderCurriculumTask extends AsciidoctorTask {
         }
 
         sourceDir = new File("./docs/")
-        baseDir = new File ("./docs/")
+        baseDir = new File("./docs/")
         sources {
-            include "stories/chapter_parts/*.adoc"
-            include "stories/*.adoc"
-            include "index.adoc"
+            include fileName
+
+
         }
 
         outputDir = new File("./build/")
@@ -44,20 +44,36 @@ class RenderCurriculumTask extends AsciidoctorTask {
 
 
         attributes = [
-                'icons'             : 'font',
-                'version-label'     : '',
-                'currentDate'       : '',
-                'language'          : 'EN',
-                'imagesdir'         : 'images',
-                'pdf-stylesdir'     : '../pdf-theme/themes',
-                'pdf-fontsdir'      : '../pdf-theme/fonts',
-                'pdf-style'         : 'el'
+                'icons'        : 'font',
+                'version-label': '',
+                'currentDate'  : '',
+                'language'     : 'EN',
+                'imagesdir'    : 'images',
+                'pdf-stylesdir': '../pdf-theme/themes',
+                'pdf-fontsdir' : '../pdf-theme/fonts',
+                'pdf-style'    : 'el'
         ]
     }
 }
 
-
-task renderStories(type: RenderCurriculumTask) {
+tasks.register('buildStoryArchive') {
+    group 'Stories'
+    description 'Grouping task for generating all story files'
+    dependsOn "renderChapterParts", "renderStories", "renderIndex"
 }
 
-defaultTasks "renderStories"
+task renderStories(type: RenderStoryTask,
+        constructorArgs: ["stories/*.adoc"]) {
+}
+
+task renderChapterParts(type: RenderStoryTask,
+        constructorArgs: ["stories/chapter_parts/*.adoc"]) {
+}
+
+task renderIndex(type: RenderStoryTask,
+        constructorArgs: ["index.adoc"]) {
+
+}
+
+
+defaultTasks "buildStoryArchive"
