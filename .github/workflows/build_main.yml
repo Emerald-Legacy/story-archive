@@ -31,8 +31,8 @@ jobs:
       uses: eskatos/gradle-command-action@v2
       with:
         # Gradle command line arguments, see gradle --help
-        gradle-version: 7.5.1
         arguments: renderStories
+        gradle-version: wrapper
     - name: Prepare Deployment
       run: |
         rm -rf ./build/tmp
