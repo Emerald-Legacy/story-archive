@@ -1,0 +1,138 @@
+:doctype: book
+:icons: font
+:includedir: ../../build/stories/chapter_parts/
+:page-background-image: image:background_dragon.jpg[fit=fill, pdfwidth=100%]
+
+= Betrayal of Truth
+Alex Jacobs
+
+> _My Dearest Sister,_ +
+> _Not literally, of course, but if you are reading this then our fates are bound as tight as if we'd been birthed together. Before you read further, you must know that I forgive you. Some things can only be shared at the greatest of costs._
+
+{empty} +
+
+"You're supposed to be meditating."
+
+Rei scowled at Tsurumi who smiled back and took another bite of fruit. What kind she wasn't sure; no one knew what the strange fruit they'd found growing wild was – it had an inedible green skin but the creamy, yellow pulp inside reminded her of mangos and banana – but the Rokugani had quickly added it to their diet, grateful for the fresh fruit after enduring the gruelingly monotonous diet of their crossing. "And I thought monks weren't supposed to eat after midday."
+
+Tsurumi spit out a few hard, brown seeds but otherwise appeared nonplussed by the rebuke. "That's a different tradition. The Tattooed Order engages in harsher physical training than many other orders. We need to keep our strength up."
+
+From the corner of the tent, where he had set up a scholar's desk, Agasha Jianyu spoke without looking up from the scroll he was reading. "She's right, you know. The Phoenix gave you this time to prepare your spirit as well as your body. You'd be wise to use it."
+
+Rei grimaced but didn't answer. She had no desire to make this another two–against–one argument, with her the odd one out. Instead, she shifted. "Have you learned anything else about what Yohana was ranting about before the challenge?"
+
+Jianyu looked up, now fully engaged. "I have, actually. Not as much as Sei– as some others might have, but enough. It appears to be a text, one only rumored of. It's something of a surprise the Dragon don't have a copy. Well, maybe they do. When we get back home..." He sighed. "Never mind. That's not happening. We're here now, right? Not that I'm unhappy about it, but it is a shame that we won't be able to search the archives–"
+
+"Agasha–san," Rei interrupted, closing her eyes. "The duel commences in an hour. Sometime before then, if you please."
+
+"Ah yes, of course. By all accounts, it is a book, a history of the early days of the Empire, and a secret one at that. You can see why I was surprised the Dragon didn't have a copy, but then of course it wouldn't be secret. But as far as its contents," he rushed on, aware that Rei's eyes had opened again and she was glaring at him as he'd drifted topics, "it's a critique of Lady Doji. Some would say a heresy."
+
+"Why?" asked Tsurumi, discarding her snack as she moved to join in the conversation.
+
+"Because," Jianyu answered, "if Lady Doji created us civilized culture, then what happened to the culture that was already there?"
+
+'''
+
+> _I'm told the tradition of these letters started with soldiers: a last chance to say goodbye, to give thanks, to express affection, before a battle. A duel is its own form of battle so perhaps it was obvious that the tradition should spread. I wonder, what are you writing as we prepare to cross blades? But this isn't about your writing or mine for that matter, but another scholar's works. Have you seen the truth hinted at therein?_
+
+{empty} +
+
+The dueling circle was cleared. Mirumoto Rei stood on one side, Togashi Tsurumi behind her. While the monk was not exactly an appropriate second, she could serve as a witness. The Phoenix might be the most traditional of clans, even more so than the stodgy Crane at times, but they were also the most spiritual, and none were likely to gainsay Rei's right to spiritual council.
+
+Several dozen feet away, on the opposite side of the circle, Shiba Yohana stood with her attendants. She wore a simple black hakama, and above that a bright orange yukata. It was well–fitted and would leave her arms and hands unrestricted for her draw. Idly, Rei wondered where they would get orange dyes in this new land, then chastised herself, returning once again to the moment.
+
+A wrinkled old man with a stern face peeking out from behind a pair of spectacles strode forward. Isawa Hifumi, the head of the Phoenix contingent. This was, Rei realized, a very serious matter to draw his personal attention. "Who comes this day?" he asked.
+
+Rei took a step forward. "I do. Rei, of the Mirumoto of the Dragon. Follower of the path of Niten, student of Mirumoto Hatsu whom I honor with the Twin Sister Blades that he gifted me upon my gempukku."
+
+"And why do you come this day?" intoned Hifumi.
+
+"Shiba Yohana has called my courage into question. For this there can be only one answer. If she doubts my courage, let her prove her own. The blood will tell."
+
+"Shiba Yohana, is this true?" demanded Hifumi, though all knew the answer.
+
+"It is," Yohana answered from the other side of the circle. "The Phoenix dare share our secrets with the like of Mirumoto Rei, whose weakness and cowardice cost the life of one she'd sworn to protect. With her blood, I will hold her weakness to the light so that not even she can deny it."
+
+Hifumi nodded. "So be it. This is a duel to first blood. You both know the risks. Begin!"
+
+'''
+
+> The Cost of Grace _is more than a heretical critique of Doji–no–Kami. It is a eulogy for what was lost. But it is also a history. It is the last record of long-lost peoples, from the tribes who once inhabited the Golden Sun Plane to the forgotten creatures of the lands. Even Shiba–no–Kami, who wed a princess of the ningyo, would not share their secrets with us. But_ The Cost of Grace _gives us a hint at what he learned._
+
+{empty} +
+
+Rei and Yohana stood scarcely a half–dozen yards away. Yohana held her hand over the hilt of her still–sheathed sword, palm up, as if offering a gift. Kakita himself would have been proud.
+
+Rei, for her part, stood relaxed, her arms hanging loosely at her sides. She might have been strolling through a quiet forest for all the tension she showed. Her blades were sheathed, but that wouldn't last long.
+
+Yohana slowly walked, not at Rei but in a circle around her, anti–sunwards towards Rei's left side. That would, of course, take her out of the path of Rei's draw but it would also take Rei out of Yohana's. Rei stayed still, turning only on the balls of her feet to continue facing Yohana.
+
+A slip of a pebble was all it took and suddenly there was movement. Yohana lunged forward, her katana free of its saya and arcing towards Rei who was twisting back, drawing her own sword. Contrary to popular belief, the Mirumoto did not practice a simultaneous draw; the habaki collar on the sword, which kept it from falling out of the scabbard, required a second hand to disengage while the draw was taking place. Moreover, the katana's great length meant that it was far faster to draw the sword with one hand while pulling the saya back with the other. As Yohana's sword came crashing down, Rei's sword rose to meet it, deflecting the blow.
+
+While both duelists recovered their blades to a ready position, Rei's left hand had already dropped the saya and flicked her wakizashi loose in its sheath. She drew it underneath, holding it crosswise across her belly, blade out towards her opponent. She could feel her blood pounding in her temples as the duel truly began.
+
+'''
+
+> _All my life, I hunted down evil, corruption, and madness – those who turn away from divine truth in favor of their own desires. Convert them, turn them against one another, kill them outright if I had to. Yet always the same question: what happens after my death? My work will fade away and decay into oblivion. Given enough death and destruction, even Empires will fall._
+>
+> _"Death is a fact of life", Isawa Hifumi told me on the mainland. "Samurai should embrace their impermanence – it is a part of the Celestial Order itself."_
+>
+> _These are nice, courteous lies. Isawa Hifumi knew them to be lies. So did Shiba. And his bride. And_ The Cost of Grace. _Perhaps even your lost charge, Kitsuki Seiji. And he heralds a beautiful future for Sanctuary. A future where immortal inquisitors will enforce orthodoxy. No more evil, corruption, and madness. Only justice and perfection._
+>
+> _But there is a price._
+>
+> _If we embrace the lessons contained in_ The Cost of Grace, _then we could critique the actions and intentions of divinities, and replace our flawed gods with infallible deities. And that Isawa Hifumi cannot do. He cannot rebel against Shiba, Doji, Lady Sun, Lord Moon — not without risking the very Empire that he was sworn to protect. He seeks a better path, not realizing that there is no better path._
+>
+> _I am not bound by Isawa Hifumi's antiquated moral code._
+>
+> _Neither are you._
+
+{empty} +
+
+Her katana fell in front of her belly, blade pointed forward towards Yohana's throat, while her wakizashi rested easily at her side. Yet as she advanced Yohana stepped back, keeping the blade pointed at her but out of reach.
+
+She raised the wakizashi, cutting sideways, pulling with the elbows, never pushing with the arms. It should have cut the underside of Yohana's arms, but the Phoenix dropped her blade, deflecting the short sword.
+
+Rei pivoted on the spot. As she did so the long sword dropped behind her, against her left leg, inviting Yohana to attack. When the Phoenix struck, Rei raised the blade, in her mind's eye already seeing Yohana's arms falling into its bite as she stepped aside. But no! At the last moment, Yohana twisted and her sword was darting towards Rei!
+
+Rei mentally cursed as she completed her failed strike, stepping back and out of Yohana's reach. Her long sword came back, but this time to her right leg. She made to repeat the third position strike, not a delicate cut this time but a killing blow, as she imagined taking Yohana's head off her shoulders, while angling her short sword cut to beat down Yohana's opposing blade. She'd mastered the positions, hadn't she? The strikes, the kata. They'd thought her doomed to failure, undiscovered by the shugenja until it was too late. Well it'd worked, hadn't it? After all, here she was! Yet Yohana dropped like a dancer, sailing underneath the tsuki, the strike to her neck.
+
+"Kyah!"
+
+The katana was behind her again, the wakizashi in front, resting lightly on her belt. She was still. If you perform this correctly, you will never need to move, Hojatsu had written. The opponent will see your stance and he will know that you know the Way. Sometimes victory is won without a single drop of blood.
+
+Not this time.
+
+Yohana had stepped forward, just as Rei's wakizashi had been placed in front of her. The blade was now cutting into her abdomen. A foul scent assaulted Rei's nostrils as she cut into Yohana's stomach. Blood trickled at her mouth.
+
+A mouth, Rei saw, which was smiling.
+
+"Why?" Rei asked. "How?"
+
+"Practice," Yohana whispered weakly, as her legs gave out, and she fell to the ground. Rei came with her, still holding her. "Saw your forms."
+
+Oh no.
+
+Rei remembered. Hours of practice, surrounded by watching Phoenix. They'd all seen her. Yohana had seen her. That's how she'd blocked every strike, known every counter. Until...
+
+"You did this?" Rei asked. "On purpose?"
+
+A harsh rattle was her only response.
+
+'''
+
+> _If we have been taught the truth of the spirit realms, I will be back shortly, watching you, observing your actions and misdeeds. Documenting them for the benefit of the Empire itself, and creating more inquisitors of my own. The truth is, we are each tied to this existence. Perhaps we can grow into something more. Lady Doji thought so and gave us the culture of the gods. That's a fine thing to become. But Lord Shiba's wife knew what was lost. Something is always lost._
+
+The departure was swift. The duel was legal, of course. The death of a samurai in a duel to first blood is tragic, but a known and accepted risk. It reflected poorly on Rei, also of course, but then again what didn't these days? Naturally no aid from the Phoenix would be forthcoming. Another failure that would, yet again, reflect poorly on Rei.
+
+As Rei, Jianyu, and Tsurumi made ready to cast off they heard a voice call out. It sounded to Rei like her name.
+
+A woman with a shaved head and a scholar's robe was coming towards them. "Mirumoto Rei–san. I'm glad I caught you before you left. I was asked to give this to you before you departed." She thrust a package and an attached letter into Rei's surprised hands before bowing and leaving. Hesitatingly, Rei opened the package. A thick, cloth–bound book was inside. On its cover a simple title: _The Cost of Grace_.
+
+{empty} +
+
+[quote, Shiba Yohana]
+____
+_But something is always gained._
+____
+

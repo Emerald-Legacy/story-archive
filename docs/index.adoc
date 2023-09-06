@@ -43,3 +43,4 @@ This is an overview of all stories that have been released by Emerald Legacy.
 - link:pass:[stories/33 - I've Got a Theory.pdf][33 - I've Got a Theory]
 - link:pass:[stories/34 - The Flower's Emissary.pdf][34 - The Flower's Emissary]
 - link:pass:[stories/35 - Below the Surface.pdf][35 - Below the Surface]
+- link:pass:[stories/36 - Betrayal of Truth.pdf][36 - Betrayal of Truth]
