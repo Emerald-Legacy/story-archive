@@ -16,6 +16,7 @@ Kei looked at me quizzically. She had eccentric beliefs too, yet she had not yet
 I quickly scanned Kousuke's notes and, without emotion, began reading:
 
 *"The Elemental Council is unable to solve the Elemental Imbalance. They have proven themselves incompetent and must be destroyed. A new Council should be created - one that draws its legitimacy from Lord Moon himself."
+
 I tossed the notes aside and sighed. "You know how it is; humans justifying their greed on the basis of high-minded morals. We've seen this type of nonsense before, and we'll see it again and again."*
 
 Kei smiled. "At least it's good job security." She laughed at an implied joke. I didn't find it funny. "How many cultists?"
@@ -250,7 +251,7 @@ ____
 
 {empty} +
 
-[quote, Isawa Hifumi, Phoenix Clan's Expedition Head, Protector of Tomorrow]
+[quote, Isawa Hifumi, "Phoenix Clan's Expedition Head, Protector of Tomorrow"]
 ____
 To Shiba Kei, my friend,
 
