@@ -32,8 +32,6 @@ class RenderStoryTask extends AsciidoctorTask {
         baseDir = new File("./docs/")
         sources {
             include fileName
-
-
         }
 
         outputDir = new File("./build/")
@@ -41,7 +39,6 @@ class RenderStoryTask extends AsciidoctorTask {
             separateOutputDirs = false
             backends 'pdf', 'html'
         }
-
 
         attributes = [
                 'icons'        : 'font',
