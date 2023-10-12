@@ -36,12 +36,15 @@ ____
 
 I wish I could say that the screams and yelling above-ground woke me from my slumber. I wish I could say such a thing, because it means that I am as I used to be. That I still am the old Yoshiaki you once knew, Urabe-kun. But you get used to the violence.
 
-Who could have imagined that we would be engaged in combat with such things? These spirits -- tsukumogami -- I would have once just thought them harmless pieces of old clothing, caught up in the ghosts of the past. But they meant something once, and that purpose, long forgotten, has filled them with the ambition that their owners might have held. Owners that lived a thousand years ago, in the Empire of the Five Rivers. Their clothing, their memories, remain preserved, though they should have gone to the earth. And preserved in all their arrogance and the anger of neglect. We were meant to admire them, honor them. But we did not. And now, they wish us to pay. +
+Who could have imagined that we would be engaged in combat with such things? These spirits -- tsukumogami -- I would have once just thought them harmless pieces of old clothing, caught up in the ghosts of the past. But they meant something once, and that purpose, long forgotten, has filled them with the ambition that their owners might have held. Owners that lived a thousand years ago, in the Empire of the Five Rivers. Their clothing, their memories, remain preserved, though they should have gone to the earth. And preserved in all their arrogance and the anger of neglect. We were meant to admire them, honor them. But we did not. And now, they wish us to pay.
+
 These robes...their magic is strong, and their tactics brutal. They can kill with a single thread. They do not grow tired, or eat, or sleep. Fortunately, these tsukumogami war upon each other far more than they war upon us. The leader of our 'allies', Kinutanuki Yoite, is tireless in her incessant micromanagement. I must come to her bidding, or be kicked by sandals without a foot, until I rise as summoned to attend. The war between Yoite's tsukumogami and the robes continues unabated. Harmony means accepting your place in the natural world.
 
 None of that even disturbs my sleep now. Instead, it was the tanuki shrine-keeper who awakened me. He greeted me dispassionately, dragged me from my bed, and ordered me to perform the morning rituals -- which mostly involved playing games with said tanuki. I followed his orders without question, just like I follow the orders of all superiors. Then the tanuki gave me a tea set, dismissed me for the day and returned back to his duties.
 
 I found this shrine after fighting a hard-fought battle against the ceremonial robes. The tanuki shrine-keeper tolerated my presence -- he simply switched loyalties from the ceremonial robes to the Phoenix clan. The shrine itself is colored in a deep shade of blue, like an emotionless river that silently judges you for your sins.
+
+<<<
 
 The daily rituals are a chore. It is the nightly rituals that I admire. While bushi and ceremonial robes clash above ground, inanimate objects gather here below ground to put on a repetitive play. Only two people watched this play yesterday -- the tanuki and I. Afterwards, we discussed the play for hours, discovering new nuances and details within the same repeated performance. It was the same as it had been each day for the last week.
 
@@ -70,7 +73,7 @@ Isawa Hifumi nodded and sat down at the opposite end of the table. We both drank
 I paused. That war? I had forgotten about it -- I was too focused on affairs in the Empty City. "Have we found heretics already?"
 
 "Yes. Those who follow the creed of the Aimi. Those who want to subvert society and establish a brutal theocracy, one that worships Lord Moon."
-+
+
 I look at Hifumi blankly. "That's—That's not possible. Back on the mainland, Shiba Yohana manipulated those moon cultists into fighting each other. The Aimi imploded."
 
 "The Aimi organization, yes. But you cannot kill an idea. Before that civil war broke out, the Aimi sent preachers to Crane lands. These preachers killed each other. Yet I am certain their books have fallen into the hands of the Crane's expedition fleet, insidiously converting people to a dead organization. These new heretics lie low. For now."
@@ -109,13 +112,15 @@ I glance at my own cup. I set it aside, tired of its sweet lies. "My point is th
 
 "And if I speak falsehood?"
 
+<<<
+
 "Then these are just minor border skirmishes, used to resolve disputes. We no longer need the Imperials. The clans know how to self-regulate themselves. Besides, the clans share the same culture. That is all we need to share."
 
 "Do you think I speak falsehood? I wish I did. I wish you were right, that culture is the only thing that matters, that Rokugan is immortal and nothing can ever kill it—"
 
-Hifumi stood, thunder growing in his eyes. "My duty is to protect the Empire from heretics. I foolishly fulfill that duty, believing that everyone else will fulfill their duties!" Snatching up his cup, he threw it at the shrine's walls, shattering it into pieces. He then sighed and slumped back into his chair, looking downwards. +
+Hifumi stood, thunder growing in his eyes. "My duty is to protect the Empire from heretics. I foolishly fulfill that duty, believing that everyone else will fulfill their duties!" Snatching up his cup, he threw it at the shrine's walls, shattering it into pieces. He then sighed and slumped back into his chair, looking downwards.
 
-"Is that...is that all we do? Fulfill duties?" I tried to ignore the tea-stained walls and the loss of composure. We are all pushed to the edge here. +
+"Is that...is that all we do? Fulfill duties?" I tried to ignore the tea-stained walls and the loss of composure. We are all pushed to the edge here.
 
 "If I had no duties, Yoshiaki, I would not know what I would do in my life. It would be devoid of purpose or reason -- just a mere mortal following temporary desires." Hifumi raised his eyes. "I think you feel the same."
 
@@ -127,7 +132,7 @@ Isawa Hifumi glanced at the shards of the teacup against the wall. "Asako Reina 
 
 "Maybe. But, take me to one of these performances. As a goodwill gesture towards Yoite. Show that we are willing to understand the ways of the spirits and honor the Empire of the Five Rivers, if she will allow us to follow our own ways."
 
-I smiled. "Of course. But, please, my lord, first, will you help me fight the Hōsōshi?" +
+I smiled. "Of course. But, please, my lord, first, will you help me fight the Hōsōshi?"
 
 '''
 
