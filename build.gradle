@@ -69,7 +69,6 @@ task renderChapterParts(type: RenderStoryTask,
 
 task renderIndex(type: RenderStoryTask,
         constructorArgs: ["index.adoc"]) {
-
 }
 
 
