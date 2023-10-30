@@ -46,3 +46,4 @@ This is an overview of all stories that have been released by Emerald Legacy.
 - link:pass:[stories/36 - Betrayal of Truth.pdf][36 - Betrayal of Truth]
 - link:pass:[stories/37 - Impossible Duty.pdf][37 - Impossible Duty]
 - link:pass:[stories/38 - Overconfidence.pdf][38 - Overconfidence]
+- link:pass:[stories/39 - Waters of Masuiensou.pdf][39 - Waters of Masuiensou]
