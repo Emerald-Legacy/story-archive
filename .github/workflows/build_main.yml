@@ -28,7 +28,7 @@ jobs:
         distribution: 'temurin'
         java-version: 17
     - name: Execute Gradle Build
-      uses: eskatos/gradle-command-action@v2
+      uses: eskatos/gradle-command-action@v2.9.0
       with:
         # Gradle command line arguments, see gradle --help
         gradle-version: wrapper
