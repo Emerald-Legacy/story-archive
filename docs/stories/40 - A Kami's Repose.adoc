@@ -1,0 +1,33 @@
+:doctype: book
+:icons: font
+:page-background-image: image:background_crane.jpg[fit=fill, pdfwidth=100%]
+
+= A Kami's Repose
+Chris Garvey
+
+A forest of curved trees opens up to a lush little hill. The grass is speckled with white wildflowers, the white of robes worn for mourning. Near the top of the hill stands a proud, ancient torii gate, the wood worn bare from weather, bits of red paint still clinging on, desperate to be seen. A half rotten shimenawa rope hangs from end to end, a sad smile made of rice straw. Stone tōrō lanterns, overgrown with moss, flank the gate. Beyond the gate, smooth stones are sunk into the ground, a walkway for the weary leading to the honden. The small building's roof is thatched with straw, eaten away by time but still stalwartly protecting its precious contents: an ornately carved table, curved to hold offerings; a small effigy made of stone, its features eroded away; and a small box. Within the box lies a letter scribed in ink and written on parchment, from time beyond memory.
+
+Written upon the parchment are these words in the flowing script of a courtier and in the characters of old Rokugani:
+
+[quote, Dōji]
+____
+I miss them. My brothers and sister.
+
+I miss Hida's strength, both in will and in character. He was always so straightforward despite his secret lack of confidence.
+
+I miss Shinjo's laughter as she danced, her spirit set free upon the wind. Her freedom knew no bounds.
+
+I miss the twins when they would reveal their true selves. Bayushi's clever wit and Shiba's quiet humility. Both devoutly loyal in their own ways.
+
+I miss Akodo's booming voice and his courageous leadership. He could always see a way to move forward, despite the hardships.
+
+I miss Hantei's acceptance of the weight of duty. He did what he must for his family and he did what he must for the mortals we met when we came to Rokugan.
+
+I miss Ryoshin's strong, protective arms that we lost far too soon.
+
+I miss Togashi's aloofness, not looking at today but looking far into the future. Looking at possibilities.
+
+I even miss him, our brother who has been lost to us. Our brother who hates us. I hope that in time, be it in a century or a millennia, he will find it in himself to forgive us.  Maybe by then I too will have it in my heart to forgive him in turn.
+____
+
+Tears have stained the ancient parchment, blurring some of the letters, making the name of the recipient all but unreadable.
