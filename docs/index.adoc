@@ -48,3 +48,4 @@ This is an overview of all stories that have been released by Emerald Legacy.
 - link:pass:[stories/38 - Overconfidence.pdf][38 - Overconfidence]
 - link:pass:[stories/39 - Waters of Masuiensou.pdf][39 - Waters of Masuiensou]
 - link:pass:[stories/40 - A Kami's Repose.pdf][40 - A Kami's Repose]
+- link:pass:[stories/41 - Nihai is Falling.pdf][41 - Nihai is Falling]
