@@ -27,12 +27,12 @@ jobs:
       with:
         distribution: 'temurin'
         java-version: 21
-    - name: Execute Gradle Build
-      uses: eskatos/gradle-command-action@v2.9.0
+    - name: Setup Gradle Build
+      uses: gradle/actions/setup-gradle@v3
       with:
-        # Gradle command line arguments, see gradle --help
         gradle-version: wrapper
-        arguments: buildStoryArchive
+    - name: Execute Gradle build
+      run: ./gradlew buildStoryArchive
     - name: Prepare Deployment
       run: |
         rm -rf ./build/tmp
