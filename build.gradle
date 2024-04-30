@@ -2,9 +2,9 @@ import org.asciidoctor.gradle.jvm.AsciidoctorTask
 import java.text.SimpleDateFormat
 
 plugins {
-    id "org.asciidoctor.jvm.base" version "3.3.2"
-    id "org.asciidoctor.jvm.convert" version "3.3.2"
-    id "org.asciidoctor.jvm.pdf" version "3.3.2"
+    id "org.asciidoctor.jvm.base" version "4.0.2"
+    id "org.asciidoctor.jvm.convert" version "4.0.2"
+    id "org.asciidoctor.jvm.pdf" version "4.0.2"
 }
 repositories {
     mavenCentral()
@@ -13,11 +13,6 @@ repositories {
 asciidoctorj {
     version = '2.5.12'
 }
-
-ext {
-    curriculumFileName = "stories"
-}
-
 
 class RenderStoryTask extends AsciidoctorTask {
     @Inject
@@ -42,13 +37,14 @@ class RenderStoryTask extends AsciidoctorTask {
 
         attributes = [
                 'icons'        : 'font',
+                'revnumber'    : '',
+                'revdate'    : '',
                 'version-label': '',
-                'currentDate'  : '',
                 'language'     : 'EN',
                 'imagesdir'    : 'images',
-                'pdf-stylesdir': '../pdf-theme/themes',
+                'pdf-themesdir': '../pdf-theme/themes',
                 'pdf-fontsdir' : '../pdf-theme/fonts',
-                'pdf-style'    : 'el'
+                'pdf-theme'    : 'el'
         ]
     }
 }
