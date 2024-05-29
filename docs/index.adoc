@@ -52,3 +52,4 @@ This is an overview of all stories that have been released by Emerald Legacy.
 - link:pass:[stories/42 - Trailblazer.pdf][42 - Trailblazer]
 - link:pass:[stories/43 - The Great and Terrible Winter Battle of Sakura Hill.pdf][43 - The Great and Terrible Winter Battle of Sakura Hill]
 - link:pass:[stories/44 - The Pact.pdf][44 - The Pact]
+- link:pass:[stories/45 - Crescent Moon Strike.pdf][45 - Crescent Moon Strike]
