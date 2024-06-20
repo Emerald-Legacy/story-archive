@@ -3,7 +3,7 @@
 :page-background-image: image:background_neutral.jpg[fit=fill, pdfwidth=100%]
 
 = Control
-Kakita Kaori
+Jeanne Kalvar
 
 Gold glittered on each finger in the lamplight as Otomo Tsuji gestured to the deeply bowing courtier, permitting him to enter her presence. The lights were low; the hour had grown late. But the head of the Imperial delegation at Sanctuary would allow no business to end in the Imperial Palace to pass without her review, and if that meant she was the last to go to her chambers at night, so be it. She was old now, she would sleep long soon enough.
 
