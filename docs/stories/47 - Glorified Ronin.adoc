@@ -1,0 +1,170 @@
+:doctype: book
+:icons: font
+:page-background-image: image:background_phoenix.jpg[fit=fill, pdfwidth=100%]
+
+= Glorified Rōnin
+Tariq Ali
+
+"Asako Kousuke, welcome to the _Sea Spot_," Aja, a Mantis samurai, smiled. It appeared genuine. Her crew also smiled when they saw me, apparently content with their line of work. I could not get a good look at them, though, as Aja quickly ushered me into her quarters. "We need to have a private conversation, away from the riff-raff."
+
+The idea filled me with dread. What does she have to hide? Nevertheless, I obliged. I, too, had things to hide.
+
+As she closed the door, I took a look at her cabin. It was sparse. A futon rolled against one wall. Jars of pickled vegetables. A wooden box to hold her clothing. A table with a stack of military reports. A pillow book for entertainment. There was no tatami mat on the floor, so I knelt on the dusty wooden planks of the deck. Aja had told me about her successful pirate raids on the mainland, yet this room bore no sign of prosperity. It took time to realize where Aja's ill-gotten wealth went.
+
+When I first met her, on the outskirts of the Empty City, her beauty dazzled me. She elegantly mixed the traditions of the seven major clans, developing a unique style that nobody else could match. The silk slippers came from the Crane. The obijime of intricate silver links came from the Crab. Her long black hair was braided in the style of the Phoenix. Even her mole, located on the left cheek, was expertly covered up by a tattoo made by the Scorpion clan.
+
+I could admire someone who has a deep appreciation of so many Rokugani cultures. Yet, Aja squandered all her wealth to acquire this beauty, leaving behind an almost-empty cabin room. She willingly chose to wallow in poverty, because she wanted to prance around in silk slippers.
+
+I could not help but contrast our dress. My clothes remain a common shade of orange. When I walk into a crowd of Phoenix samurai, I draw no eyes. I, too, admire a fine kimono, yet I neglect my own appearance. Such attention invites my enemies, helping them find and eliminate me. And I have many enemies in my line of work.
+
+Aja did not allow me to linger on my comparisons, jolting me from my introspection, with flattery and sweet-talk. "Thank you for talking to me at such short notice. Isawa Hifumi, the leader of the Phoenix expedition fleet, refused to even meet me or the rest of my Mantis crew. We thought that we would leave empty-handed, yet we found you and your followers, stranded in the Empty City. You are separated from Isawa Hifumi's forces. Whether that separation is intentional or not, I do not speculate. But even in your separation and your trials, you have recognized the severity of our situation. You sympathized with us. You were willing to talk with us and deal with us. I can only hope my sincerity can convey our gratitude."
+
+I reciprocate the praise, playing the political games that all Rokugani are used to. "Your assistance was greatly appreciated. Your samurai helped my forces survive the trials of the Empty City." The Mantis, of course, had their own reasons to send samurai to the Empty City -- scouting the area out, while recruiting peasants to grow rice and fish for their pirate fleet. Yet their scouts served as excellent distractions, allowing us to avoid direct confrontation with the Ceremonial Robes. And for that, I was grateful.
+
+"And your gunso. She saved us from a few rough encounters." She obliquely referred to Shiba Kei, an eccentric, but useful, bushi. "It was a shame she could not come here – too busy resolving an internal dispute within her camp, I was told. I would love to speak with her and learn more about her talents."
+
+"Her 'talents'? And what of my own?"
+
+Aja tilted her head with a knowing look and stopped the sweet-talk. "How many followers?"
+
+"Fifty samurai." Most Phoenix remained loyal to Hifumi, due to the rabble-rousing rhetoric of his Firebrands. But some defected, like the disillusioned Shiba Kei. Our forces here on Sanctuary are dependent on the Darkflame Purifiers that make up the core of Hifumi's strength - powerful shugenja to be sure, but many were egotistical and prone to infighting. Kei forged those who did not to a keen edge on the whetstone of ideological purity, and secured our logistics. We still suffered from poor morale, however. If we could get a deal with the Mantis though, our morale would improve dramatically.
+
+Aja tugged at the silver obijime that kept her fine obi in place. "Why? Why do you stand against him?"
+
+'''
+
+_The meditation room was painted white, representing the blinding nature of the Void itself. Even the floor itself was made out of white coral. I had been to this room many times, nested deep within the Palace of Knowledge. Isawa Hifumi regularly visited this place, to ponder about the nature of reality itself._
+
+_Normally, I would meditate with Isawa Hifumi, hoping to better understand Sanctuary. After all, once he served as a student to me, one among many when we both served on the mainland. Before his star rose so far, so fast. But when I approached Hifumi that fateful day, my heart was burdened with unease, guilt, doubt..._
+
+_Hifumi knelt in the middle of this meditation room, his eyes closed, guarded by the watchful and wise Shiba Akane. Between her hands, Akane held a small bag. My eyes darted between yojimbo and master, gauging their mood, before I spoke._
+
+_"Isawa Hifumi. Knowledge is dangerous. On the mainland, you behaved well. But here, in Sanctuary? You are monitoring those who were previously held in check through traditional means. You walk down a dark path..."_
+
+_"...and why do you say that, Asako Kousuke? Because I found heretics in Crane lands? Because I discovered concealed connections to the Lying Darkness?"_
+
+_"You rely on fallible agents. They may have misinterpreted the situation. Or, they could fabricate testimonies to gain your favor."_
+
+_"Go ahead and spend years investigating the truth, then. By the time you see the truth, the damage is already done." Hifumi's voice held no anger. It bore no emotion at all._
+
+_"Even if what you say is true, your methods are wrong. You use the commoners to monitor the samurai," I pressed._
+
+_Shiba Akane spoke to defend Hifumi. "If the samurai are truly honorable, then they will agree to this vetting. They have nothing to hide."_
+
+_"But samurai are above the commoners. If commoners charge samurai, bypassing the traditional means of accountability...then we bring the Celestial Order into disrepute."_
+
+_"Then maybe the Celestial Order is..." Akane grew quiet, and pondered for a moment. "The Scorpion do worse than us, and since their actions are acceptable, our actions must also be acceptable as well."_
+
+_I glared at Akane, before turning back to Hifumi. "I charge that your actions are immoral, dishonorable and..."_
+
+_"...Effective." Hifumi's eyes remained closed, his calm contrasting with my frustration. "If we had followed the traditions of our ancestors, we would labor under blissful ignorance, believing Sanctuary to be safe and secure, delusionally frittering away our pitiful lives, until the day that the Empire-In-Waiting crumbles under our feet. Under my leadership, we acquired knowledge."_
+
+_"Yet, knowledge can be dangerous. It can lead people down dark paths."_
+
+_"I agree. This is why I do not study forbidden lore—"_
+
+_"I am not referring to that. I'm referring to something else entirely. What we learned here in Sanctuary differs from our own self-image. Our dark secrets and hidden shames are revealed to all. You and I know that it is the nature of scholars and storytellers to rewrite the past. Even when every edit is done for a good reason, with a pure motive, when those revisions are thrown in our faces, when we are exposed to reality, we are left speechless. Our hopes are stripped away from us. And without those hopes, all we are left with is an empire without meaning."_
+
+_Hifumi thought for a moment. "I accept the risks. I must know the truth about this world, no matter how unpleasant. If only to silence the dread that lies within my heart." Hifumi opened his eyes to look at me, and I saw a fevered gleam in their depths. "I am a fire that is burning myself out, aware of my impending death, but still pressing onward. I have no choice. I have to save the Empire-In-Waiting."_
+
+_"Hifumi-san, you are making an error. When you are desperate, that is a sign you are not thinking clearly. I do not know if you are in a position to save anyone, much less the Empire. There are always options, alternatives you have not considered. Even if it takes multiple generations to find these options, we should find them."_
+
+_"Even if that means letting innocent people die due ro your indecision?"_
+
+_I could see my words made little impression, and decided to try another track. "I, too, understand what it is to go to extremes. I know how the consequences can burden your spirit. Years ago, when I was a new inquisitor, I attacked a Bloodspeaker cult. They had already corrupted a village. I stopped their oni-summoning ritual, just in time. But, the village was destroyed, burnt to the ground under the gaze of Lord Moon. Only one boy I spared, the young man who had reported his fears about the village to the local magistrate, and therefore the only one I knew was safe from the Bloodspeaker's silver tongue. That boy survived. He just stared at me as the conflict raged. His eyes followed me, wherever I went, observing the carnage from afar. As if I was being judged by the Celestial Order itself. I still have nightmares."_
+
+_"I see. Do you remember anything about this boy?"_
+
+_"The son of a folklorist who studied in the area. He's not important. The point is that actions carry consequences. If I had waited, thought, pondered, I would have found a better solution, one that would stop the ritual and avoid the destruction of the village."_
+
+_"Do you remember anything about this boy?" Hifumi's tone did not change at all._
+
+_"Only that the villagers called him odd. Blessed by the Fortune of Wealth for his love of rats. He kept them as pets. Some said he could converse with them, that they advised him and helped him. I heard he traveled on long trips to Crab lands, visiting the rats that lived there." A horrific realization crawled upon me. "Why are you asking me this?"_
+
+_Hifumi snapped his fingers. "Not rats. Nezumi." Three rats scurried into the room and sat on their haunches before Hifumi. They glared at me with onyx eyes filled with silent curses, and ignored Shiba Akane. Akane threw her small bag onto the floor, spilling out some dried sweets. The rats rushed towards the bag and dragged it away from the meditation room._
+
+_I watched with amazement, and a sinking nausea. "Why didn't you tell me?"_
+
+_"Because if I did, you would not teach me. For decades, I hid my past, covered up my identity. Because I knew you were the only teacher that I could trust. You burned down the village I grew up in. And I wanted to learn why."_
+
+_"You don't want revenge?"_
+
+_"If I wanted to kill you, I would have done so that very night, one way or another." Isawa Hifumi grimly laughed. "I do want revenge. But not against you. Not even against the Bloodspeakers who infected their rot into my village. That is useless. There is no point attacking the symptoms when it is the disease that killed my people. The disease that built and destroyed villages, cities, even empires. If this cycle of death and rebirth is not stopped, more innocents will suffer and die."_
+
+_I raised an eyebrow. "What is this disease?"_
+
+_"You won't understand. You are a careerist, Asako Kousuke. Your mother was an inquisitor, your father was an inquisitor, so it was natural for you to become an inquisitor. You seek to please your superiors. This is why you will never understand the disease as I do. This disease controls you, just like it controlled the Bloodspeakers. Just like it controlled me. But unlike you, I freed myself. And I want to fight this disease. And to fight it, I need knowledge."_
+
+_"You claim to be a samurai, yet you misunderstand your purpose. Yes, I seek to please my superiors. We all serve our superiors - that is why empires exist! Our superiors decide what is moral, what is honorable. By pleasing them, I fulfill my duty to the Empire."_
+
+_Hifumi shook his head in sorrow, his eyes closing again. "If the Empress tells you to embrace the heretical creed of the Aimi, would you do it?"_
+
+_"Yes."_
+
+_Hifumi said nothing._
+
+_I pace the meditation room, thinking very carefully about my words. "It is true, and you know it to be true. Would I hate myself for this? Yes. These moon cultists tried to overthrow the Elemental Council. They are untrustworthy. But I would embrace them. My parents taught me this - the world is complex, and can only be grasped by experts. Our superiors have gained expertise through their studies and practical experience. As long as they do not embrace mundane corruption and the corruption of the Dark Brother, I will trust my superiors, and fulfill my duty. If the Empress tells us to embrace the Aimi, or tells us to support this 'Pact', then she has done so for a good reason, one that is unquestioned, and unquestionable. To do anything else is to betray the Empire-In-Waiting."_
+
+_Shiba Akane's mouth twitched in silent agreement, though she made sure Hifumi wasn't looking at her first._
+
+_But Isawa Hifumi had clenched his fists in anger before he relaxed them. "Your misplaced trust will damn you."_
+
+_"And who do you trust instead? Yourself? You will twist the religion into knots, justifying whatever you want, whatever you desire! You have to rely on the judgment of our superiors."_
+
+_"Did our superiors create the Tao?" He paused, and took a deep breath. "No, they merely hijacked it. The Tao of Shinsei was always there, the divine truth ever-present. But men came in, foolish men, endlessly reinterpreting it, harnessing it to justify their rule!"_
+
+_"I taught you much, and yet you have not learnt a single thing."_
+
+_Hifumi stood abruptly, his eyes flaring open, locked with mine. "No, I understand what you taught me, completely and utterly. Not just the lessons you gave me consciously, but the lessons you gave me unconsciously. You taught me your last lesson. I have now identified the disease. And I now know how to eliminate it." He sat back down, and closed his eyes._
+
+_"What disease?" I demanded._
+
+_"Human nature."_
+
+'''
+
+It was a prepared speech, one that I used to recruit others to my cause, Aja stifled a yawn. She rolled her eyes when I talked about how Hifumi's peasant militia disrupted the traditional relationship between the peasants and the samurai. As she played with her hair, I wondered how Aja even became a samurai in the first place. Was she herself just a peasant that the Mantis recruited from the mainland, giving her a katana as a reward for good service?
+
+When I finished the speech, Aja breathed a sigh of relief. She reached over to the table with a stack of military reports, and pulled out a fat white scroll. "You want these. Reports of every Phoenix ship movement to and from the Empty City. Of the city's hidden harbors. Ways into and out of even the deepest parts of the city without being seen." She gestures to the reports on the table. "And my aid in your fight against Hifumi."
+
+I did not want to admit it so bluntly, but her words were true. I needed any help I could get in my feud against Isawa Hifumi. My fingers ached to reach out for the scroll she held. But there is always a price to be paid. "I understand that you want some sort of compensation."
+
+Aja nodded impatiently. Expectantly.
+
+"Very well then. If the Mantis helps me overthrow Isawa Hifumi, then I will talk to the Empress myself and generously advocate for the Mantis' legalization. You will be allowed to settle the lands for a brief period of time, enough time for you to find another location. You cannot settle the lands that the major clans have claimed, but the Barren Swamps and the Misty Plains are for you to temporarily administer. When you find a more suitable location, far from the territories of the major clans, then we will allow you to depart safely, without any repercussions."
+
+Aja frowned. "Legalization? This sounds more like exile to me. I was hoping for rice. Or gold."
+
+"You broke Imperial law by coming here. To give you anything more would be to reward immorality, your ways of piracy." Aja looked at me quizzically. "You backstabbed the Lion and started raiding their storeholds. And then you started raiding Dragon and Phoenix storeholds as well. You claim these clans have insulted your honor. That your raids are reasonable. But this is a transparent excuse. Soon, you will raid all the clans, using that exact same excuse. My followers will not support that."
+
+Aja angrily swept up the battle reports from the desk, clutching them to her chest. "We have as much right to the Empire's future as anyone. We will not crawl for any of the Great Clans!"
+
+"You came here to steal. You plunder and raid. Legally, you are a rebel and I have the right to attack you. Instead, I offer you conditional amnesty for your crimes."
+
+"And I'm offering you control over the Phoenix clan! I have my own followers too, and they need to see some benefit from this deal." She sniffed. "We don't need your 'amnesty'. We have the respect of the Scorpion. The Crab will not forget our trade deals on the mainland. The Unicorn admires our initiative and our love for the Fortune of Contentment. These three clans will help us. And the Crane...they will help us if the terms are right for them. Four clans support us. The Empress will gladly live with 'pirates' to keep the peace."
+
+I dropped my eyes, feeling the weight of my years and trying to find a better answer. The Mantis spoke true. A majority of the major clans were content to let the Mantis stay. Maybe the Mantis's deals were just too lucrative. Or perhaps, the clans saw the Mantis as deniable assets, assets that can be used against one's foes. Piracy is condemned publicly, but praised privately.
+
+It does not matter. The Imperials would bow to this newfound consensus. I needed an alternative proposal. "But you still need my samurai if you wish to successfully raid the Empty City. You know what treasures lie there."
+
+Aja laughed as she returned the battle reports to the table. "What's your price?"
+
+"Give up piracy. Surely there are ways to survive other than violence. You have skills. You can gain wealth, power and prestige."
+
+"That's what the Dragon said. We could engage in trade. We could become 'normal'." Aja sighed. "But all the Great Clans rely on violence. It is unfair to condemn our actions when the major clans engage in border skirmishes, heedless of the suffering that they inflict upon others." She only laughed again, as if in pain. "We are all pirates, Phoenix. The Mantis are just the only ones unafraid of making our ambitions known."
+
+I could see it in her eyes. She did not care. And she was certain that....for 'convenience'? For politics? The Empress would not care either. The other clans would look aside, unless they themselves were targeted by the Mantis's ships. And even that can be forgiven with the proper gifts.
+
+Is morality only for children, to be tossed aside as soon as we pass gempukku? Does the law mean nothing if you pay enough bribes? Is banditry acceptable because you have the support of four major clans? No! The samurai may sell their souls. Even the Empress may sell her soul. But I will not.
+
+But we needed those reports. Those maps. Not just against Hifumi, but against the Mantis.
+
+It took only a whisper to summon the water kami to wrap themselves around her, binding her fast. It would take little more for the air kami to hide me from sight as I left, carrying the reports and maps.
+
+I followed my superiors, always believing that they knew what was right. I was wrong. If my superiors violate their laws, then they do not deserve my respect. Those who oppose the Mantis, like the Lion and the Dragon? *They* deserve my respect. I'll visit their lands, show them these documents, and help them in their time of need.
+
+Aja's frustrated, but muffled curses followed me out of the cabin, though she could not see me. "Thief! You call us pirates? You'll still be outcasts, no better than before. If you turn away from this, then you can't overthrow Isawa Hifumi and gain political power for yourself. You bend when there is something _you_ desire strongly enough, so don't pretend to be virtuous. You disdain us as base seekers of power? You want to fight Hifumi out of some great principle? Look at yourselves. You're nothing but glorified rōnin, pretending no lord is worthy of you while you grub in the filth like the rest of us."
+
+"Then glorified rōnin we shall be." The door falls shut behind me, and none aboard see my passing into the overwhelming darkness.
+
+

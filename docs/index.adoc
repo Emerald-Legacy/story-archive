@@ -54,3 +54,4 @@ This is an overview of all stories that have been released by Emerald Legacy.
 - link:pass:[stories/44 - The Pact.pdf][44 - The Pact]
 - link:pass:[stories/45 - Crescent Moon Strike.pdf][45 - Crescent Moon Strike]
 - link:pass:[stories/46 - Control.pdf][46 - Control]
+- link:pass:[stories/47 - Glorified Ronin.pdf][47 - Glorified Ronin]
