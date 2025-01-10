@@ -45,7 +45,7 @@ base:
   font_size_small: 8
   font_size_min: $base_font_size * 0.75
   font_style: normal
-  border_color: #eeeeee
+  border_color: 006600
   border_radius: 4
   border_width: 0.5
   margin_bottom: 12.5
@@ -123,12 +123,12 @@ quote:
   font_color: $base_font_color
   font_size: $base_font_size
   border_color: $base_border_color
-  border_width: 4
+  border_width: 2
   # FIXME disable negative padding bottom once margin collapsing is implemented
-  padding: [0, $horizontal_rhythm, $block_margin_bottom * -0.75, $horizontal_rhythm + $quote_border_width / 2]
+  padding: [$vertical_rhythm * 0.5, $horizontal_rhythm, $vertical_rhythm * 0.5, $horizontal_rhythm]
 quote-cite:
   font_size: $base_font_size_small
-  font_color: 999999
+  font_color: $base_font_color
 # code is used for source blocks (perhaps change to source or listing?)
 code:
   font_color: $base_font_color
