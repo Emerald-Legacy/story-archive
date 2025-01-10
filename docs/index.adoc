@@ -58,3 +58,5 @@ This is an overview of all stories that have been released by Emerald Legacy.
 - link:pass:[stories/48 - Trial of the Coral Champion.pdf][48 - Trial of the Coral Champion]
 - link:pass:[stories/49 - Song of the World - Part 2.pdf][49 - Song of the World - Part 2]
 - link:pass:[stories/50 - A Child's Logic.pdf][50 - A Child's Logic]
+- link:pass:[stories/51 - Contemplate the Eternal.pdf][51 - Contemplate the Eternal]
+
