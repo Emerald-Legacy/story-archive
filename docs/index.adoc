@@ -60,3 +60,4 @@ This is an overview of all stories that have been released by Emerald Legacy.
 - link:pass:[stories/50 - A Child's Logic.pdf][50 - A Child's Logic]
 - link:pass:[stories/51 - Contemplate the Eternal.pdf][51 - Contemplate the Eternal]
 - link:pass:[stories/52 - For There Will Always Be Secrets.pdf][52 - For There Will Always Be Secrets]
+- link:pass:[stories/53 - Faith and Pain.pdf][53 - Faith and Pain]
