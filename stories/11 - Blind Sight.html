@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.22">
+<meta name="author" content="Glen Goerwell">
+<title>Blind Sight</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<style>
+/*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
+/* Uncomment the following line when using as a custom stylesheet */
+/* @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700"; */
+html{font-family:sans-serif;-webkit-text-size-adjust:100%}
+a{background:none}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+b,strong{font-weight:bold}
+abbr{font-size:.9em}
+abbr[title]{cursor:help;border-bottom:1px dotted #dddddf;text-decoration:none}
+dfn{font-style:italic}
+hr{height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace;font-size:1em}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+audio,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type=checkbox],input[type=radio]{padding:0}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+*,::before,::after{box-sizing:border-box}
+html,body{font-size:100%}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;line-height:1;position:relative;cursor:auto;-moz-tab-size:4;-o-tab-size:4;tab-size:4;word-wrap:anywhere;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+a:hover{cursor:pointer}
+img,object,embed{max-width:100%;height:auto}
+object,embed{height:100%}
+img{-ms-interpolation-mode:bicubic}
+.left{float:left!important}
+.right{float:right!important}
+.text-left{text-align:left!important}
+.text-right{text-align:right!important}
+.text-center{text-align:center!important}
+.text-justify{text-align:justify!important}
+.hide{display:none}
+img,object,svg{display:inline-block;vertical-align:middle}
+textarea{height:auto;min-height:50px}
+select{width:100%}
+.subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0}
+a{color:#2156a5;text-decoration:underline;line-height:inherit}
+a:hover,a:focus{color:#1d4b8f}
+a img{border:0}
+p{line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
+p aside{font-size:.875em;line-height:1.35;font-style:italic}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
+h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
+h1{font-size:2.125em}
+h2{font-size:1.6875em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
+h4,h5{font-size:1.125em}
+h6{font-size:1em}
+hr{border:solid #dddddf;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em}
+em,i{font-style:italic;line-height:inherit}
+strong,b{font-weight:bold;line-height:inherit}
+small{font-size:60%;line-height:inherit}
+code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
+ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
+ul,ol{margin-left:1.5em}
+ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
+ul.circle{list-style-type:circle}
+ul.disc{list-style-type:disc}
+ul.square{list-style-type:square}
+ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
+ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
+dl dt{margin-bottom:.3125em;font-weight:bold}
+dl dd{margin-bottom:1.25em}
+blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
+blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
+@media screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
+h1{font-size:2.75em}
+h2{font-size:2.3125em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
+h4{font-size:1.4375em}}
+table{background:#fff;margin-bottom:1.25em;border:1px solid #dedede;word-wrap:normal}
+table thead,table tfoot{background:#f7f8f7}
+table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
+table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
+table tr.even,table tr.alt{background:#f8f8f7}
+table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{line-height:1.6}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
+h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
+.center{margin-left:auto;margin-right:auto}
+.stretch{width:100%}
+.clearfix::before,.clearfix::after,.float-group::before,.float-group::after{content:" ";display:table}
+.clearfix::after,.float-group::after{clear:both}
+:not(pre).nobreak{word-wrap:normal}
+:not(pre).nowrap{white-space:nowrap}
+:not(pre).pre-wrap{white-space:pre-wrap}
+:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
+pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
+pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
+pre>code{display:block}
+pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
+em em{font-style:normal}
+strong strong{font-weight:400}
+.keyseq{color:rgba(51,51,51,.8)}
+kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;border-radius:3px;box-shadow:0 1px 0 rgba(0,0,0,.2),inset 0 0 0 .1em #fff;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
+.keyseq kbd:first-child{margin-left:0}
+.keyseq kbd:last-child{margin-right:0}
+.menuseq,.menuref{color:#000}
+.menuseq b:not(.caret),.menuref{font-weight:inherit}
+.menuseq{word-spacing:-.02em}
+.menuseq b.caret{font-size:1.25em;line-height:.8}
+.menuseq i.caret{font-weight:bold;text-align:center;width:.45em}
+b.button::before,b.button::after{position:relative;top:-1px;font-weight:400}
+b.button::before{content:"[";padding:0 3px 0 2px}
+b.button::after{content:"]";padding:0 2px 0 3px}
+p a>code:hover{color:rgba(0,0,0,.9)}
+#header,#content,#footnotes,#footer{width:100%;margin:0 auto;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
+#header::before,#header::after,#content::before,#content::after,#footnotes::before,#footnotes::after,#footer::before,#footer::after{content:" ";display:table}
+#header::after,#content::after,#footnotes::after,#footer::after{clear:both}
+#content{margin-top:1.25em}
+#content::before{content:none}
+#header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
+#header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
+#header>h1:only-child{border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
+#header .details span:first-child{margin-left:-.125em}
+#header .details span.email a{color:rgba(0,0,0,.85)}
+#header .details br{display:none}
+#header .details br+span::before{content:"\00a0\2013\00a0"}
+#header .details br+span.author::before{content:"\00a0\22c5\00a0";color:rgba(0,0,0,.85)}
+#header .details br+span#revremark::before{content:"\00a0|\00a0"}
+#header #revnumber{text-transform:capitalize}
+#header #revnumber::after{content:"\00a0"}
+#content>h1:first-child:not([class]){color:rgba(0,0,0,.85);border-bottom:1px solid #dddddf;padding-bottom:8px;margin-top:0;padding-top:1rem;margin-bottom:1.25rem}
+#toc{border-bottom:1px solid #e7e7e9;padding-bottom:.5em}
+#toc>ul{margin-left:.125em}
+#toc ul.sectlevel0>li>a{font-style:italic}
+#toc ul.sectlevel0 ul.sectlevel1{margin:.5em 0}
+#toc ul{font-family:"Open Sans","DejaVu Sans",sans-serif;list-style-type:none}
+#toc li{line-height:1.3334;margin-top:.3334em}
+#toc a{text-decoration:none}
+#toc a:active{text-decoration:underline}
+#toctitle{color:#7a2518;font-size:1.2em}
+@media screen and (min-width:768px){#toctitle{font-size:1.375em}
+body.toc2{padding-left:15em;padding-right:0}
+body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
+#toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
+#toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
+#toc.toc2>ul{font-size:.9em;margin-bottom:0}
+#toc.toc2 ul ul{margin-left:0;padding-left:1em}
+#toc.toc2 ul.sectlevel0 ul.sectlevel1{padding-left:0;margin-top:.5em;margin-bottom:.5em}
+body.toc2.toc-right{padding-left:0;padding-right:15em}
+body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #e7e7e9;left:auto;right:0}}
+@media screen and (min-width:1280px){body.toc2{padding-left:20em;padding-right:0}
+#toc.toc2{width:20em}
+#toc.toc2 #toctitle{font-size:1.375em}
+#toc.toc2>ul{font-size:.95em}
+#toc.toc2 ul ul{padding-left:1.25em}
+body.toc2.toc-right{padding-left:0;padding-right:20em}}
+#content #toc{border:1px solid #e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;border-radius:4px}
+#content #toc>:first-child{margin-top:0}
+#content #toc>:last-child{margin-bottom:0}
+#footer{max-width:none;background:rgba(0,0,0,.8);padding:1.25em}
+#footer-text{color:hsla(0,0%,100%,.8);line-height:1.44}
+#content{margin-bottom:.625em}
+.sect1{padding-bottom:.625em}
+@media screen and (min-width:768px){#content{margin-bottom:1.25em}
+.sect1{padding-bottom:1.25em}}
+.sect1:last-child{padding-bottom:0}
+.sect1+.sect1{border-top:1px solid #e7e7e9}
+#content h1>a.anchor,h2>a.anchor,h3>a.anchor,#toctitle>a.anchor,.sidebarblock>.content>.title>a.anchor,h4>a.anchor,h5>a.anchor,h6>a.anchor{position:absolute;z-index:1001;width:1.5ex;margin-left:-1.5ex;display:block;text-decoration:none!important;visibility:hidden;text-align:center;font-weight:400}
+#content h1>a.anchor::before,h2>a.anchor::before,h3>a.anchor::before,#toctitle>a.anchor::before,.sidebarblock>.content>.title>a.anchor::before,h4>a.anchor::before,h5>a.anchor::before,h6>a.anchor::before{content:"\00A7";font-size:.85em;display:block;padding-top:.1em}
+#content h1:hover>a.anchor,#content h1>a.anchor:hover,h2:hover>a.anchor,h2>a.anchor:hover,h3:hover>a.anchor,#toctitle:hover>a.anchor,.sidebarblock>.content>.title:hover>a.anchor,h3>a.anchor:hover,#toctitle>a.anchor:hover,.sidebarblock>.content>.title>a.anchor:hover,h4:hover>a.anchor,h4>a.anchor:hover,h5:hover>a.anchor,h5>a.anchor:hover,h6:hover>a.anchor,h6>a.anchor:hover{visibility:visible}
+#content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
+#content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
+details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
+details{margin-left:1.25rem}
+details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;outline:none;-webkit-tap-highlight-color:transparent}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"";border:solid transparent;border-left:solid;border-width:.3em 0 .3em .5em;position:absolute;top:.5em;left:-1.25rem;transform:translateX(15%)}
+details[open]>summary::before{border:solid transparent;border-top:solid;border-width:.5em .3em 0;transform:translateY(15%)}
+details>summary::after{content:"";width:1.25rem;height:1em;position:absolute;top:.3em;left:-1.25rem}
+.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
+table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
+.paragraph.lead>p,#preamble>.sectionbody>[class=paragraph]:first-of-type p{font-size:1.21875em;line-height:1.6;color:rgba(0,0,0,.85)}
+.admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
+.admonitionblock>table td.icon{text-align:center;width:80px}
+.admonitionblock>table td.icon img{max-width:none}
+.admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
+.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
+.admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
+.sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
+.sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
+.exampleblock>.content>:first-child,.sidebarblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child,.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
+@media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
+@media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
+.literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class=highlight],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
+.literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
+.listingblock>.content{position:relative}
+.listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
+.listingblock:hover code[data-lang]::before{display:block}
+.listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
+.listingblock.terminal pre .command:not([data-prompt])::before{content:"$"}
+.listingblock pre.highlightjs{padding:0}
+.listingblock pre.highlightjs>code{padding:1em;border-radius:4px}
+.listingblock pre.prettyprint{border-width:0}
+.prettyprint{background:#f7f7f8}
+pre.prettyprint .linenums{line-height:1.45;margin-left:2em}
+pre.prettyprint li{background:none;list-style-type:inherit;padding-left:0}
+pre.prettyprint li code[data-lang]::before{opacity:1}
+pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
+table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
+table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
+table.linenotable td.code{padding-left:.75em}
+table.linenotable td.linenos,pre.pygments .linenos{border-right:1px solid;opacity:.35;padding-right:.5em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+pre.pygments span.linenos{display:inline-block;margin-right:.75em}
+.quoteblock{margin:0 1em 1.25em 1.5em;display:table}
+.quoteblock:not(.excerpt)>.title{margin-left:-1.5em;margin-bottom:.75em}
+.quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
+.quoteblock blockquote{margin:0;padding:0;border:0}
+.quoteblock blockquote::before{content:"\201c";float:left;font-size:2.75em;font-weight:bold;line-height:.6em;margin-left:-.6em;color:#7a2518;text-shadow:0 1px 2px rgba(0,0,0,.1)}
+.quoteblock blockquote>.paragraph:last-child p{margin-bottom:0}
+.quoteblock .attribution{margin-top:.75em;margin-right:.5ex;text-align:right}
+.verseblock{margin:0 1em 1.25em}
+.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans-serif;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
+.verseblock pre strong{font-weight:400}
+.verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
+.quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
+.quoteblock .attribution br,.verseblock .attribution br{display:none}
+.quoteblock .attribution cite,.verseblock .attribution cite{display:block;letter-spacing:-.025em;color:rgba(0,0,0,.6)}
+.quoteblock.abstract blockquote::before,.quoteblock.excerpt blockquote::before,.quoteblock .quoteblock blockquote::before{display:none}
+.quoteblock.abstract blockquote,.quoteblock.abstract p,.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{line-height:1.6;word-spacing:0}
+.quoteblock.abstract{margin:0 1em 1.25em;display:block}
+.quoteblock.abstract>.title{margin:0 0 .375em;font-size:1.15em;text-align:center}
+.quoteblock.excerpt>blockquote,.quoteblock .quoteblock{padding:0 0 .25em 1em;border-left:.25em solid #dddddf}
+.quoteblock.excerpt,.quoteblock .quoteblock{margin-left:0}
+.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{color:inherit;font-size:1.0625rem}
+.quoteblock.excerpt .attribution,.quoteblock .quoteblock .attribution{color:inherit;font-size:.85rem;text-align:left;margin-right:0}
+p.tableblock:last-child{margin-bottom:0}
+td.tableblock>.content{margin-bottom:1.25em;word-wrap:anywhere}
+td.tableblock>.content>:last-child{margin-bottom:-1.25em}
+table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
+table.grid-all>*>tr>*{border-width:1px}
+table.grid-cols>*>tr>*{border-width:0 1px}
+table.grid-rows>*>tr>*{border-width:1px 0}
+table.frame-all{border-width:1px}
+table.frame-ends{border-width:1px 0}
+table.frame-sides{border-width:0 1px}
+table.frame-none>colgroup+*>:first-child>*,table.frame-sides>colgroup+*>:first-child>*{border-top-width:0}
+table.frame-none>:last-child>:last-child>*,table.frame-sides>:last-child>:last-child>*{border-bottom-width:0}
+table.frame-none>*>tr>:first-child,table.frame-ends>*>tr>:first-child{border-left-width:0}
+table.frame-none>*>tr>:last-child,table.frame-ends>*>tr>:last-child{border-right-width:0}
+table.stripes-all>*>tr,table.stripes-odd>*>tr:nth-of-type(odd),table.stripes-even>*>tr:nth-of-type(even),table.stripes-hover>*>tr:hover{background:#f8f8f7}
+th.halign-left,td.halign-left{text-align:left}
+th.halign-right,td.halign-right{text-align:right}
+th.halign-center,td.halign-center{text-align:center}
+th.valign-top,td.valign-top{vertical-align:top}
+th.valign-bottom,td.valign-bottom{vertical-align:bottom}
+th.valign-middle,td.valign-middle{vertical-align:middle}
+table thead th,table tfoot th{font-weight:bold}
+tbody tr th{background:#f7f8f7}
+tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
+p.tableblock>code:only-child{background:none;padding:0}
+p.tableblock{font-size:1em}
+ol{margin-left:1.75em}
+ul li ol{margin-left:1.5em}
+dl dd{margin-left:1.125em}
+dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
+li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
+ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
+ul.unstyled,ol.unstyled{margin-left:0}
+li>p:empty:only-child::before{content:"";display:inline-block}
+ul.checklist>li>p:first-child{margin-left:-1em}
+ul.checklist>li>p:first-child>.fa-square-o:first-child,ul.checklist>li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
+ul.checklist>li>p:first-child>input[type=checkbox]:first-child{margin-right:.25em}
+ul.inline{display:flex;flex-flow:row wrap;list-style:none;margin:0 0 .625em -1.25em}
+ul.inline>li{margin-left:1.25em}
+.unstyled dl dt{font-weight:400;font-style:normal}
+ol.arabic{list-style-type:decimal}
+ol.decimal{list-style-type:decimal-leading-zero}
+ol.loweralpha{list-style-type:lower-alpha}
+ol.upperalpha{list-style-type:upper-alpha}
+ol.lowerroman{list-style-type:lower-roman}
+ol.upperroman{list-style-type:upper-roman}
+ol.lowergreek{list-style-type:lower-greek}
+.hdlist>table,.colist>table{border:0;background:none}
+.hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
+td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
+td.hdlist1{font-weight:bold;padding-bottom:1.25em}
+td.hdlist2{word-wrap:anywhere}
+.literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
+.colist td:not([class]):first-child{padding:.4em .75em 0;line-height:1;vertical-align:top}
+.colist td:not([class]):first-child img{max-width:none}
+.colist td:not([class]):last-child{padding:.25em 0}
+.thumb,.th{line-height:0;display:inline-block;border:4px solid #fff;box-shadow:0 0 0 1px #ddd}
+.imageblock.left{margin:.25em .625em 1.25em 0}
+.imageblock.right{margin:.25em 0 1.25em .625em}
+.imageblock>.title{margin-bottom:0}
+.imageblock.thumb,.imageblock.th{border-width:6px}
+.imageblock.thumb>.title,.imageblock.th>.title{padding:0 .125em}
+.image.left,.image.right{margin-top:.25em;margin-bottom:.25em;display:inline-block;line-height:0}
+.image.left{margin-right:.625em}
+.image.right{margin-left:.625em}
+a.image{text-decoration:none;display:inline-block}
+a.image object{pointer-events:none}
+sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
+sup.footnote a,sup.footnoteref a{text-decoration:none}
+sup.footnote a:active,sup.footnoteref a:active,#footnotes .footnote a:first-of-type:active{text-decoration:underline}
+#footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
+#footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
+#footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
+#footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
+#footnotes .footnote:last-of-type{margin-bottom:0}
+#content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
+div.unbreakable{page-break-inside:avoid}
+.big{font-size:larger}
+.small{font-size:smaller}
+.underline{text-decoration:underline}
+.overline{text-decoration:overline}
+.line-through{text-decoration:line-through}
+.aqua{color:#00bfbf}
+.aqua-background{background:#00fafa}
+.black{color:#000}
+.black-background{background:#000}
+.blue{color:#0000bf}
+.blue-background{background:#0000fa}
+.fuchsia{color:#bf00bf}
+.fuchsia-background{background:#fa00fa}
+.gray{color:#606060}
+.gray-background{background:#7d7d7d}
+.green{color:#006000}
+.green-background{background:#007d00}
+.lime{color:#00bf00}
+.lime-background{background:#00fa00}
+.maroon{color:#600000}
+.maroon-background{background:#7d0000}
+.navy{color:#000060}
+.navy-background{background:#00007d}
+.olive{color:#606000}
+.olive-background{background:#7d7d00}
+.purple{color:#600060}
+.purple-background{background:#7d007d}
+.red{color:#bf0000}
+.red-background{background:#fa0000}
+.silver{color:#909090}
+.silver-background{background:#bcbcbc}
+.teal{color:#006060}
+.teal-background{background:#007d7d}
+.white{color:#bfbfbf}
+.white-background{background:#fafafa}
+.yellow{color:#bfbf00}
+.yellow-background{background:#fafa00}
+span.icon>.fa{cursor:default}
+a span.icon>.fa{cursor:inherit}
+.admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
+.admonitionblock td.icon .icon-note::before{content:"\f05a";color:#19407c}
+.admonitionblock td.icon .icon-tip::before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
+.admonitionblock td.icon .icon-warning::before{content:"\f071";color:#bf6900}
+.admonitionblock td.icon .icon-caution::before{content:"\f06d";color:#bf3400}
+.admonitionblock td.icon .icon-important::before{content:"\f06a";color:#bf0000}
+.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);border-radius:50%;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value] *{color:#fff!important}
+.conum[data-value]+b{display:none}
+.conum[data-value]::after{content:attr(data-value)}
+pre .conum[data-value]{position:relative;top:-.125em}
+b.conum *{color:inherit!important}
+.conum:not([data-value]):empty{display:none}
+dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
+h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
+p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
+p,blockquote,dt,td.content,td.hdlist1,span.alt,summary{font-size:1.0625rem}
+p{margin-bottom:1.25rem}
+.sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
+.exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
+.print-only{display:none!important}
+@page{margin:1.25cm .75cm}
+@media print{*{box-shadow:none!important;text-shadow:none!important}
+html{font-size:80%}
+a{color:inherit!important;text-decoration:underline!important}
+a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
+a[href^="http:"]:not(.bare)::after,a[href^="https:"]:not(.bare)::after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
+abbr[title]{border-bottom:1px dotted}
+abbr[title]::after{content:" (" attr(title) ")"}
+pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
+thead{display:table-header-group}
+svg{max-width:100%}
+p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
+h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
+#header,#content,#footnotes,#footer{max-width:none}
+#toc,.sidebarblock,.exampleblock>.content{background:none!important}
+#toc{border-bottom:1px solid #dddddf!important;padding-bottom:0!important}
+body.book #header{text-align:center}
+body.book #header>h1:first-child{border:0!important;margin:2.5em 0 1em}
+body.book #header .details{border:0!important;display:block;padding:0!important}
+body.book #header .details span:first-child{margin-left:0!important}
+body.book #header .details br{display:block}
+body.book #header .details br+span::before{content:none!important}
+body.book #toc{border:0!important;text-align:left!important;padding:0!important;margin:0!important}
+body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-break-before:always}
+.listingblock code[data-lang]::before{display:block}
+#footer{padding:0 .9375em}
+.hide-on-print{display:none!important}
+.print-only{display:block!important}
+.hide-for-print{display:none!important}
+.show-for-print{display:inherit!important}}
+@media amzn-kf8,print{#header>h1:first-child{margin-top:1.25rem}
+.sect1{padding:0!important}
+.sect1+.sect1{border:0}
+#footer{background:none}
+#footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
+@media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="book">
+<div id="header">
+<h1>Blind Sight</h1>
+<div class="details">
+<span id="author" class="author">Glen Goerwell</span><br>
+<span id="revnumber"> ,</span>
+<span id="revdate"></span>
+</div>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p><em>There had been others in the darkness, but now they were gone, even memory fled.</em></p>
+</div>
+<div class="paragraph">
+<p>I was alone. And the world was cold.
+The first thing that I feel isn&#8217;t the aching pain in my bones or the metallic taste of blood in my mouth, but the cold rain falling on my skin. My eyes won&#8217;t open, maybe they can&#8217;t. The thought should terrify me, yet I feel nothing but a bitter resignation as my body finally moves. Fingers grip through dirt and ash? Why would there be ash? Yet the texture could be nothing else. How I know that eludes me though.</p>
+</div>
+<div class="paragraph">
+<p><em>Brother.</em> The word forms slowly to me as I struggle to understand it. I need to find my brother.</p>
+</div>
+<div class="paragraph">
+<p>The rain pours down harder, washing over me like a stream as I struggle to stand up once, twice, three times before the ground underneath stops giving way. A shiver runs through my body as I run my hands over my naked form. I need to get out of this rain before I freeze to death.</p>
+</div>
+<div class="paragraph">
+<p>Death. I can die. Another concept I clutch at before it slips away.</p>
+</div>
+<div class="paragraph">
+<p>Swinging my hands out from side to side in a wide arc, I slowly stumble forward until I reach a road towards&#8230;&#8203;I don&#8217;t know. It is easier to walk here.</p>
+</div>
+<div class="paragraph">
+<p>A flash of light pierces through my closed eyes before the crack of thunder follows after it. Who am I? Am I a fool, stumbling blindly like this? I must be.</p>
+</div>
+<div class="paragraph">
+<p>The sound of footsteps behind me, splashing into puddles of water, grows close. So fast&#8230;&#8203; they are running right at me. After all my hard work just to stand, I can&#8217;t just stay here and let myself be run over. My legs coil and I jump to the side, sliding through the dirt into a hard piece of wood as a great gust of wind cuts through just where I stood.</p>
+</div>
+<div class="paragraph">
+<p>I still can&#8217;t open my eyes. My body clambers upright, hands grasping desperately for something, anything. The wood turns out to be the start of a wall; I hobble forward, palms running across it. I need to find a doorway, or some other place to hide. Why I need to, I don&#8217;t question. All I have right now is my instinct. I can die.</p>
+</div>
+<div class="paragraph">
+<p>So I keep moving, pushing my hand against the wall, hoping for a way into the building. In the distance, I can hear a great howling screech that almost forces me to my knees. Resist! A wisp of memory before it slips away. I didn&#8217;t give in before&#8230;&#8203; I won&#8217;t give in to this either. What did I struggle against for so long?</p>
+</div>
+<div class="paragraph">
+<p>Keep moving, keep moving, the thought echoes as my feet dig into the earth, and I finally feel my hand push against nothing but empty air. I tumble over into the dry&#8230;&#8203;house? Shop? Does it matter?</p>
+</div>
+<div class="paragraph">
+<p>No, I suppose it doesn&#8217;t. I crawl over the dusty floor until my hands find themselves gripping on to another wood. I used to know what kind of wood before&#8230;&#8203;I don&#8217;t remember. I shake off the water on my body. My hair is still damp, but the rain is no longer pounding against my skin.</p>
+</div>
+<div class="paragraph">
+<p>One tentative step, then another, on to the hardwood floor, my hand still reaching out in front of me. The storm outside seems to get worse as I find myself at another entrance.</p>
+</div>
+<div class="paragraph">
+<p>A soft clicking sound echoes behind me&#8230;&#8203; no time to think about where to go now. I quickly move through the new entrance and slide my body against the wall, feeling the paper and wood underneath me. A fusuma wall thankfully&#8230;&#8203; I decide to ignore how I know the difference between a fusuma wall or a shōji wall for now. I had known things, before, and while I had forgotten so much, I could remember little things that seem so small now. My brother had laughed&#8230;&#8203; <em>Brother</em>&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>The clicking grows louder and louder, like sharp fingernails snapping together to make noise, but no normal fingernails can make that sound. No. It is more&#8230;&#8203;insectoid. As the noise nears me, my body begins to shake, the air hanging thick with the scent of offal and terror. Even without my eyes, my whole being screams at me. It is hunting me. I bite my tongue to force myself to focus. I need to be calm; I need to focus. If it finds me, I&#8217;m dead.</p>
+</div>
+<div class="paragraph">
+<p>I don&#8217;t want to die.</p>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="paragraph">
+<p>The creature&#8201;&#8212;&#8201;I can&#8217;t think of it as a person anymore, not when it is hunting me like an animal&#8201;&#8212;&#8201;moves near the entrance to where I&#8217;m hiding. It stops for a moment as the sound of footsteps causes us both to pause.</p>
+</div>
+<div class="paragraph">
+<p>There&#8217;s a scream, not the cry of the creature hunting me but an all too haunting scream. I remember a scream&#8230;&#8203; and being hunted. No, this is not like the one I remember, the sound is right but the tone is off, someone like the one who had screamed. I hear a man shout out a curse and the sound of&#8230;&#8203; metal? Yes, metal, cutting through flesh. The creature moves past me, a solid clicking of claws on wood as it runs towards the shouting.</p>
+</div>
+<div class="paragraph">
+<p>I stay in place. What else can I do? I can&#8217;t save those people. I&#8217;m not even sure I want to save the man.</p>
+</div>
+<div class="paragraph">
+<p>It is now the man&#8217;s turn to scream in terror as a loud tearing sound shakes the building. A jaw wrapping around a torso and tearing it open, the picture forms behind my eyes.</p>
+</div>
+<div class="paragraph">
+<p>Yet my eyes refuse to open. Is it because I don&#8217;t want to see? Or because I can&#8217;t? The answer still brings nothing but resigned bitterness. Bitterness is better than the taste of blood in my mouth or the way my heart beats so fast when the creature is near. I hear the faint sound of chewing through the building as the man&#8230;&#8203;and woman too, maybe&#8230;&#8203; are slowly devoured by the creature.</p>
+</div>
+<div class="paragraph">
+<p>I can&#8217;t say how long I am standing there huddling against the fusuma wall, hoping it covers me from sight&#8230;&#8203;and hoping that the creature would be satisfied with those two people.</p>
+</div>
+<div class="paragraph">
+<p>Not a fool. A coward is what I am, but better to be a living coward than a dead hero.</p>
+</div>
+<div class="paragraph">
+<p>It is hours, or maybe just minutes, before I hear that terrible sound of claw on claw coming towards me, feel the wood beneath me cry out in pain as something foul poisons it with each step it takes.</p>
+</div>
+<div class="paragraph">
+<p>The creature stops again at the entrance to where I hide. It lets out a primal scream like a titanic spider hissing out a challenge and tiger roaring. How I know what either of those sound like eludes me.</p>
+</div>
+<div class="paragraph">
+<p>A scream wells up in my throat. I know why the creature did what it did: to force me to answer, and I want to answer, to scream back, to try and make it scared of me. Yet nothing I could say or do will scare it, it is just&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>My hands curl into themselves. I stop my breathing. No movement. Nothing. I cannot give anything away. If it finds even a hair of me, I die. If I give in to my fear, I die. Fear is death&#8230;&#8203; so I will not be afraid.</p>
+</div>
+<div class="paragraph">
+<p>I lie to myself that I am not afraid, that I am simply huddling against the wall because I enjoy it and the way the paint feels against my body. I am not afraid. I will believe my own lie, my own mask. I am calm. I control this.</p>
+</div>
+<div class="paragraph">
+<p>I am not afraid.</p>
+</div>
+<div class="paragraph">
+<p>A click as one ragged claw presses against the wall, the sound of cloth and paper tearing as it moves down, from above then towards me. It takes all my courage to not just run then and there. I have to wait; I have to be patient. Running is how He got me.</p>
+</div>
+<div class="paragraph">
+<p><em>He</em>. There was a hunter. Another memory.</p>
+</div>
+<div class="paragraph">
+<p>Whatever this creature is, it does not compare. Still holding my breath, I bend, knees down, ducking just below where the claw would have hit my head. A pause as the creature does&#8230;&#8203; something. I cannot tell what before letting out a hiss of irritation and skittering away.</p>
+</div>
+<div class="paragraph">
+<p>One moment passes, then two, then three&#8230;&#8203; many pass before I can let myself truly relax, as the creature&#8217;s screams mingle with the thunder. Standing up, I place my hand against the wall and begin moving towards where I had heard the man and woman.</p>
+</div>
+<div class="paragraph">
+<p>I still need clothes.</p>
+</div>
+<hr>
+<div style="page-break-after: always;"></div>
+<div class="paragraph">
+<p>The man&#8217;s clothes are scraps of fabric. The woman&#8217;s clothes are not, but they&#8217;re covered in the blood from her wound. The blood is starting to dry, but I can still smell it, feel the slight wetness against my skin as I fumble my way through putting on the woman&#8217;s kimono.</p>
+</div>
+<div class="paragraph">
+<p>I need to go back into the rain and try to wash this off. The smell of blood will surely give me away. Yet, that defeats the whole purpose of getting dressed. Cold wet clothes are not really an improvement on being cold, wet, and naked. My hand reaches down to see if there is a weapon, anything with which to fight. They close around a sharpened blade of metal. A sword, dim memories name it. It hadn&#8217;t done him any good, but the long straight blade feels natural enough in my hands. My other hand finds the sheath. I begun using it as a cane to explore deeper into this building. It is larger than I had initially assumed.</p>
+</div>
+<div class="paragraph">
+<p>I need to find my brother. I don&#8217;t think he is here, but surely something in this place will give me clues, or at least a guide. Deeper and deeper I go, into seemingly endless rooms, the sheath of the sword I use to guide my way knocking over items that stand in my path. I twitch at each sound.</p>
+</div>
+<div class="paragraph">
+<p>The scent of death wafts down from above as I climb the stairs. I am sure now that no one living is in this place, yet I search all the same, looking for&#8230;&#8203; I don&#8217;t know, something. It dances on the edge of my mind. How much have I forgotten? How much did I never know in the first place? Answers for both questions are lacking. The sheath pushes into something soft that gives way beneath it. I can hear a liquid run down the stairs. I push the sword sheath forward, around it. A body.</p>
+</div>
+<div class="paragraph">
+<p>A scream shocks me out of my haze. I clamber over the body onto the next floor. It is coming again, the creature, and I still can&#8217;t see. Why has it come back? For food? No&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>Heavy steps from below, so loud, A giant crushing the world to reach you&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p><em>Afraid</em></p>
+</div>
+<div class="paragraph">
+<p>I remember how I had hid, that primal scream that had made me want to run, to do anything to escape. I remember how I had forced that fear away so that I didn&#8217;t do anything foolish. How I had lied to myself about my fear so much that I believed it.</p>
+</div>
+<div class="paragraph">
+<p>The screams of the man and woman, the terror. What if?</p>
+</div>
+<div class="paragraph">
+<p>Maybe it feeds on fear rather than flesh. Maybe the reason why I can&#8217;t open my eyes is because to open them is to feel that fear. My body and spirit protect me even as my mind denies me my memories.</p>
+</div>
+<div class="paragraph">
+<p>I ready this sword and stand against the side of the wall. Fear is a primal thing. It&#8217;s neither bad nor good, it simply exists: a culmination of sense and instinct coming together to tell you that you are in danger, that death is near. In that sense, everyone must be at least a little afraid at all times, even if they don&#8217;t want to admit it. How do you stay alive without it?</p>
+</div>
+<div class="paragraph">
+<p>If you aren&#8217;t afraid of the fire burning you, you&#8217;d lose your hand. Fear of the water will keep you from drowning. If you aren&#8217;t a little afraid of the sky, lightning can and will smite you. Outside, the thunder rolled again.</p>
+</div>
+<div class="paragraph">
+<p>Fear is natural&#8230;&#8203; Yet I cannot afford to feel it.</p>
+</div>
+<div class="paragraph">
+<p>So I breathe, I listen. I tell my heart to stop beating, tell my senses that I am not hearing a monster coming to devour my precious eyes.</p>
+</div>
+<div class="paragraph">
+<p>This is not a monster. I am hearing&#8230;&#8203; an old woman bent with age clamouring about because she can&#8217;t see. I am really hearing her curse and stumble as she smashes her little cane against the wood.</p>
+</div>
+<div class="paragraph">
+<p>I am not hearing a monster.</p>
+</div>
+<div class="paragraph">
+<p>To be a good liar, you have to be able to believe the lies you tell. You have to be certain that what you are saying is true. What is real is unimportant. You must believe.</p>
+</div>
+<div class="paragraph">
+<p>I am a very good liar.</p>
+</div>
+<div class="paragraph">
+<p>The old woman hammers her cane climbing up the stairs. My lie becomes more
+elaborate with each step she takes. That she is from a small town in the north. She has never seen a tiger. More and more layers of illusion and deceit.</p>
+</div>
+<div class="paragraph">
+<p>The final step in front of me. I can feel it&#8217;s drool&#8230;&#8203;No! Her drool! HER DROOL! Falling on my face as she looms over me.</p>
+</div>
+<div class="paragraph">
+<p>I stab upwards, I murder the old woman because&#8230;&#8203; because&#8230;&#8203; why would I murder an old woman?</p>
+</div>
+<div class="paragraph">
+<p>My web of illusions comes crashing down as the lack of a reason to strike tears through it. I can hear the screams; it will eat me. It isn&#8217;t enough. It isn&#8217;t enough, it isn&#8217;t enough. It isn&#8217;t enough.</p>
+</div>
+<div class="paragraph">
+<p>It isn&#8217;t&#8230;&#8203; NO&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>It is enough.</p>
+</div>
+<div class="paragraph">
+<p>It has to be.</p>
+</div>
+<div class="paragraph">
+<p>Why do I murder this old woman? Because I feel like it. That&#8217;s who I am. A villain, a liar, a trickster and now a murderer.</p>
+</div>
+<div class="paragraph">
+<p>I&#8217;m fine with that.</p>
+</div>
+<div class="paragraph">
+<p>I rip the sword upwards towards the ceiling, the old woman screaming in a pitch no human can scream. But humans are capable of surprising things when they die. The steel feels good in my hands as I slash at her again, again and again.</p>
+</div>
+<div class="paragraph">
+<p>How many times does that sword pierce the old woman&#8217;s flesh? How many times
+do I cut down a defenseless old woman in cold blood? I can&#8217;t say, I don&#8217;t know. But finally the steel of the blade bends, useless now as the screams cease.</p>
+</div>
+<div class="paragraph">
+<p>My heart thunders in my ears. My lungs scream in protest at how fast I&#8217;m breathing, at the effort I gave to my murder. Legs collapse under me. I finally hear nothing but the rain against the roof. The silence is the sweetest music I know.</p>
+</div>
+<div class="paragraph">
+<p>I open my eyes. I first look up at the ceiling, not wanting to dare to look down. I can see the wooden tresses running along the hallway in a grid with little pictures of flowers in each box. Wisteria, red camellias, and primroses, it is all so pretty that I can feel my guard dropping.</p>
+</div>
+<div class="paragraph">
+<p>My gaze drifts down, expecting to find a monster.</p>
+</div>
+<div class="paragraph">
+<p>All I see is an old woman, hacked to pieces. Only her face is still intact, locked in a silent scream.</p>
+</div>
+<hr>
+<div class="paragraph">
+<p>She didn&#8217;t like this place, this town so far from the main roads. But she had remembered a brother&#8230;&#8203; she was sure it was a brother. Another like her. And people here saw something strange in this place. She had to look. It hurt to remember, sometimes. But they were hers to take care of and she had to find them. What were their names?</p>
+</div>
+<div class="paragraph">
+<p>Was the name she had been given truly her own?</p>
+</div>
+<div class="paragraph">
+<p>The town had an evil air about it, and she felt uneasy as she travelled through the open town gates. All around her were the ruins of a town gone mad. Someone had moved the bodies.</p>
+</div>
+<div class="paragraph">
+<p>So someone was here, fixing things, albeit slowly.</p>
+</div>
+<div class="paragraph">
+<p>Drawing up her courage, she shouted, her voice echoing through the empty town.</p>
+</div>
+<div class="paragraph">
+<p>"IS ANYONE HERE?"</p>
+</div>
+<div class="paragraph">
+<p>Minutes passed. She began to worry that the town&#8217;s last caretaker had just left after he moved the bodies. But then, out of the shadows, a handsome man appeared before her. His dark green eyes searched hers as his toned form rested on the balls of his feet, considering. He was wearing a woman&#8217;s clothing covered in blood, but it seemed impolite to ask about it. A puzzle. She raised a hand.</p>
+</div>
+<div class="paragraph">
+<p>There was a spark, something she had known once before, when she had met another of her brothers. It tingled in her core, recognition and&#8230;&#8203; something else. The kisses of the sun. This man was one of her siblings. She knew it.</p>
+</div>
+<div class="paragraph">
+<p>The man gave a wry smile.</p>
+</div>
+<div class="paragraph">
+<p>"Well, to what do I owe the pleasure?" he asks.</p>
+</div>
+<div class="paragraph">
+<p>"I&#8230;&#8203; I am Dōji. I think you are my brother."</p>
+</div>
+<div class="paragraph">
+<p>"&#8230;&#8203;that right&#8230;&#8203;?" the man cocked his head towards the sun and shook himself.</p>
+</div>
+<div class="paragraph">
+<p>"Well, nice to meet you," he said.</p>
+</div>
+<div class="paragraph">
+<p>"Do you remember your name?" Dōji asked softly.</p>
+</div>
+<div class="paragraph">
+<p>"&#8230;&#8203;Bayushi, you can call me Bayushi." the man said.</p>
+</div>
+<div class="paragraph">
+<p>Dōji smiled, but found her heart troubled, Bayushi didn&#8217;t sound right for him at all, but she couldn&#8217;t claim he was wrong either. She couldn&#8217;t remember.</p>
+</div>
+<div class="paragraph">
+<p>"Do you know what happened here?" she asked instead.</p>
+</div>
+<div class="paragraph">
+<p>"Not really. Some sort of ritual, I think. Then a creature that feeds on fear. That is what I found&#8230;&#8203; was about to torch the place and leave." Bayushi said.</p>
+</div>
+<div class="paragraph">
+<p>"Feeds on fear?" She had never heard of such a thing, but there was so much she didn&#8217;t remember.</p>
+</div>
+<div class="paragraph">
+<p>"Yes." His voice was certain. "Fortunately it was dead before I arrived. But nothing good can come of this place."</p>
+</div>
+<div class="paragraph">
+<p>Dōji suppressed a frown. He was hiding something but she didn&#8217;t know what.
+"Well&#8230;&#8203;if you&#8217;re leaving, maybe you would like to come back with me?" she asked instead.</p>
+</div>
+<div class="paragraph">
+<p>She could figure out Bayushi&#8217;s secrets some other time.</p>
+</div>
+<div class="paragraph">
+<p>"Sure. Just a moment." Bayushi reached behind him and tossed something onto the buildings. They began going up in flames.</p>
+</div>
+<div class="paragraph">
+<p>"Lead on, dear sister."</p>
+</div>
+<div class="paragraph">
+<p>The flames flickered and smoke curled into the sky, but the pair left the town behind them, and Dōji never saw the sign that gave its name. 'Bayushi Mura'</p>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+ <br>
+Last updated 2025-06-19 18:11:50 UTC
+</div>
+</div>
+</body>
+</html>
