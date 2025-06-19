@@ -32,7 +32,7 @@ class RenderStoryTask extends AsciidoctorTask {
         outputDir = new File("./build/")
         outputOptions {
             separateOutputDirs = false
-            backends 'pdf', 'html'
+            backends 'pdf' // , 'html'
         }
 
         attributes = [
