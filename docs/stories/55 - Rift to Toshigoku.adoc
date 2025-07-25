@@ -29,12 +29,12 @@ Still no emotion. "I sent you to spy on The Pact, to discover if they have been 
 
 Reina twitched again, but said nothing. _If Hifumi truly thought I had betrayed him, then I wouldn't be standing here today. But I should have been here._
 
-_You were not here. You ran. The rebels are looking for *you*. They want to *stop *you – they attack out of desperation. They know you are right._
+_You were not here. You ran. The rebels are looking for *you*. They want to *stop* you – they attack out of desperation. They know you are right._
 
 
 Hifumi laid a hand on the pile of documents and charts Reina had presented.
 
-"This document. This thing you describe. This ‘Rift to Tōshigoku?' Tell me of it." Hifumi flicked his fingers again through the pages, but it was clear he did not need to read it again.
+"This document. This thing you describe. This 'Rift to Tōshigoku?' Tell me of it." Hifumi flicked his fingers again through the pages, but it was clear he did not need to read it again.
 
 "I needed the knowledge. And I now have it." Reina laughed. "And now...now you have it too."
 
@@ -48,7 +48,7 @@ Reina said nothing, feeling the crawling insects again infect the room with thei
 
 "Perhaps." The Phoenix leader's voice was cold. "Tell me of Kaito Urabe."
 
-_Urabe. I remember Kaito Urabe. He was the one who showed me the *path*_.
+_Urabe. I remember Kaito Urabe. He was the one who showed me the **path**_.
 
 '''
 
@@ -104,10 +104,7 @@ Her conscience reproached her; she pushed it down with practiced ease.
 
 Urabe succumbed to the praise before he succumbed to Reina's katana. There was no snow on the plains, and yet the air was cold.
 
-
-
-—
-
+'''
 
 Later, much later, Reina unfurled Urabe's dreaded painting. It consisted of a series of tall mountains, towering over the rest of Sanctuary. Urabe named the tallest mountain "Eagle's Rest Peak".
 
@@ -204,7 +201,7 @@ The flames flickered. "You must act. The world burns around you."
 
 _Was that me, or the fire?_
 
-The flames vomited out a black book. Reina grabbed it with both her hands. On it was one word -- _Onyx. _She hesitantly opened the book, and started reading, not feeling the sweat that poured down her forehead, the fires that flickered around her.
+The flames vomited out a black book. Reina grabbed it with both her hands. On it was one word -- _Onyx_.She hesitantly opened the book, and started reading, not feeling the sweat that poured down her forehead, the fires that flickered around her.
 
 _Onyx_ seemed merely a beautiful artbook with printed words, beginning with timeless paintings of the very creation of _a_ Celestial Order, then the origin of all the things of the Empire. Humans and spirits, the divine and the mundane. Everything. They were beautiful, with no past and no future -- just an endless present.
 
@@ -212,9 +209,9 @@ _Is this real? Illusion? Is there a difference?_
 
 These paintings. This was the reality of the world. Everything else was merely scenery in an elaborate art gallery. Humans? An audience that the paintings are poured out for, in a world that mutilates itself in its performance, over and over again.
 
-There, the Empire burns with the forces of Jigoku, a scene applauded by the Elemental Dragons. But then, burned to ashes, and then revived. Empires built anew, ever changing, ever open to wounds, to defeat. An Onyx Empire in the ashes of Otosan Uchi. Another generation of grist for Tōshigoku's mill.
+There, the Empire burns with the forces of Jigoku, a scene applauded by the Elemental Dragons. But then, burned to ashes, and then revived. Empires built anew, ever-changing, ever open to wounds, to defeat. An Onyx Empire in the ashes of Otosan Uchi. Another generation of grist for Tōshigoku's mill.
 
- Her own empire, damned from its moment of creation. Humans, a mere byproduct of reality, transient things to be used, abused, and tossed aside. Human nature is real. Humans are not.
+Her own empire, damned from its moment of creation. Humans, a mere byproduct of reality, transient things to be used, abused, and tossed aside. Human nature is real. Humans are not.
 
 Reina did not want to know more. _How many Celestial Orders are there?_ Her loyalty lay to her own order, even if it, too, was no more than an illusion.
 
@@ -235,8 +232,7 @@ All she needed was an Ishiken.
 
 _I can save countless lives. Even my own._
 
-—-
-
+'''
 
 When she was finished, Reina threw _Onyx_ back into the flames. It was eagerly consumed.
 
@@ -253,9 +249,7 @@ She awoke in darkness.
 
 And too much light.
 
-
-—-
-
+'''
 
 Isawa Hifumi frowned, flipping one page of the book of scattered pages in front of him. "You painted this?"
 
@@ -287,7 +281,7 @@ And maybe she had done worse.
 
 "You are mad." He made a gesture towards the silently watching Shiba Akane, who summoned three guards from the hallway. "Do not fear. You will be spared for your crimes, in order to be studied. But you will not be allowed to go free."
 
- The guards caught Asako Reina up by the elbows before dragging her from the room. She did not resist. But she screamed and sobbed as they pulled her away, pleading for Hifumi to listen.
+The guards caught Asako Reina up by the elbows before dragging her from the room. She did not resist. But she screamed and sobbed as they pulled her away, pleading for Hifumi to listen.
 
 He sighed deeply.
 
