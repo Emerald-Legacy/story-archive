@@ -15,6 +15,9 @@ repositories {
 
 asciidoctorj {
     setVersion("3.0.0")
+    modules {
+        pdf.setVersion("2.3.19")
+    }
 }
 
 abstract class RenderStoryTask @Inject constructor(
