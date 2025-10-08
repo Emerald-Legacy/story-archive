@@ -39,8 +39,8 @@ abstract class RenderStoryTask @Inject constructor(
                 "version-label" to "",
                 "language" to "EN",
                 "imagesdir" to "images",
-                "pdf-themesdir" to "../pdf-theme/themes",
-                "pdf-fontsdir" to "../pdf-theme/fonts",
+                "pdf-themesdir" to "pdf-theme/themes",
+                "pdf-fontsdir" to "pdf-theme/fonts",
                 "pdf-theme" to "el"
             )
         )
