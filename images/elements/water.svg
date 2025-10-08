@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   height="1000"
+   width="1000"
+   sodipodi:docname="water.svg"
+   version="1.1"
+   id="svg481"
+   viewBox="0 0 1000 1000"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="539.5"
+     inkscape:cy="453"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:window-width="1918"
+     inkscape:window-height="2054"
+     inkscape:window-x="1910"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     showborder="true"
+     inkscape:showpageshadow="false"
+     inkscape:pagecheckerboard="0">
+    <sodipodi:guide
+       id="guide_baseline"
+       inkscape:label="baseline"
+       position="0,253"
+       orientation="0,1" />
+    <sodipodi:guide
+       id="guide_ascender"
+       inkscape:label="ascender"
+       position="0,945"
+       orientation="0,1" />
+    <sodipodi:guide
+       id="guide_caps"
+       inkscape:label="caps"
+       position="0,896"
+       orientation="0,1" />
+    <sodipodi:guide
+       id="guide_xheight"
+       inkscape:label="xheight"
+       position="0,729"
+       orientation="0,1" />
+    <sodipodi:guide
+       id="guide_descender"
+       inkscape:label="descender"
+       position="0,28"
+       orientation="0,1" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath497">
+      <path
+         d="M 0,144 H 144 V 0 H 0 Z"
+         id="path495" />
+    </clipPath>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       id="g493"
+       clip-path="url(#clipPath497)"
+       transform="matrix(7.7632772,0,0,-7.7632772,-60.61339,1055.4938)">
+      <g
+         id="g499"
+         transform="translate(74.7861,26.1143)">
+        <path
+           d="M 0,0 C 16.452,4.646 23.952,12.004 17.613,27.439 25.646,18.049 24.291,2.903 0,0 m -18.223,8.697 c -1.202,-0.343 -3.1,0.858 -4.238,2.683 -1.139,1.826 -1.087,3.586 0.115,3.93 1.202,0.344 3.1,-0.857 4.239,-2.683 1.138,-1.825 1.086,-3.585 -0.116,-3.93 m -2.714,11.093 c 0.762,0.389 1.695,0.087 2.084,-0.674 0.39,-0.762 0.088,-1.695 -0.674,-2.085 -0.762,-0.388 -1.695,-0.087 -2.084,0.674 -0.389,0.762 -0.088,1.695 0.674,2.085 M 17.727,29.936 C 3,41.07 2.135,42.036 1.855,59.355 -0.833,49.391 -3.179,38.451 4.823,31.484 8.371,28.71 -1.241,21.807 -6.274,34.193 -11.288,48 10.5,57.032 -1.433,95.161 -1.401,87.569 -1.611,79.993 -3.822,72.903 -10.526,53.935 -27.799,33.191 -27.473,18.048 c -0.001,-0.073 -0.008,-0.138 -0.008,-0.213 0,-10.563 11.23,-19.125 25.082,-19.125 24.416,-0.888 32.641,20.354 20.126,31.226"
+           style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path501" />
+      </g>
+      <g
+         id="g503"
+         transform="translate(72.1392,20.5723)">
+        <path
+           d="m 0,0 c -28.224,0 -51.186,22.962 -51.186,51.186 0,28.224 22.962,51.186 51.186,51.186 28.223,0 51.185,-22.962 51.185,-51.186 C 51.185,22.962 28.223,0 0,0 m 0,112.372 c -33.738,0 -61.186,-27.448 -61.186,-61.186 C -61.186,17.448 -33.738,-10 0,-10 c 33.738,0 61.185,27.448 61.185,61.186 0,33.738 -27.447,61.186 -61.185,61.186"
+           style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path505" />
+      </g>
+    </g>
+  </g>
+</svg>
