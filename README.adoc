@@ -86,11 +86,31 @@ Render the document from time to time to see if you like the changes you made.
 
 == How to build the documents
 
-Prerequisite: You need a Java Runtime(tm) installed.
+Prerequisites:
+- Ruby 3.0 or higher
+- Bundler gem (`gem install bundler`)
 
-You build the output documents with gradle. That will produce both pdf and html. The Gradle Wrapper is included in this repository and will download the required version of Gradle on the first run.
+You build the output documents with Rake. That will produce both PDF and HTML files.
 
-`./gradlew renderStories`
+First, install the dependencies:
+
+`bundle install`
+
+Then build all stories:
+
+`bundle exec rake build`
+
+Or clean and rebuild:
+
+`bundle exec rake clean build`
+
+Available Rake tasks:
+- `rake build` - Build all story files (index, stories, and chapter parts)
+- `rake render_stories` - Render all story files to PDF and HTML
+- `rake render_chapter_parts` - Render all chapter part files to PDF and HTML
+- `rake render_index` - Render the index file to PDF and HTML
+- `rake clean` - Remove generated HTML and PDF files
+- `rake clobber` - Remove the entire build directory
 
 == Maintainers
 
