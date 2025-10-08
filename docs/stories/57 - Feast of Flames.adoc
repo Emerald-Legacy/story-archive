@@ -69,3 +69,7 @@ She turned and began to run at the charging horde, their spear in her hands. As 
 Years later, the Empress's flower garden sits at the spot where Hinotama fell to save them all. Blue kosenjōbi flames light the paths, memories of the fighting that has long since ended. They produce no heat and no smoke, just a serene blue glow.
 
 Years later, a fire tensai comes to the garden, clutching prayer beads in his hand. A tattoo of the symbol for fire covers a burn scar on his right shoulder. He wraps the beads around a branch of a maple tree and sheds a solitary tear.
+
+{empty} +
+
+image::elements/fire.svg[fire element symbol,200,200,align="center"]
