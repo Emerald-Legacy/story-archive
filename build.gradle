@@ -1,11 +1,11 @@
 import org.asciidoctor.gradle.jvm.AsciidoctorTask
-import java.text.SimpleDateFormat
 
 plugins {
-    id "org.asciidoctor.jvm.base" version "4.0.4"
-    id "org.asciidoctor.jvm.convert" version "4.0.4"
-    id "org.asciidoctor.jvm.pdf" version "4.0.4"
+    id 'org.asciidoctor.jvm.base' version '4.0.4'
+    id 'org.asciidoctor.jvm.convert' version '4.0.4'
+    id 'org.asciidoctor.jvm.pdf' version '4.0.4'
 }
+
 repositories {
     mavenCentral()
 }
@@ -14,58 +14,63 @@ asciidoctorj {
     version = '2.5.12'
 }
 
-class RenderStoryTask extends AsciidoctorTask {
+abstract class RenderStoryTask extends AsciidoctorTask {
+
     @Inject
-    RenderStoryTask(WorkerExecutor we, String fileName) {
+    RenderStoryTask(WorkerExecutor we) {
         super(we)
 
-        forkOptions {
-            jvmArgs "--add-opens", "java.base/sun.nio.ch=ALL-UNNAMED", "--add-opens", "java.base/java.io=ALL-UNNAMED"
-        }
+        sourceDir = new File('./docs/')
+        baseDir = new File('./docs/')
 
-        sourceDir = new File("./docs/")
-        baseDir = new File("./docs/")
-        sources {
-            include fileName
-        }
-
-        outputDir = new File("./build/")
+        outputDir = new File('./build/')
         outputOptions {
             separateOutputDirs = false
             backends 'pdf', 'html'
         }
 
-        attributes = [
-                'icons'        : 'font',
-                'revnumber'    : '',
-                'revdate'    : '',
-                'version-label': '',
-                'language'     : 'EN',
-                'imagesdir'    : 'images',
-                'pdf-themesdir': '../pdf-theme/themes',
-                'pdf-fontsdir' : '../pdf-theme/fonts',
-                'pdf-theme'    : 'el'
-        ]
+        attributes([
+            'icons'        : 'font',
+            'revnumber'    : '',
+            'revdate'      : '',
+            'version-label': '',
+            'language'     : 'EN',
+            'imagesdir'    : 'images',
+            'pdf-themesdir': '../pdf-theme/themes',
+            'pdf-fontsdir' : '../pdf-theme/fonts',
+            'pdf-theme'    : 'el'
+        ])
+    }
+}
+
+def renderStories = tasks.register('renderStories', RenderStoryTask) {
+    group = 'Stories'
+    description = 'Render all story files to PDF and HTML'
+    sources {
+        include 'stories/*.adoc'
+    }
+}
+
+def renderChapterParts = tasks.register('renderChapterParts', RenderStoryTask) {
+    group = 'Stories'
+    description = 'Render all chapter part files to PDF and HTML'
+    sources {
+        include 'stories/chapter_parts/*.adoc'
+    }
+}
+
+def renderIndex = tasks.register('renderIndex', RenderStoryTask) {
+    group = 'Stories'
+    description = 'Render the index file to PDF and HTML'
+    sources {
+        include 'index.adoc'
     }
 }
 
 tasks.register('buildStoryArchive') {
-    group 'Stories'
-    description 'Grouping task for generating all story files'
-    dependsOn "renderChapterParts", "renderStories", "renderIndex"
+    group = 'Stories'
+    description = 'Build all story files (index, stories, and chapter parts)'
+    dependsOn renderStories, renderChapterParts, renderIndex
 }
 
-task renderStories(type: RenderStoryTask,
-        constructorArgs: ["stories/*.adoc"]) {
-}
-
-task renderChapterParts(type: RenderStoryTask,
-        constructorArgs: ["stories/chapter_parts/*.adoc"]) {
-}
-
-task renderIndex(type: RenderStoryTask,
-        constructorArgs: ["index.adoc"]) {
-}
-
-
-defaultTasks "buildStoryArchive"
+defaultTasks 'buildStoryArchive'
