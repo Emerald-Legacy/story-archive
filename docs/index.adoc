@@ -63,3 +63,5 @@ This is an overview of all stories that have been released by Emerald Legacy.
 - link:pass:[stories/53 - Faith and Pain.pdf][53 - Faith and Pain]
 - link:pass:[stories/54 - Stones of White and Black.pdf][54 - Stones of White and Black]
 - link:pass:[stories/55 - Rift to Toshigoku.pdf][55 - Rift to Tōshigoku]
+- link:pass:[stories/56 - Whisper on the Wind.pdf][56 - Whisper on the Wind]
+- link:pass:[stories/57 - Feast of Flames.pdf][57 - Feast of Flames]
