@@ -7,7 +7,7 @@ require 'fileutils'
 
 # Configuration
 BASE_DIR = 'docs'
-SOURCE_DIR = 'stories'
+SOURCE_DIR = 'docs/stories'
 BUILD_DIR = 'build'
 PDF_THEME_DIR = 'pdf-theme/themes'
 PDF_FONTS_DIR = 'pdf-theme/fonts'
@@ -26,81 +26,74 @@ COMMON_ATTRIBUTES = {
 }.freeze
 
 # Clean tasks
-CLEAN.include("#{BUILD_DIR}/*.html", "#{BUILD_DIR}/*.pdf")
+CLEAN.include("#{BUILD_DIR}/**/*.{html,pdf}")
 CLOBBER.include(BUILD_DIR, "#{BASE_DIR}/**/build")
 
-# Helper method to convert a document to both HTML and PDF
-def convert_document(source_file, output_folder)
+# Convert a single document to both HTML and PDF
+def convert_document(source_file, output_dir)
+  source_dir = File.dirname(source_file)
+  absolute_output = File.expand_path(output_dir)
 
-  to_dir = output_folder + '/build'
-
-  # Convert to HTML
-  Asciidoctor.convert_file(
-    source_file,
-    safe: :unsafe,
-    backend: 'html5',
-    base_dir: BASE_DIR,
-    to_dir: to_dir,
-    mkdirs: true,
-    attributes: COMMON_ATTRIBUTES
-  )
-
-  # Convert to PDF
-  Asciidoctor.convert_file(
-    source_file,
-    safe: :unsafe,
-    backend: 'pdf',
-    base_dir: BASE_DIR,
-    to_dir: to_dir,
-    mkdirs: true,
-    attributes: COMMON_ATTRIBUTES
-  )
+  %w[html5 pdf].each do |backend|
+    Asciidoctor.convert_file(
+      source_file,
+      safe: :unsafe,
+      backend: backend,
+      base_dir: BASE_DIR,
+      to_dir: absolute_output,
+      mkdirs: true,
+      attributes: COMMON_ATTRIBUTES
+    )
+  end
 end
 
-# Helper to copy files from a specific source build dir to target dir
-def copy_files_to_build(source_pattern, target_dir)
-  FileUtils.mkdir_p(target_dir)
-  Dir.glob(source_pattern).each do |file|
-    FileUtils.cp_r(file, target_dir, verbose: true, preserve: true)
-  end
+# Copy files from source to destination and clean up source
+def copy_and_cleanup(source_dir, dest_dir)
+  FileUtils.mkdir_p(dest_dir)
+  FileUtils.cp_r("#{source_dir}/.", dest_dir)
+  FileUtils.rm_rf(source_dir)
 end
 
 # Task to render chapter parts (must run first so PDFs are available for stories)
 desc 'Render all chapter part files to PDF and HTML'
 task :render_chapter_parts do
-  chapter_dir = "#{BASE_DIR}/#{SOURCE_DIR}/chapter_parts"
-  chapter_asciidoc_dir = "#{SOURCE_DIR}/chapter_parts"
+  chapter_dir = "#{SOURCE_DIR}/chapter_parts"
+  build_dir = "#{chapter_dir}/build"
+
   Dir.glob("#{chapter_dir}/*.adoc").each do |chapter_file|
     puts "Converting #{chapter_file}..."
-    convert_document(chapter_file, chapter_asciidoc_dir)
+    convert_document(chapter_file, build_dir)
   end
-  puts "Copying chapter parts to #{BUILD_DIR}/stories/chapter_parts..."
-  copy_files_to_build("#{chapter_dir}/build/.", "#{BUILD_DIR}/stories/chapter_parts/")
+
+  copy_and_cleanup(build_dir, "#{BUILD_DIR}/stories/chapter_parts")
 end
 
 # Task to render all story files
 desc 'Render all story files to PDF and HTML'
 task :render_stories => :render_chapter_parts do
-  Dir.glob("#{BASE_DIR}/#{SOURCE_DIR}/*.adoc").each do |story_file|
+  build_dir = "#{SOURCE_DIR}/build"
+
+  Dir.glob("#{SOURCE_DIR}/*.adoc").each do |story_file|
     puts "Converting #{story_file}..."
-    convert_document(story_file, SOURCE_DIR)
+    convert_document(story_file, build_dir)
   end
-  puts "Copying stories to #{BUILD_DIR}/stories..."
-  copy_files_to_build("#{BASE_DIR}/#{SOURCE_DIR}/build/.", "#{BUILD_DIR}/stories/")
+
+  copy_and_cleanup(build_dir, "#{BUILD_DIR}/stories")
 end
 
 # Task to render index
 desc 'Render the index file to PDF and HTML'
 task :render_index => :render_stories do
   index_file = "#{BASE_DIR}/index.adoc"
+
   if File.exist?(index_file)
     puts "Converting #{index_file}..."
-    convert_document(index_file, ".")
+    build_dir = "#{BASE_DIR}/build"
+    convert_document(index_file, build_dir)
+    copy_and_cleanup(build_dir, BUILD_DIR)
   else
     puts "Warning: #{index_file} not found"
   end
-  puts "Copying index to #{BUILD_DIR}..."
-  copy_files_to_build("#{BASE_DIR}/build/.", "#{BUILD_DIR}/")
 end
 
 # Main build task
