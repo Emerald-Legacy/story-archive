@@ -1,0 +1,47 @@
+:doctype: book
+:icons: font
+:page-background-image: image:background_neutral.jpg[fit=fill, pdfwidth=100%]
+
+= Scroll of the Bake-Kujira
+Tariq Ali
+
+*Invoking Apocalypse: A Survey of 1st Century Strategic Armaments* +
+by Togashi Cho
+
+Published 750 years after Landfall by the *Otomo Institute for the Defense of Sanctuary*
+
+*Section 3.1 - Bake-Kujira*
+
+The "*Book of Aja*" generally refers to a series of intelligence reports written by Aja of the _Sea Spot_, a famous Mantis pirate-samurai. According to ancient legends, these scrolls were intended only for internal use by the Mantis clan. However, they would be stolen by Asako Kousuke, a Phoenix inquisitor. Kousuke hoped to use these scrolls to access powerful weapons that could be used against Isawa Hifumi, leader of the Phoenix expedition on Sanctuary. Kousuke would later transmit these scrolls to individuals within the Phoenix, Dragon, and Lion clans, hoping to curry favor with those clans.
+
+Though the "Book of Aja" was considered lost for centuries, an archeological expedition at the Cliff of the Sea Dragon revealed a fully-intact version of the "Book of Aja", handwritten by *Togashi Naname*, a monk skilled in military affairs. Naname also attached his own commentaries on the "Book" in question. The scholarly community has mostly relied on Naname's interpretation to a fault.
+
+Most of the scrolls were fairly sparse, relying on a few words and diagrams to get the message across. They detail weapon caches and underground tunnels, which are only important for historical analysis. Yet, one of the scrolls in the "Book of Aja" - the "*Scroll of the Bake-Kujira*" - differs from the rest. It is uncharacteristically detailed and relies heavily on technical jargon. Some revisionists view this scroll as a bland religious text, pointing to the scroll's descriptions of Mantis's deals and agreements with the bake-kujira. However, it is more correct to view this scroll as an apocalyptic treatise. To prove this, a brief quote from Aja would suffice:
+
+> The bake-kujira is a skeletal, whale yokai. Its mere presence causes fires and plagues. It takes time for the whale to materialize within the summoning circle. Once the bake-kujira materializes, the battle is over. There is no way to counter the beast, no way to resist. Only surrender or die.
+
+In theory, the bake-kujira could be used by the Mantis to conquer Sanctuary outright. However, as Aja points out repeatedly within the Scroll, the Mantis only knows how to summon the bake-kujira. If the Mantis use the bake-kujira to conquer Sanctuary, then the all-powerful whale would then conquer the Mantis in turn. The Mantis, proud of their independence, were unwilling to bow to anyone – especially not a whale. Instead, Aja wrote that the bake-kujira should be used sparingly, as a last resort against hardened targets.
+
+> Anyone can _use_ the bake-kujira. But no one can _control_ it.
+
+Aja described the bake-kujira as all-powerful, not invulnerable. This becomes blatantly obvious in the Scroll's conclusion, when she calls upon practitioners to eliminate or neutralize individuals that _could_ damage the bake-kujira, such as the Phoenix clan's void acolytes and the Dragon clan's monks. If the bake-kujira was invulnerable, it would not need to worry about harm. Thus, the bake-kujira _could_ be killed, albeit with much difficulty.
+
+Togashi Naname's commentaries include his own private notes about how one could fight the bake-kujira. Yet these notes do not provide much value to the modern scholar. They mostly consist of philosophical speculations that devolve into unhinged rants. It seemed that, at times, Naname himself was distracted by a different question - _should_ he fight the bake-kujira?
+
+The rants eventually segue into a meeting report with Kakita Mio, the Coral Champion. Mio was a Crane samurai who supported the Mantis clan, and as soon as she learnt that Naname had gotten hold of the "Book of Aja", she abandoned her duties and traveled to Naname's humble monastery.
+
+There, Mio told Togashi Naname about an enemy that will arrive from the Eastern Shore, pointing to reliable testimonies from Daidōji Akikore and Seppun Ishiko. The Coral Champion claimed that Lady Doji is intimately familiar with this unnamed force, and had tried to prepare Sanctuary for it. Yet, Lady Doji didn't anticipate the reavers from the Realm of Slaughter, nor did she anticipate the supernatural horrors and monsters that plague Sanctuary. Lady Doji wanted Sanctuary to be strong. But there are limits to strength.
+
+> Naname, our samurai _can_ defeat the enemies of Sanctuary – if they appear one at a time, ready to die by our blade. But our enemies are not stupid. If they combine forces, we would be damned. We cannot rely on Lady Doji's own preparations. We must request divine protection. And the bake-kujira is divine.
+>
+> Yes, the whale is dangerous. To see someone coughing gives me great pain. A plague would be even worse. But to assume that we can never control the bake-kujira is to assume we are at the mercy of fate. That we are mere playthings of the gods. I refuse to accept this. I know humans are capable of great things, if we only have hope. Fortune favors the mortal man.
+
+Naname did not know whether to believe in the Coral Champion. Nor did he know if the bake-kujira itself was a "necessary evil".
+
+After Mio finished speaking, Naname only smiled at the Coral Champion.
+
+> You taught me much. But now you shall be the student. You ask me to spare the bake-kujira. Well, you will learn my answer shortly.
+
+At this point, the commentary ends, with Naname reaching an inner peace that he never felt before.
+
+Despite the best efforts of our scholars, we cannot find any more information on the bake-kujira, nor were we able to summon the bake-kujira ourselves despite possessing the full text of the "Book of Aja". The truth behind the bake-kujira has been lost to the mists of time. Perhaps it is better that way.
