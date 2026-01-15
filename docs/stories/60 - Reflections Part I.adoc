@@ -124,7 +124,8 @@ Nobutada returned the smile. He adjusted his hat, one of his favorite and his lu
 
 Takame pointed to her spyglass in his hands. "You can have my spyglass," She said with confidence. She had not told him everything. Her dream had not been unpleasant for a change. The thunder last night sounded like the hooves of a cavalry charge, which made her remember her visit to the Utaku. "Oh, and the loser has to meet them at the pier..."
 
-{empty} +
+<<<
+
 [.text-center]
 *Rokugan, Shiroi Kishi Heigen*
 [.text-center]
