@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.23">
+<meta name="author" content="Kevin Sanborn">
+<title>Reflections Part I – A Different Path: Chapter One</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<style>
+/*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
+/* Uncomment the following line when using as a custom stylesheet */
+/* @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700"; */
+html{font-family:sans-serif;-webkit-text-size-adjust:100%}
+a{background:none}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+b,strong{font-weight:bold}
+abbr{font-size:.9em}
+abbr[title]{cursor:help;border-bottom:1px dotted #dddddf;text-decoration:none}
+dfn{font-style:italic}
+hr{height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace;font-size:1em}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+audio,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type=checkbox],input[type=radio]{padding:0}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+*,::before,::after{box-sizing:border-box}
+html,body{font-size:100%}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;line-height:1;position:relative;cursor:auto;-moz-tab-size:4;-o-tab-size:4;tab-size:4;word-wrap:anywhere;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+a:hover{cursor:pointer}
+img,object,embed{max-width:100%;height:auto}
+object,embed{height:100%}
+img{-ms-interpolation-mode:bicubic}
+.left{float:left!important}
+.right{float:right!important}
+.text-left{text-align:left!important}
+.text-right{text-align:right!important}
+.text-center{text-align:center!important}
+.text-justify{text-align:justify!important}
+.hide{display:none}
+img,object,svg{display:inline-block;vertical-align:middle}
+textarea{height:auto;min-height:50px}
+select{width:100%}
+.subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0}
+a{color:#2156a5;text-decoration:underline;line-height:inherit}
+a:hover,a:focus{color:#1d4b8f}
+a img{border:0}
+p{line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
+p aside{font-size:.875em;line-height:1.35;font-style:italic}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
+h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
+h1{font-size:2.125em}
+h2{font-size:1.6875em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
+h4,h5{font-size:1.125em}
+h6{font-size:1em}
+hr{border:solid #dddddf;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em}
+em,i{font-style:italic;line-height:inherit}
+strong,b{font-weight:bold;line-height:inherit}
+small{font-size:60%;line-height:inherit}
+code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
+ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
+ul,ol{margin-left:1.5em}
+ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
+ul.circle{list-style-type:circle}
+ul.disc{list-style-type:disc}
+ul.square{list-style-type:square}
+ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
+ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
+dl dt{margin-bottom:.3125em;font-weight:bold}
+dl dd{margin-bottom:1.25em}
+blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
+blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
+@media screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
+h1{font-size:2.75em}
+h2{font-size:2.3125em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
+h4{font-size:1.4375em}}
+table{background:#fff;margin-bottom:1.25em;border:1px solid #dedede;word-wrap:normal}
+table thead,table tfoot{background:#f7f8f7}
+table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
+table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
+table tr.even,table tr.alt{background:#f8f8f7}
+table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{line-height:1.6}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
+h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
+.center{margin-left:auto;margin-right:auto}
+.stretch{width:100%}
+.clearfix::before,.clearfix::after,.float-group::before,.float-group::after{content:" ";display:table}
+.clearfix::after,.float-group::after{clear:both}
+:not(pre).nobreak{word-wrap:normal}
+:not(pre).nowrap{white-space:nowrap}
+:not(pre).pre-wrap{white-space:pre-wrap}
+:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
+pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
+pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
+pre>code{display:block}
+pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
+em em{font-style:normal}
+strong strong{font-weight:400}
+.keyseq{color:rgba(51,51,51,.8)}
+kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;border-radius:3px;box-shadow:0 1px 0 rgba(0,0,0,.2),inset 0 0 0 .1em #fff;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
+.keyseq kbd:first-child{margin-left:0}
+.keyseq kbd:last-child{margin-right:0}
+.menuseq,.menuref{color:#000}
+.menuseq b:not(.caret),.menuref{font-weight:inherit}
+.menuseq{word-spacing:-.02em}
+.menuseq b.caret{font-size:1.25em;line-height:.8}
+.menuseq i.caret{font-weight:bold;text-align:center;width:.45em}
+b.button::before,b.button::after{position:relative;top:-1px;font-weight:400}
+b.button::before{content:"[";padding:0 3px 0 2px}
+b.button::after{content:"]";padding:0 2px 0 3px}
+p a>code:hover{color:rgba(0,0,0,.9)}
+#header,#content,#footnotes,#footer{width:100%;margin:0 auto;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
+#header::before,#header::after,#content::before,#content::after,#footnotes::before,#footnotes::after,#footer::before,#footer::after{content:" ";display:table}
+#header::after,#content::after,#footnotes::after,#footer::after{clear:both}
+#content{margin-top:1.25em}
+#content::before{content:none}
+#header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
+#header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
+#header>h1:only-child{border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
+#header .details span:first-child{margin-left:-.125em}
+#header .details span.email a{color:rgba(0,0,0,.85)}
+#header .details br{display:none}
+#header .details br+span::before{content:"\00a0\2013\00a0"}
+#header .details br+span.author::before{content:"\00a0\22c5\00a0";color:rgba(0,0,0,.85)}
+#header .details br+span#revremark::before{content:"\00a0|\00a0"}
+#header #revnumber{text-transform:capitalize}
+#header #revnumber::after{content:"\00a0"}
+#content>h1:first-child:not([class]){color:rgba(0,0,0,.85);border-bottom:1px solid #dddddf;padding-bottom:8px;margin-top:0;padding-top:1rem;margin-bottom:1.25rem}
+#toc{border-bottom:1px solid #e7e7e9;padding-bottom:.5em}
+#toc>ul{margin-left:.125em}
+#toc ul.sectlevel0>li>a{font-style:italic}
+#toc ul.sectlevel0 ul.sectlevel1{margin:.5em 0}
+#toc ul{font-family:"Open Sans","DejaVu Sans",sans-serif;list-style-type:none}
+#toc li{line-height:1.3334;margin-top:.3334em}
+#toc a{text-decoration:none}
+#toc a:active{text-decoration:underline}
+#toctitle{color:#7a2518;font-size:1.2em}
+@media screen and (min-width:768px){#toctitle{font-size:1.375em}
+body.toc2{padding-left:15em;padding-right:0}
+body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
+#toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
+#toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
+#toc.toc2>ul{font-size:.9em;margin-bottom:0}
+#toc.toc2 ul ul{margin-left:0;padding-left:1em}
+#toc.toc2 ul.sectlevel0 ul.sectlevel1{padding-left:0;margin-top:.5em;margin-bottom:.5em}
+body.toc2.toc-right{padding-left:0;padding-right:15em}
+body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #e7e7e9;left:auto;right:0}}
+@media screen and (min-width:1280px){body.toc2{padding-left:20em;padding-right:0}
+#toc.toc2{width:20em}
+#toc.toc2 #toctitle{font-size:1.375em}
+#toc.toc2>ul{font-size:.95em}
+#toc.toc2 ul ul{padding-left:1.25em}
+body.toc2.toc-right{padding-left:0;padding-right:20em}}
+#content #toc{border:1px solid #e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;border-radius:4px}
+#content #toc>:first-child{margin-top:0}
+#content #toc>:last-child{margin-bottom:0}
+#footer{max-width:none;background:rgba(0,0,0,.8);padding:1.25em}
+#footer-text{color:hsla(0,0%,100%,.8);line-height:1.44}
+#content{margin-bottom:.625em}
+.sect1{padding-bottom:.625em}
+@media screen and (min-width:768px){#content{margin-bottom:1.25em}
+.sect1{padding-bottom:1.25em}}
+.sect1:last-child{padding-bottom:0}
+.sect1+.sect1{border-top:1px solid #e7e7e9}
+#content h1>a.anchor,h2>a.anchor,h3>a.anchor,#toctitle>a.anchor,.sidebarblock>.content>.title>a.anchor,h4>a.anchor,h5>a.anchor,h6>a.anchor{position:absolute;z-index:1001;width:1.5ex;margin-left:-1.5ex;display:block;text-decoration:none!important;visibility:hidden;text-align:center;font-weight:400}
+#content h1>a.anchor::before,h2>a.anchor::before,h3>a.anchor::before,#toctitle>a.anchor::before,.sidebarblock>.content>.title>a.anchor::before,h4>a.anchor::before,h5>a.anchor::before,h6>a.anchor::before{content:"\00A7";font-size:.85em;display:block;padding-top:.1em}
+#content h1:hover>a.anchor,#content h1>a.anchor:hover,h2:hover>a.anchor,h2>a.anchor:hover,h3:hover>a.anchor,#toctitle:hover>a.anchor,.sidebarblock>.content>.title:hover>a.anchor,h3>a.anchor:hover,#toctitle>a.anchor:hover,.sidebarblock>.content>.title>a.anchor:hover,h4:hover>a.anchor,h4>a.anchor:hover,h5:hover>a.anchor,h5>a.anchor:hover,h6:hover>a.anchor,h6>a.anchor:hover{visibility:visible}
+#content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
+#content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
+details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
+details{margin-left:1.25rem}
+details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;outline:none;-webkit-tap-highlight-color:transparent}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"";border:solid transparent;border-left:solid;border-width:.3em 0 .3em .5em;position:absolute;top:.5em;left:-1.25rem;transform:translateX(15%)}
+details[open]>summary::before{border:solid transparent;border-top:solid;border-width:.5em .3em 0;transform:translateY(15%)}
+details>summary::after{content:"";width:1.25rem;height:1em;position:absolute;top:.3em;left:-1.25rem}
+.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
+table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
+.paragraph.lead>p,#preamble>.sectionbody>[class=paragraph]:first-of-type p{font-size:1.21875em;line-height:1.6;color:rgba(0,0,0,.85)}
+.admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
+.admonitionblock>table td.icon{text-align:center;width:80px}
+.admonitionblock>table td.icon img{max-width:none}
+.admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
+.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
+.admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
+.sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
+.sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
+.exampleblock>.content>:first-child,.sidebarblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child,.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
+@media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
+@media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
+.literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class=highlight],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
+.literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
+.listingblock>.content{position:relative}
+.listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
+.listingblock:hover code[data-lang]::before{display:block}
+.listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
+.listingblock.terminal pre .command:not([data-prompt])::before{content:"$"}
+.listingblock pre.highlightjs{padding:0}
+.listingblock pre.highlightjs>code{padding:1em;border-radius:4px}
+.listingblock pre.prettyprint{border-width:0}
+.prettyprint{background:#f7f7f8}
+pre.prettyprint .linenums{line-height:1.45;margin-left:2em}
+pre.prettyprint li{background:none;list-style-type:inherit;padding-left:0}
+pre.prettyprint li code[data-lang]::before{opacity:1}
+pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
+table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
+table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
+table.linenotable td.code{padding-left:.75em}
+table.linenotable td.linenos,pre.pygments .linenos{border-right:1px solid;opacity:.35;padding-right:.5em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+pre.pygments span.linenos{display:inline-block;margin-right:.75em}
+.quoteblock{margin:0 1em 1.25em 1.5em;display:table}
+.quoteblock:not(.excerpt)>.title{margin-left:-1.5em;margin-bottom:.75em}
+.quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
+.quoteblock blockquote{margin:0;padding:0;border:0}
+.quoteblock blockquote::before{content:"\201c";float:left;font-size:2.75em;font-weight:bold;line-height:.6em;margin-left:-.6em;color:#7a2518;text-shadow:0 1px 2px rgba(0,0,0,.1)}
+.quoteblock blockquote>.paragraph:last-child p{margin-bottom:0}
+.quoteblock .attribution{margin-top:.75em;margin-right:.5ex;text-align:right}
+.verseblock{margin:0 1em 1.25em}
+.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans-serif;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
+.verseblock pre strong{font-weight:400}
+.verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
+.quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
+.quoteblock .attribution br,.verseblock .attribution br{display:none}
+.quoteblock .attribution cite,.verseblock .attribution cite{display:block;letter-spacing:-.025em;color:rgba(0,0,0,.6)}
+.quoteblock.abstract blockquote::before,.quoteblock.excerpt blockquote::before,.quoteblock .quoteblock blockquote::before{display:none}
+.quoteblock.abstract blockquote,.quoteblock.abstract p,.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{line-height:1.6;word-spacing:0}
+.quoteblock.abstract{margin:0 1em 1.25em;display:block}
+.quoteblock.abstract>.title{margin:0 0 .375em;font-size:1.15em;text-align:center}
+.quoteblock.excerpt>blockquote,.quoteblock .quoteblock{padding:0 0 .25em 1em;border-left:.25em solid #dddddf}
+.quoteblock.excerpt,.quoteblock .quoteblock{margin-left:0}
+.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{color:inherit;font-size:1.0625rem}
+.quoteblock.excerpt .attribution,.quoteblock .quoteblock .attribution{color:inherit;font-size:.85rem;text-align:left;margin-right:0}
+p.tableblock:last-child{margin-bottom:0}
+td.tableblock>.content{margin-bottom:1.25em;word-wrap:anywhere}
+td.tableblock>.content>:last-child{margin-bottom:-1.25em}
+table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
+table.grid-all>*>tr>*{border-width:1px}
+table.grid-cols>*>tr>*{border-width:0 1px}
+table.grid-rows>*>tr>*{border-width:1px 0}
+table.frame-all{border-width:1px}
+table.frame-ends{border-width:1px 0}
+table.frame-sides{border-width:0 1px}
+table.frame-none>colgroup+*>:first-child>*,table.frame-sides>colgroup+*>:first-child>*{border-top-width:0}
+table.frame-none>:last-child>:last-child>*,table.frame-sides>:last-child>:last-child>*{border-bottom-width:0}
+table.frame-none>*>tr>:first-child,table.frame-ends>*>tr>:first-child{border-left-width:0}
+table.frame-none>*>tr>:last-child,table.frame-ends>*>tr>:last-child{border-right-width:0}
+table.stripes-all>*>tr,table.stripes-odd>*>tr:nth-of-type(odd),table.stripes-even>*>tr:nth-of-type(even),table.stripes-hover>*>tr:hover{background:#f8f8f7}
+th.halign-left,td.halign-left{text-align:left}
+th.halign-right,td.halign-right{text-align:right}
+th.halign-center,td.halign-center{text-align:center}
+th.valign-top,td.valign-top{vertical-align:top}
+th.valign-bottom,td.valign-bottom{vertical-align:bottom}
+th.valign-middle,td.valign-middle{vertical-align:middle}
+table thead th,table tfoot th{font-weight:bold}
+tbody tr th{background:#f7f8f7}
+tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
+p.tableblock>code:only-child{background:none;padding:0}
+p.tableblock{font-size:1em}
+ol{margin-left:1.75em}
+ul li ol{margin-left:1.5em}
+dl dd{margin-left:1.125em}
+dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
+li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
+ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
+ul.unstyled,ol.unstyled{margin-left:0}
+li>p:empty:only-child::before{content:"";display:inline-block}
+ul.checklist>li>p:first-child{margin-left:-1em}
+ul.checklist>li>p:first-child>.fa-square-o:first-child,ul.checklist>li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
+ul.checklist>li>p:first-child>input[type=checkbox]:first-child{margin-right:.25em}
+ul.inline{display:flex;flex-flow:row wrap;list-style:none;margin:0 0 .625em -1.25em}
+ul.inline>li{margin-left:1.25em}
+.unstyled dl dt{font-weight:400;font-style:normal}
+ol.arabic{list-style-type:decimal}
+ol.decimal{list-style-type:decimal-leading-zero}
+ol.loweralpha{list-style-type:lower-alpha}
+ol.upperalpha{list-style-type:upper-alpha}
+ol.lowerroman{list-style-type:lower-roman}
+ol.upperroman{list-style-type:upper-roman}
+ol.lowergreek{list-style-type:lower-greek}
+.hdlist>table,.colist>table{border:0;background:none}
+.hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
+td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
+td.hdlist1{font-weight:bold;padding-bottom:1.25em}
+td.hdlist2{word-wrap:anywhere}
+.literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
+.colist td:not([class]):first-child{padding:.4em .75em 0;line-height:1;vertical-align:top}
+.colist td:not([class]):first-child img{max-width:none}
+.colist td:not([class]):last-child{padding:.25em 0}
+.thumb,.th{line-height:0;display:inline-block;border:4px solid #fff;box-shadow:0 0 0 1px #ddd}
+.imageblock.left{margin:.25em .625em 1.25em 0}
+.imageblock.right{margin:.25em 0 1.25em .625em}
+.imageblock>.title{margin-bottom:0}
+.imageblock.thumb,.imageblock.th{border-width:6px}
+.imageblock.thumb>.title,.imageblock.th>.title{padding:0 .125em}
+.image.left,.image.right{margin-top:.25em;margin-bottom:.25em;display:inline-block;line-height:0}
+.image.left{margin-right:.625em}
+.image.right{margin-left:.625em}
+a.image{text-decoration:none;display:inline-block}
+a.image object{pointer-events:none}
+sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
+sup.footnote a,sup.footnoteref a{text-decoration:none}
+sup.footnote a:active,sup.footnoteref a:active,#footnotes .footnote a:first-of-type:active{text-decoration:underline}
+#footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
+#footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
+#footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
+#footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
+#footnotes .footnote:last-of-type{margin-bottom:0}
+#content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
+div.unbreakable{page-break-inside:avoid}
+.big{font-size:larger}
+.small{font-size:smaller}
+.underline{text-decoration:underline}
+.overline{text-decoration:overline}
+.line-through{text-decoration:line-through}
+.aqua{color:#00bfbf}
+.aqua-background{background:#00fafa}
+.black{color:#000}
+.black-background{background:#000}
+.blue{color:#0000bf}
+.blue-background{background:#0000fa}
+.fuchsia{color:#bf00bf}
+.fuchsia-background{background:#fa00fa}
+.gray{color:#606060}
+.gray-background{background:#7d7d7d}
+.green{color:#006000}
+.green-background{background:#007d00}
+.lime{color:#00bf00}
+.lime-background{background:#00fa00}
+.maroon{color:#600000}
+.maroon-background{background:#7d0000}
+.navy{color:#000060}
+.navy-background{background:#00007d}
+.olive{color:#606000}
+.olive-background{background:#7d7d00}
+.purple{color:#600060}
+.purple-background{background:#7d007d}
+.red{color:#bf0000}
+.red-background{background:#fa0000}
+.silver{color:#909090}
+.silver-background{background:#bcbcbc}
+.teal{color:#006060}
+.teal-background{background:#007d7d}
+.white{color:#bfbfbf}
+.white-background{background:#fafafa}
+.yellow{color:#bfbf00}
+.yellow-background{background:#fafa00}
+span.icon>.fa{cursor:default}
+a span.icon>.fa{cursor:inherit}
+.admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
+.admonitionblock td.icon .icon-note::before{content:"\f05a";color:#19407c}
+.admonitionblock td.icon .icon-tip::before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
+.admonitionblock td.icon .icon-warning::before{content:"\f071";color:#bf6900}
+.admonitionblock td.icon .icon-caution::before{content:"\f06d";color:#bf3400}
+.admonitionblock td.icon .icon-important::before{content:"\f06a";color:#bf0000}
+.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);border-radius:50%;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value] *{color:#fff!important}
+.conum[data-value]+b{display:none}
+.conum[data-value]::after{content:attr(data-value)}
+pre .conum[data-value]{position:relative;top:-.125em}
+b.conum *{color:inherit!important}
+.conum:not([data-value]):empty{display:none}
+dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
+h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
+p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
+p,blockquote,dt,td.content,td.hdlist1,span.alt,summary{font-size:1.0625rem}
+p{margin-bottom:1.25rem}
+.sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
+.exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
+.print-only{display:none!important}
+@page{margin:1.25cm .75cm}
+@media print{*{box-shadow:none!important;text-shadow:none!important}
+html{font-size:80%}
+a{color:inherit!important;text-decoration:underline!important}
+a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
+a[href^="http:"]:not(.bare)::after,a[href^="https:"]:not(.bare)::after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
+abbr[title]{border-bottom:1px dotted}
+abbr[title]::after{content:" (" attr(title) ")"}
+pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
+thead{display:table-header-group}
+svg{max-width:100%}
+p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
+h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
+#header,#content,#footnotes,#footer{max-width:none}
+#toc,.sidebarblock,.exampleblock>.content{background:none!important}
+#toc{border-bottom:1px solid #dddddf!important;padding-bottom:0!important}
+body.book #header{text-align:center}
+body.book #header>h1:first-child{border:0!important;margin:2.5em 0 1em}
+body.book #header .details{border:0!important;display:block;padding:0!important}
+body.book #header .details span:first-child{margin-left:0!important}
+body.book #header .details br{display:block}
+body.book #header .details br+span::before{content:none!important}
+body.book #toc{border:0!important;text-align:left!important;padding:0!important;margin:0!important}
+body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-break-before:always}
+.listingblock code[data-lang]::before{display:block}
+#footer{padding:0 .9375em}
+.hide-on-print{display:none!important}
+.print-only{display:block!important}
+.hide-for-print{display:none!important}
+.show-for-print{display:inherit!important}}
+@media amzn-kf8,print{#header>h1:first-child{margin-top:1.25rem}
+.sect1{padding:0!important}
+.sect1+.sect1{border:0}
+#footer{background:none}
+#footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
+@media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="book">
+<div id="header">
+<h1>Reflections Part I – A Different Path: Chapter One</h1>
+<div class="details">
+<span id="author" class="author">Kevin Sanborn</span><br>
+<span id="revnumber"> ,</span>
+<span id="revdate"></span>
+</div>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph text-center">
+<p><strong>Sanctuary, South-Eastern Mountain Range</strong></p>
+</div>
+<div class="paragraph text-center">
+<p><strong>One week after Landfall&#8230;&#8203;</strong></p>
+</div>
+<div class="paragraph">
+<p>The mountains to the southeast rose out of the surrounding sea of trees. The cypress, pine, maple and oak choked the foothills, obscuring all but the tallest hills, till only the alpine tree-line freed the landscape from their encroachment. Hidden within the canopy of every shade of green imaginable, an ancient city lay forgotten, slowly being reclaimed by the earth.</p>
+</div>
+<div class="paragraph">
+<p>Three figures moved through the forest covered ruins slowly, careful of their surroundings, but not fearfully: a graceful dapple-gray mare, a short haired maiden dressed in drab browns and greens, and a large reddish brown vixen. For them the forest was a familiar environment which held few surprises. For Naoko Emi, one of the Daughters of Utaku holding to the ways of the People before the Kami came, commonly referred to as the Maidens of the Mists by her sister Utaku, she followed the path of the Shika Yorei, the Utaku&#8217;s elite scouts. She had trained many years in a variety of environments including within the forest of the Shinomen Mori. For the mare, Vata Chinatsu, a Daughter of Epona; Earth and Water were her heritage as opposed to her brothers; the Sons of Vata, where Fire and Wind coursed through their veins. She was the mistress of sylvan glens though like her sister she had trained in all terrains. The third had been born within the shadows of the Shinomen Mori and had spent her life traipsing through the forest with the skill of the hunter; Kitsune Yume, who had followed her cousins to these new lands.</p>
+</div>
+<div class="paragraph">
+<p>For the better part of four days they had picked their way, following a stream&#8217;s path upward into the mountains. While the forest itself held little in the way of surprise to them, what peeked out of the shadowed interior of the forest canopy did interest them; The remnants of an ancient aqueduct, half filled by centuries of debris, crumbling stonework of its banks still poked out of the tangled roots and moss that clung to its vertical surface showing the hands of humans. Through this wend a crystal clear stream. Chinatsu had noticed the water&#8217;s strange sweet-clean scent almost immediately as they had moved through the broken landscape. It reminded her of a field of wild flowers in stark contrast to the earthy, humid smell of the surrounding forest. Yume had agreed that the water was different but not dangerous. A quick taste had confirmed her judgment. While it was noteworthy from its unique quality it was more important as a potential water source and so they moved into the mountains to find the source of the spring.</p>
+</div>
+<div class="paragraph">
+<p>The trail brought them before a large stone plateau open to the afternoon sky framed by a thick curtain of tall yellow-green bamboo that whispered in a breeze that tried to penetrate it to no avail. While large enough to be mistaken as a natural formation, centuries of overgrowth did not hide the hand of man on the stone: large stairs snaked their way up the side of the monolith to the top. The stream ran down the stairs in the deep cut that had been carved into the granite in a series of modest waterfalls; their gurgling splash accompanied the hiss of the wind through the bamboo. Following the channel up the stairs revealed the source of the stream: a canal fed by the overflow of a large circular pool carved from the stone of the mountain. On the opposite side of the pool from where the three stood, a tall statue of a woman cast in ancient bronze, the thick patina of brown-blue-green pushed her back to blend into her guardians: two massive oaks, framing her, that seemed to hover protectively over it. She was holding an urn from which poured a steady stream of clear water. Not enough to supply the stream that ran from there but more than likely was fed by the same spring lost in the depths of the pool. But even that was not the most striking feature of the ancient temple. The entire pool and statue was surrounded by marigolds growing from centuries of accumulated earth along the wide borders of the pool. The flowers blasted the viewers with their brilliant golden hues and the air was heavy with their scent, trapped by the surrounding bamboo.</p>
+</div>
+<div class="paragraph">
+<p>"I think we have found the source of the sweet scent," Yume said as she sat at the edge of the pool on a portion of fallen rubble, a broken granite bench, that poked up over the bushes. She looked back at the two Utaku as she tucked her tail over her front paws. A splash of a hungry fish broke the surface. "And I think we have found the source of our dinner as well."</p>
+</div>
+<div class="paragraph">
+<p>Chinatsu looked up from examining the green leaves and wild grasses that grew along the edges of the pool to walk over to the vixen and look into the waters. Watching a large turtle poke his head out at them from a safe distance. &lt;_I would ask first before you start taking from this place_,&gt; the Daughter of Epona cautioned. &lt;_It wouldn&#8217;t do to anger any local kami_.&gt;</p>
+</div>
+<div class="paragraph">
+<p>Yume looked up questioningly.</p>
+</div>
+<div class="paragraph">
+<p>For an answer Chinatsu gestured with her head at their reflection in the pool. &lt;_This place still holds power.&gt; _</p>
+</div>
+<div class="paragraph">
+<p>Yume followed the mare&#8217;s gaze. She barked in surprise. What their reflection showed was not what was present on the edge of the pool. Where the vixen sat, reflected in the still pool was a beautiful woman with long auburn hair that matched the fox ears on her head and the three tails that sprung from her backside. Beside her stood a graceful dapple-gray horse like creature with split hooves and a long straight alabaster horn rising out of her forehead. They watched as Emi walked up to them and added her own reflection to the pair. Hers was the only that reflected true.</p>
+</div>
+<div class="paragraph">
+<p>"Perhaps we should not carry deceptions into this place <em>first</em> before we introduce ourselves and ask permission&#8230;&#8203;" Emi said as her gaze was drawn to the statue seeing light that didn&#8217;t quite line up with Lady Sun&#8217;s journey.</p>
+</div>
+<div class="paragraph">
+<p>"Wise words from the Utaku," Yume quipped. "You and your sisters are always a dour, boring lot with no sense of fun." She frowned as she shifted to her true form. "What my mother saw in your father I can&#8217;t guess. Perhaps opposites attract as they say."</p>
+</div>
+<div class="paragraph">
+<p>&lt;_Is that why you followed your sister here?_&gt; Chinatsu asked. The sunlight gleamed off her horn and sparkled off her coat like dew in the morning&#8217;s light.</p>
+</div>
+<div class="paragraph">
+<p>"Considering she is the closest family I have now, I didn&#8217;t feel like staying behind to&#8230;&#8203; well, your sisters are so&#8230;&#8203; boring," Yume said with an exaggerated expression of frustration to dismiss the depths of tragedy that had befallen her family during the War of the Shadows, when the Wall failed and Akuma no Oni had trod upon the Empire&#8217;s soil. Shinomen Mori had not been the haven they had thought it would have been. They paid a great price for their folly. Only the intervention of their cousins, the Utaku, had allowed them to escape annihilation at the cost of hundreds, if not thousands, of Utaku. They had forced back the horde after many months of fighting. Even with victory, the Empire felt the cost&#8230;&#8203; a cost the Utaku had paid without hesitation.</p>
+</div>
+<div class="paragraph">
+<p>Yume and Chinatsu became aware that Emi hadn&#8217;t added her thoughts to their conversation and had continued to stare at the statue.</p>
+</div>
+<div class="paragraph">
+<p>"Emi-chan?" Yume asked cautiously. Emi held up her hand towards the Kitsune a moment before she bowed to the patron of the ancient temple. Emi turned to her sister and her cousin. "We have permission to stay. The Utaku are known to this avatar of the Dragon of Water. She has been expecting us, of course," Emi said with a smile.</p>
+</div>
+<div class="paragraph">
+<p>"Great!" Yume said unfazed by the revelation. While not well known, it was understood among those closest to the family that the dragon favored the Utaku. "When can we eat?"</p>
+</div>
+<div class="paragraph">
+<p>"As soon as you can catch us some dinner, I can cook it," Emi said. She loosened the axe stuck in her belt; a heavy, wedged shaped axe suitable for cutting wood as well as splitting skulls. It was not as pretty as the tachi and uma-yari her sisters carried but the mark of the Sōshū Masters; Utaku Nodoka and Sukehira, rested on its cheek and it had tasted more than its fair share of the shadow&#8217;s blood in the year before last. The flash of its face the last thing many oni had seen before it stole their life. "I&#8217;ll gather some firewood."</p>
+</div>
+<div class="paragraph">
+<p>"Why can&#8217;t you catch the fish and I cook the meal?" Yume asked. The air became still as Emi and Chinatsu stared at the kitsune.</p>
+</div>
+<div class="paragraph">
+<p>Chinatsu broke the silence first. &lt;_I think I smell some mushrooms and wild onions hiding in this grove&#8230;&#8203;_&gt; Chinatsu volunteered, following her nose towards the two scents while Emi retraced her steps down the stairs to recover some deadwood.</p>
+</div>
+<div class="paragraph">
+<p>"It&#8217;s not <em>that</em> bad," Yume mumbled to herself as she began her search for a suitable length of bamboo.</p>
+</div>
+<div class="paragraph">
+<p>In short order they had sat down to eat the dinner they had foraged using the wild grasses and marigold leaves to enhance their meal. As night fell the small fire became a pool of warm yellow light. The sound of frogs and crickets filled the clearing and the stars shone slightly brighter than the fireflies that flitted above the pool in the cool mountain air, tempting fate and hungry fish.</p>
+</div>
+<div class="paragraph">
+<p>&lt;_So, where to tomorrow?<em>&gt; Chinatsu asked. She lowered her head to the pool to take a drink. A frog, startled by the intrusion, leapt to deeper waters with a splash. &lt;_Rude,</em>&gt; The Daughter of Epona commented on the local wildlife&#8217;s etiquette.</p>
+</div>
+<div class="paragraph">
+<p>Emi stared up into the night sky counting the days since they had left the main group of Shika Pathfinders surveying the rolling hills to the northwest to scout farther into the mountains. "Six, seven&#8230;&#8203; eight&#8230;&#8203;" She said to herself as she marked the days on her fingers. "We should head back to base camp. Our sisters and brothers should be arriving soon." The First Utaku Expeditionary Legion, The Mare&#8217;s Breath, moved at a walk while its scouts, pathfinders, and hunters ranged ahead guarding the main body and guided it across the varied landscape. Lessons learned in the service of the Yodotai Emperors dictated their careful methodical movement.</p>
+</div>
+<div class="paragraph">
+<p>"Already?" Yume said, pinching her chin between thumb and forefinger. She was always amazed at how such a large group of people and supplies could move so slow but so fast at the same time. It was like watching storm clouds on the horizon moving across the sky. They appeared so distant until they were suddenly upon you. Delivering its wrath upon all that stood in its way.</p>
+</div>
+<div class="paragraph">
+<p><br></p>
+</div>
+<div class="paragraph text-center">
+<p><strong>Western Shore, Obsidian Cliffs</strong></p>
+</div>
+<div class="paragraph text-center">
+<p><strong>Four Months after Landfall&#8230;&#8203;</strong></p>
+</div>
+<div class="paragraph">
+<p>Situated on the plains at the top of the long gradual slope that ended on the beach below the Obsidian Cliffs, The Unicorn&#8217;s lodge commanded the wide open fields that surround it. With walls made from the earth and stones that it sat upon, piled twice the height of a man and just as thick at its base the mound rose until it was capped by a very large tent suspended above the circular walls by long wooden poles lashed together in an intricate interconnected framework anchored to nine massive post buried in the earthen walls. Five of those posts were topped by a carving of a unicorn; one for each of Shinjo&#8217;s children. A wooden lattice topped the earth walls binding it all together. Inside a small amount of portable furniture was arranged: rugs, chests, braziers and other small pieces that could be stuffed into the unused corners of their ships.</p>
+</div>
+<div class="paragraph">
+<p>Several people moved carefully along the ridge adjusting the yurt&#8217;s surface, sliding it up to make space above the lattice ring, allowing the breeze to enter the lodge and hasten drying out the moisture from last night&#8217;s storm. An older attendant of Takame stood up, tossing his rebellious braid of black and gray hair behind him and stretched his back looking out at the immediate surroundings. He was dressed in a loose fitting deel of dull gray with a sash of pale green and leather boots of dark brown, colors which would blend into the open plains. Retrieving a cream colored cloth of soft cotton from his sleeve, he removed his fur-trimmed felt hat and wiped the sweat from a sun darkened face framed by a graying mustache and beard as he scanned the surroundings. The wind coming from the sea was cool but not cool enough. Squinting in the late morning sunlight he spotted several riders approaching.</p>
+</div>
+<div class="paragraph">
+<p>"Good morning, Nobutada-dono!" the man said, waving as he recognized the brother of Shinjo Takame, Champion of the Unicorns here in these new lands.</p>
+</div>
+<div class="paragraph">
+<p>"Good morning! Is my sister about?" Nobutada asked. The days of travel still clung to him, his deel and his horse.</p>
+</div>
+<div class="paragraph">
+<p>"Yes. She is at the overlook," The man said, pointing towards the west and the ocean only a short distance from the semi-permanent lodge.</p>
+</div>
+<div class="paragraph">
+<p>"Thank you," Ide Nobutada said. He waved to his escort to stay at the lodge and with a skillful tug of rein and tap of his heel against the horse&#8217;s side he turned his mount around and rode up to the edge of the cliff overlooking the western shore and the deep inlet below. It was a good day, he thought, with clear skies and a fresh breeze blowing from the west carrying the smells of the ocean, a new and alien scent for the Unicorns who had lived far from the ocean on the distant edge of the Emerald Empire. Still the wind was clean and cool after last night&#8217;s storm. He wished his news was as good.</p>
+</div>
+<div class="paragraph">
+<p>He stopped his mount next to his sister&#8217;s, dismounted, and let his reins fall to the ground. His horse trained to stay where the reins lay would not wander off. He walked the rest of the way up the slight rise to stand next to his sister, Takame. She was staring out at the horizon with her spyglass held up to her right eye and only glanced out of the corner of her left eye to see him. "How did your talks with the Crab go?" She asked.</p>
+</div>
+<div class="paragraph">
+<p>Nobutada blew out his breath in frustration. "Not great. They refuse to listen to reason," He said.</p>
+</div>
+<div class="paragraph">
+<p>"Hmmpf&#8230;&#8203; Typical. And The Empress? Will she adjudicate this matter?" Takame asked, still not taking her eye from her spyglass or the horizon.</p>
+</div>
+<div class="paragraph">
+<p>Curious about what held his sister&#8217;s attention, Nobutada focused his gaze upon the horizon. He saw nothing but the mists. "Her representatives, Otomo Usonohime, say this is a matter between the Crab and Unicorn. I felt like she was pleased that we were on the edge of open conflict. So much for a peaceful expedition&#8230;&#8203; What are you looking at?" He finally asked.</p>
+</div>
+<div class="paragraph">
+<p>For an answer Takame handed him the ancient brass and blue leather spyglass and pointed to a nondescript spot on the horizon. "I think that soon it is not going to matter much anymore if they are reasonable or not," She said.</p>
+</div>
+<div class="paragraph">
+<p>"Why?" He asked. He used the spyglass to scan the horizon where Takame had pointed to. After several seconds of straining to make anything out other than mist the faintest image of a small ship came into focus. So faint was the image that he could almost dismiss it as his imagination.</p>
+</div>
+<div class="paragraph">
+<p>"Do you see that ship?" Takame asked.</p>
+</div>
+<div class="paragraph">
+<p>"What of it? Too early in the morning for any fishermen to be returning, must be someone blown off course, caught out by last night&#8217;s storm? No? Or it is probably another of the southern clans seeking to visit the Empress, the Scorpions again, perhaps. We should charge more for an escort if these visits continue&#8230;&#8203;" Nobutada said. He glanced down to the beach at the bottom of the cliff seeing The East Wind, the great atakebune, resting, stuck firmly in the shallow waters of the crescent bay, its bow rested above the high tide mark while its stern floated only two ken above the sandy bottom at high tide.The Otter who had helped sail the Unicorn&#8217;s ship had, after a quick examination of the shore, advised and then acted upon that advice, beaching the huge ship. After securing the ship with thick anchor cables buried in the sand farther up the beach they had cut large openings in the middle-lower deck, fore and aft, to serve as a floating pier to ease the unloading from the other one hundred and fifty ships of the Unicorn&#8217;s prized possessions: their horses. Now it served as both a pier for five small fishing craft the Unicorn had kept and residence of the former fishermen and their families of Shiroi Kishi Mizu-umi&#8217;s village, Unicorn who preferred a more urban way of life than their nomadic relatives, who now fished in this foreign sea.</p>
+</div>
+<div class="paragraph">
+<p>The beach also held a single chokkibune, a beautiful, narrow boat almost five ken long, sitting past the high tide mark on the beach</p>
+</div>
+<div class="paragraph">
+<p>Nobutada had no idea what the Otter did with the remaining one hundred and fifty-odd ships the Unicorns had used to travel to this new land. The Unicorn had no need of the fleet and gave the ships to the Otter with their thanks for the safe passage. It occurred to him as he thought about the Otter sailors, ten to twenty&#8230;&#8203; on each ship of the fleet&#8230;&#8203; outnumbered the Unicorn by a factor of&#8230;&#8203; Nobutada&#8217;s eyebrows raised as the numbers occurred to him. They might even rival the great clans now. The fact that Otomo Osonohime hadn&#8217;t known that the Unicorn had given their ships to the Otter filled him with some satisfaction after having to endure her extremely condescending company.</p>
+</div>
+<div class="paragraph">
+<p>He looked out into the mists. Where were they settling? A bay would be required if they even kept a fraction of those one hundred and fifty ships. He looked again at the ship moving towards them. A shiver went up his spine. We have a nice bay, with plenty of beach. If they wanted it, they could take it from us with little effort, he thought. "Perhaps it is one of ours returning for some reason." He hoped.</p>
+</div>
+<div class="paragraph">
+<p>Takame twisted her left forefinger in her auburn hair. A mischievous smile crossed her face, a face not unlike that of her twin brother. "I don&#8217;t think it is one of ours, maybe one of the Clans further south, but I think it is the Utaku."</p>
+</div>
+<div class="paragraph">
+<p>Nobutada laughed, his sister&#8217;s words caught him off guard, dismissing thoughts of Otter samurai swarming up the cove. "Utaku?! You can&#8217;t be serious! That&#8217;s impossible! They would never leave&#8230;&#8203; <em>their promise</em>&#8230;&#8203; How would they even get here? Every ship was taken for this," Nobutada said, waving his hands to encompass the entire island and its new inhabitants. "Why would you even think that?"</p>
+</div>
+<div class="paragraph">
+<p>"Ships can be built, brother. The ship you sailed on to get here was built by the Utaku," Takame said. She saw the surprise on her brother&#8217;s face. "Did I forget to mention that?" She said in a teasing, condescending tone before grinning at her brother. "I learned it during my visit. You would have learned it if you had gone instead of me, so that&#8217;s your fault for not knowing. They built many of the ships, filled them with grain, sailed them down the river, before riding back."</p>
+</div>
+<div class="paragraph">
+<p>"Strange," Nobutada muttered to himself at the idea of the Utaku, perhaps the best horse trainers in the empire, building ships. "Still, even if they survived, even if it is a couple Utaku on a single ship, that doesn&#8217;t mean they would come here. Even if they had a reason to, they could not make the crossing. It would be impossible for any to survive the trip without the Dragon&#8217;s guidance," Nobutada said, trying to be the voice of reason.</p>
+</div>
+<div class="paragraph">
+<p>Takame looked back to the west and the perpetual wall of mist that sat on the horizon. "I don&#8217;t know. I just have a feeling. The storm last night felt different and I had a dream," Takame said.</p>
+</div>
+<div class="paragraph">
+<p>"We all have had <em>dreams</em>, sister. This land is still too new to us," Nobutada said, trying to explain the restlessness that had descended upon the Unicorn since they had settled these strange lands four months ago. His own thoughts skirted around the real reason he suspected for the nightmares. "It is just a few Utaku that must have tagged along with the Mantis and have only now sailed to our shores. They would not have abandoned their honor, Lady Altansarnai said it herself; the Utaku promised to protect the Champion." He stared into the glass again trying to pick out something other than a slightly darker smudge of a sail against the lighter mists.</p>
+</div>
+<div class="paragraph">
+<p>"The <em>Line</em> of Shinjo&#8230;&#8203;" Takame corrected her brother. "What if they did&#8230;&#8203; The Scorpion, Soshi Mika wasn&#8217;t it, mentioned <em>the mantis followed without anyone noticing them</em>, maybe the Utaku did the same&#8230;&#8203;? Takame pondered quietly, she glanced over her shoulder making sure none overheard them.</p>
+</div>
+<div class="paragraph">
+<p>Nobutada lowered the spyglass and looked at her. "Why didn&#8217;t they sail with us? Why have they waited until now to show up on our shores? Where have they been for these four months, and why make their presence known now?" He said softly.</p>
+</div>
+<div class="paragraph">
+<p>"Who can understand the thoughts of a sword?" Takame said, repeating words spoken over seven months ago on the fields of Shiroi Kishi Heigen. "You&#8217;ll have the opportunity to ask them in a few hours."</p>
+</div>
+<div class="paragraph">
+<p>Nobutada shook his head dismissing the idea as preposterous. "It&#8217;s impossible; it is just a ship from one of the southern clans&#8230;&#8203; Scorpion, Crane maybe. We are the closest &#8230;&#8203;ummm&#8230;&#8203; port&#8230;&#8203; to travel to <em>Memory of Jade</em>. I suspect there will be many more of these random visitors to our shores in the coming months and years."</p>
+</div>
+<div class="paragraph">
+<p>Takame laughed. Her eyes sparkled with mischievousness and a predatory half smile spread across her face. "Want to bet your hat on that?"</p>
+</div>
+<div class="paragraph">
+<p>Nobutada returned the smile. He adjusted his hat, one of his favorite and his luckiest. "And if I win?"</p>
+</div>
+<div class="paragraph">
+<p>Takame pointed to her spyglass in his hands. "You can have my spyglass," She said with confidence. She had not told him everything. Her dream had not been unpleasant for a change. The thunder last night sounded like the hooves of a cavalry charge, which made her remember her visit to the Utaku. "Oh, and the loser has to meet them at the pier&#8230;&#8203;"</p>
+</div>
+<div class="paragraph">
+<p><br></p>
+</div>
+<div class="paragraph text-center">
+<p><strong>Rokugan, Shiroi Kishi Heigen</strong></p>
+</div>
+<div class="paragraph text-center">
+<p><strong>Three Months before Departure, Five months before Landfall&#8230;&#8203;</strong></p>
+</div>
+<div class="paragraph">
+<p>Takame was still trying to process the news; in just a little over three months, she and her brother were to lead the Unicorn part of this expedition to these new lands at the bequest of the Empress. She held out her hand and received the letter appointed her the Champion&#8217;s representative, in this, to speak with her voice to recruit from the families a force to sail into the unknown. It wouldn&#8217;t be a large force Takame realized. A horse would take up as much space as three men, weight as much as four and eat just as much as five. It could be adjusted, bringing more people than horses at first, with careful management and a few years, numbers could increase&#8230;&#8203; It all depended on how many ships and the sizes that were available to them. "Do we know how many ships we have, can have, by the time we leave?" Takame asked.</p>
+</div>
+<div class="paragraph">
+<p>"We are promised a great atakebune, I am told it will hold a thousand men on its own, one hundred and fifty of the three masted merchant ships and every other sea worthy vessels to be divided up as equally as possible, but who knows how many and how large they will actually be." Altansarnai said with a frown. "It is not ideal, but it should keep our word true to the Dragon Throne; to pay our debt. Much has been said in recent years about our&#8230;&#8203; resolve, our honor. Do what you can." She gestured to the letter in Takame&#8217;s hand. "That should get you what you can from the Unicorn. As I said: be discrete." Altansarnai paused for a second. "Do you think you will be making a request from the Utaku, Takame-san?"</p>
+</div>
+<div class="paragraph">
+<p>Takame looked up from the letter in her hand, still trying to come to grips with the enormity of the responsibility in the single sheet of paper. "I&#8230;&#8203; their presence would be&#8230;&#8203; I don&#8217;t know. Exploring strange lands, the spyglass will serve us better than the uma-yari, maybe&#8230;&#8203;? They&#8230;&#8203; The Wall&#8230;&#8203;" Takame remembered the fires on the horizon for several nights&#8230;&#8203; deep in the lands of the Utaku that had burned for days sending a wall of white smoke skyward&#8230;&#8203; The price&#8230;&#8203;" To ask for them to leave when they were still suffering from that wound&#8230;&#8203; Takame shook her head from the memory. "You would have a greater need of their might, Altansarnai-sama&#8230;&#8203; after all; the Empress calls this an expedition not an invasion." Takame struggled, dancing around words that were impossible for her to say.</p>
+</div>
+<div class="paragraph">
+<p>Altansarnai could see the concern, not quite fear, on Takame&#8217;s face. She smiled warmly at Takame. "Be at ease, Takame-san. These are new times for all of us. I would recommend that you speak with Lady Toshiko first, to ask for their assistance in this. Their unique&#8230;&#8203;<em>outlook</em> might serve you well. I am sure they will offer whatever help they can, though it may not be what you are expecting. It would be an insult otherwise," Altansarnai said. She slid a folded piece of paper out from her sleeve and handed it to Takame. "When you do, deliver this <em>personal request</em> to her from me. It should help you explain the situation, saving you from speaking unwise words."</p>
+</div>
+<div class="paragraph">
+<p>Takame looked at this new letter the Champion gave her like it was alive and would bite her if she mishandled it. She looked up from the letter to Altansarnai. "Request?"</p>
+</div>
+<div class="paragraph">
+<p>"Yes. What do you know of the Utaku?" Altansarnai asked.</p>
+</div>
+<div class="paragraph">
+<p>Takame chose her words carefully, wishing the question had been directed towards her brother, the diplomat. "Umm&#8230;&#8203; The family is the smallest of the Unicorn, barely larger than a minor clan&#8230;&#8203;" even smaller now Takame thought. "They are made up almost entirely of women&#8230;&#8203; Their Battle Maidens, Shiotome, are the greatest heavy cavalry in the world&#8230;&#8203; ahhh&#8230;&#8203; their horses are legendary and the best trained and their riders&#8230;&#8203; their honor is beyond reproach." Takame said the last with a certain pride in her voice. They had held the line against Akuma no Oni when others had fled. No one could take that from them.</p>
+</div>
+<div class="paragraph">
+<p>Altansarnai laughed. Not so much at Takame&#8217;s discomfort but as a way to lighten the mood. "All true and what everyone knows. Have you ever met one, personally, outside a battle?"</p>
+</div>
+<div class="paragraph">
+<p>"One, once. When I was twelve." Takame thought back to when she was a child.</p>
+</div>
+<div class="paragraph">
+<p>"And your impression then?" Altansarnai asked.</p>
+</div>
+<div class="paragraph">
+<p>"It was unnerving."</p>
+</div>
+<div class="paragraph">
+<p>"Just unnerving?" Altansarnai looked at Takame with a raised eyebrow, questioning Takame&#8217;s description.</p>
+</div>
+<div class="paragraph">
+<p>"It was a&#8230;&#8203; memorable&#8230;&#8203; experience." Takame confessed as much as her pride would allow.</p>
+</div>
+<div class="paragraph">
+<p>Altansarnai nodded knowingly. "Memorable&#8230;&#8203; that is an apt description indeed, Takame-san. Here is some advice my father gave me when I asked him of the very unnerving family: take care when dealing with them, do not assume anything with the Utaku; they never lie but their truth and yours may be quite different. Oh&#8230;&#8203; and they are most dangerous when they smile," She said.</p>
+</div>
+<div class="paragraph">
+<p>Takame sat back in surprise. "You make them sound like they are our enemy and not part of our clan, Altansarnai-sama."</p>
+</div>
+<div class="paragraph">
+<p>Altansarnai shook her head with a smile on her face. "They are not our enemy but neither are they our friends. What they are is the Right Hand of Shinjo no Kami, Takame-san, <em>Her</em> wrath, <em>Her</em> sword and who can understand the thoughts of a sword? Step carelessly and you could place yourself in their path. Blood does not bind them to us, they have made only one promise in the memory of our clan: to protect the line of Shinjo till her return. <em>To protect.</em> A very important distinction," Altansarnai said with a bit more seriousness than her smile indicated.</p>
+</div>
+<div class="paragraph text-center">
+<p><strong>*</strong>****</p>
+</div>
+<div class="paragraph">
+<p>Takame took a breath as she stepped out of the Champion&#8217;s yurt. "You were awfully quiet in there, brother."</p>
+</div>
+<div class="paragraph">
+<p>"One of the first lessons as a courtier is knowing when to speak&#8230;&#8203; and when not to. Besides, you handled the audience well&#8230;&#8203;ish." Nobutada smirked at his sister.</p>
+</div>
+<div class="paragraph">
+<p>"Well-ish?! Here&#8217;s well-ish!" Takame said as she shoved Nobutada&#8217;s hat over his eyes.</p>
+</div>
+<div class="paragraph">
+<p>"Hey! This is my third favorite hat, Kame_-chan_!" Nobutada said as he carefully reshaped the felt of his hat.</p>
+</div>
+<div class="paragraph">
+<p>"You deserve it. Look, I have to go and inform Hideaki of my promotion. Where are you staying? I&#8217;ll meet you there to discuss our plans," Takame said. She scanned the encampment.</p>
+</div>
+<div class="paragraph">
+<p>"Over there. The green and blue yurt," Nobutada said, pointing to the speck of color visible between the field of yurts and horse picket lines.</p>
+</div>
+<div class="paragraph">
+<p>"I see. I&#8217;ll meet you there in an hour or so," Takame said as she mounted her horse and rode to Taisa Hideaki&#8217;s banner. His yurt still being erected among a flurry of men and horses; a scene of barely contained chaos. Takame wondered just how she was going to be discrete in this matter&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>A few hours later, Takame and Nobutada sat in his yurt pouring over the drawings he had acquired. "So, one hundred people per these three masted ships, plus supplies for a six week journey and for two months of camp supplies," Nobutada said, pointing to the scrolls he had laid out which were obtained from a Mantis associate, Captain Aja of the Sea Spot, before he had returned at the Champion&#8217;s summons. News and rumors had already started to circulate in many corners of the capitol about this ‘expedition' and he had talked to his merchant friend out of curiosity and an educated guess. This expedition was one of the worst kept secrets in the Empire.</p>
+</div>
+<div class="paragraph">
+<p>Takame peered closely at the drawing making mental calculations. "Water is going to be the biggest limiting factor to how many horses we can take with us. Each horse is four people, so five for horse and rider, that&#8217;s twenty per these ships. Three thousand plus the two hundred can we take on the great atakebune&#8230;&#8203;" Takame said. "The other clans will outnumber us almost five to one. Not ideal."</p>
+</div>
+<div class="paragraph">
+<p>"Thirty-four hundred is a good number to <em>explore</em> these new lands," Nobutada said. He may have trained as a courtier with the Ide but they also had scouts as well. "Like you said; we are not launching an invasion. From all I know the land is uninhabited. All will be under the Empress' peace. Cooperation will serve us better than hostilities," Nobutada said, trying to reassure his sister. Seeing that she still had doubts about the number. "Perhaps if we ration the water we can fit twenty five horses per ship&#8230;&#8203;"</p>
+</div>
+<div class="paragraph">
+<p>Takame grimaced thinking of the condition of the horses and men on six weeks of rationed water. What if it took longer than six weeks? What if a storm pushed them off course? Weakness could invite disease and death on a crowded ship. "No, twenty per ship. It will give us some buffer for a small delay. It will be hard enough on the horses during the trip without crowding them in like firewood," Takame said. "Now all we need to figure out is what and who to take with us."</p>
+</div>
+<div class="paragraph">
+<p>"Moto and Shinjo should make up the majority of the group." Nobutada advised. "Ide with experience scouting and well versed in the nomadic traditions. A few Iuchi for spiritual and healing matters. We will also need to have some women in that mix if we wish to grow in these new lands."</p>
+</div>
+<div class="paragraph">
+<p>"Oh, yes, that could be a problem." Takame grimaced. <em>So much for an elite warband of raiders.</em> She thought with a sigh. "Maybe a quarter of our number?" She thought out loud.</p>
+</div>
+<div class="paragraph">
+<p>"Half. As many families, couples as possible, but there should be some younger, more adventurous women, unattached as well. Otherwise there will be fights&#8230;&#8203;and of course the most important&#8230;&#8203;" He waited for his sister&#8217;s questioning look. "A stunningly handsome courtier."</p>
+</div>
+<div class="paragraph">
+<p>"Too bad we have none of those&#8230;&#8203;" Takame deadpanned in response. She sighed with a shrug. "I guess we could find a flattened squirrel as a suitable replacement."</p>
+</div>
+<div class="paragraph">
+<p>"What?! And waste its potential as the expedition leader&#8230;&#8203;" Nobutada replied.</p>
+</div>
+<div class="paragraph">
+<p>They both laughed at the other. Nobutada picked up the tetsubin off of the nearby chabudai and poured them both a fresh cup of tea.</p>
+</div>
+<div class="paragraph">
+<p>"Thank you," Takame said, picking up the cup and taking a sip. She ran her hand through her hair and looked again at the Mantis&#8217;s drawing of a three masted junk. "We should spread the compliment of people between the ships so that if we lose one or more we won&#8217;t lose entire sections of our force. Divide the resources and people equally as possible between the ships. Including us. Use the smaller ships to carry extra supplies. Winter gear, spare yurts&#8230;&#8203;" she paused as a thought occurred to her. "Who will sail these ships? We may be Children of the Wind but only on the seas of grass."</p>
+</div>
+<div class="paragraph">
+<p>"I have someone looking into that. Ide Gan. Do you remember him?"</p>
+</div>
+<div class="paragraph">
+<p>"That scrawny kid that used to hang around you all the time?" Takame struggled to recall the man&#8217;s face.</p>
+</div>
+<div class="paragraph">
+<p>"Not so scrawny now," Nobutada laughed. "I sent him to make inquiries in the village of Shiroi Kishi Mizu-umi for volunteers once news of this expedition reached me."</p>
+</div>
+<div class="paragraph">
+<p>"Always thinking two steps ahead," Takame gave her brother a rare compliment. "So what&#8217;s the next step in your opinion?"</p>
+</div>
+<div class="paragraph">
+<p>Nobutada raised an eyebrow in surprise. "I can talk to the Iuchi and Ide. One-seventy and six-eigthy?" He asked. "Does that sound about right? The Iuchi may be able to help somewhat with the water difficulties."</p>
+</div>
+<div class="paragraph">
+<p>"I hope, Shinjo and Moto for me?" Takame asked suspiciously.</p>
+</div>
+<div class="paragraph">
+<p>"The Moto will listen to a bushi more than a courtier." Nobutada said with a lopsided grin.</p>
+</div>
+<div class="paragraph">
+<p>Takame grimaced but couldn&#8217;t find fault with her brother&#8217;s logic. "Probably seventy hundred Shinjo, eight hundred and fifty Moto. Moto can be a bit difficult at times." She marked the numbers down on the drawing of the three masted ship. "It would be best if they were not on equal footing with me but their pride will be tempered by being second in the group."</p>
+</div>
+<div class="paragraph">
+<p>Nobutada tilted his head, resting his chin in his hand in thought as he looked at his sister from the corner of his eye. "Who are you and what have you done with my sister?!" He laughed. "You sound like an Otomo."</p>
+</div>
+<div class="paragraph">
+<p>Takame stuck her tongue out at her brother. "Just for that you can go talk to the Utaku."</p>
+</div>
+<div class="paragraph">
+<p>"Oh no. The Champion gave you that letter. You talk to them," Nobutada said hurriedly.</p>
+</div>
+<div class="paragraph">
+<p>"But you are the diplomat. Surely you would be-" Takame said just as quickly.</p>
+</div>
+<div class="paragraph">
+<p>"But you are a woman, they would receive-," Nobutada retorted.</p>
+</div>
+<div class="paragraph">
+<p>"You have the skills to-," Takame countered.</p>
+</div>
+<div class="paragraph">
+<p>Nobutada held up his hand. "Look, there is only one way to solve this&#8230;&#8203;" He picked up a small stone, showing Takame before he put his hands behind his back. "Left or right?" He said. He held his hands out in front of his body.</p>
+</div>
+<div class="paragraph">
+<p>Takame examined Nobutada&#8217;s stance, how he shifted his shoulders. With her lips pressed tightly together she reached out towards his left hand, watching his stance. She saw a slight grin twitch on his face before she switched and tapped his right hand. He smiled widely as he turned his hands over, opening them and revealing the pebble was in his left hand.</p>
+</div>
+<div class="paragraph">
+<p>"Two out of three?" Takame asked, almost pleading.</p>
+</div>
+<div class="paragraph">
+<p>Nobutada laughed, his expression one of smug satisfaction at besting his sister. "Tell me how the audience goes."</p>
+</div>
+<div class="paragraph text-center">
+<p><strong>To be continued&#8230;&#8203;</strong></p>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+ <br>
+Last updated 2026-01-15 12:32:10 UTC
+</div>
+</div>
+</body>
+</html>
