@@ -60,7 +60,7 @@ PLATFORMS
 
 DEPENDENCIES
   asciidoctor (~> 2.0)
-  asciidoctor-pdf (~> 2.3.21)
+  asciidoctor-pdf (~> 2.3.24)
   logger (~> 1.6)
   rake (~> 13.0)
 
