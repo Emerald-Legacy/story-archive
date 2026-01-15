@@ -73,25 +73,6 @@
          d="M 0,144 H 144 V 0 H 0 Z"
          id="path32" />
     </clipPath>
-    <font
-       horiz-adv-x="1024"
-       id="font106"
-       inkscape:label="Schrift 1">
-      <font-face
-         units-per-em="1024"
-         id="font-face108"
-         font-family="SVGFont 1" />
-      <missing-glyph
-         d="M0,0h1000v1024h-1000z"
-         id="missing-glyph110" />
-      <glyph
-         glyph-name="Fire"
-         id="glyph23"
-         unicode="a" />
-      <glyph
-         glyph-name="Glyphe 2"
-         id="glyph105" />
-    </font>
   </defs>
   <metadata
      id="metadata7">
