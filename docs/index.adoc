@@ -68,3 +68,4 @@ This is an overview of all stories that have been released by Emerald Legacy.
 - link:pass:[stories/58 - Feast of Flames.pdf][58 - Feast of Flames]
 - link:pass:[stories/59 - Scroll of the Bake-Kujira.pdf][59 - Scroll of the Bake-Kujira]
 - link:pass:[stories/60 - Reflections Part I.pdf][60 - Reflections Part I]
+- link:pass:[stories/61 - The First Murder Is Unimportant.pdf][61 - The First Murder Is Unimportant]
