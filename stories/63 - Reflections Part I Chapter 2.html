@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.26">
+<meta name="author" content="Kevin Sanborn">
+<title>Reflections Part I – A Different Path: Chapter Two</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<style>
+/*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
+/* Uncomment the following line when using as a custom stylesheet */
+/* @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700"; */
+html{font-family:sans-serif;-webkit-text-size-adjust:100%}
+a{background:none}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+b,strong{font-weight:bold}
+abbr{font-size:.9em}
+abbr[title]{cursor:help;border-bottom:1px dotted #dddddf;text-decoration:none}
+dfn{font-style:italic}
+hr{height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace;font-size:1em}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+audio,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type=checkbox],input[type=radio]{padding:0}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+*,::before,::after{box-sizing:border-box}
+html,body{font-size:100%}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;line-height:1;position:relative;cursor:auto;-moz-tab-size:4;-o-tab-size:4;tab-size:4;word-wrap:anywhere;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+a:hover{cursor:pointer}
+img,object,embed{max-width:100%;height:auto}
+object,embed{height:100%}
+img{-ms-interpolation-mode:bicubic}
+.left{float:left!important}
+.right{float:right!important}
+.text-left{text-align:left!important}
+.text-right{text-align:right!important}
+.text-center{text-align:center!important}
+.text-justify{text-align:justify!important}
+.hide{display:none}
+img,object,svg{display:inline-block;vertical-align:middle}
+textarea{height:auto;min-height:50px}
+select{width:100%}
+.subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0}
+a{color:#2156a5;text-decoration:underline;line-height:inherit}
+a:hover,a:focus{color:#1d4b8f}
+a img{border:0}
+p{line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
+p aside{font-size:.875em;line-height:1.35;font-style:italic}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
+h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
+h1{font-size:2.125em}
+h2{font-size:1.6875em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
+h4,h5{font-size:1.125em}
+h6{font-size:1em}
+hr{border:solid #dddddf;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em}
+em,i{font-style:italic;line-height:inherit}
+strong,b{font-weight:bold;line-height:inherit}
+small{font-size:60%;line-height:inherit}
+code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
+ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
+ul,ol{margin-left:1.5em}
+ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
+ul.circle{list-style-type:circle}
+ul.disc{list-style-type:disc}
+ul.square{list-style-type:square}
+ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
+ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
+dl dt{margin-bottom:.3125em;font-weight:bold}
+dl dd{margin-bottom:1.25em}
+blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
+blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
+@media screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
+h1{font-size:2.75em}
+h2{font-size:2.3125em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
+h4{font-size:1.4375em}}
+table{background:#fff;margin-bottom:1.25em;border:1px solid #dedede;word-wrap:normal}
+table thead,table tfoot{background:#f7f8f7}
+table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
+table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
+table tr.even,table tr.alt{background:#f8f8f7}
+table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{line-height:1.6}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
+h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
+.center{margin-left:auto;margin-right:auto}
+.stretch{width:100%}
+.clearfix::before,.clearfix::after,.float-group::before,.float-group::after{content:" ";display:table}
+.clearfix::after,.float-group::after{clear:both}
+:not(pre).nobreak{word-wrap:normal}
+:not(pre).nowrap{white-space:nowrap}
+:not(pre).pre-wrap{white-space:pre-wrap}
+:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
+pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
+pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
+pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
+em em{font-style:normal}
+strong strong{font-weight:400}
+.keyseq{color:rgba(51,51,51,.8)}
+kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;border-radius:3px;box-shadow:0 1px 0 rgba(0,0,0,.2),inset 0 0 0 .1em #fff;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
+.keyseq kbd:first-child{margin-left:0}
+.keyseq kbd:last-child{margin-right:0}
+.menuseq,.menuref{color:#000}
+.menuseq b:not(.caret),.menuref{font-weight:inherit}
+.menuseq{word-spacing:-.02em}
+.menuseq b.caret{font-size:1.25em;line-height:.8}
+.menuseq i.caret{font-weight:bold;text-align:center;width:.45em}
+b.button::before,b.button::after{position:relative;top:-1px;font-weight:400}
+b.button::before{content:"[";padding:0 3px 0 2px}
+b.button::after{content:"]";padding:0 2px 0 3px}
+p a>code:hover{color:rgba(0,0,0,.9)}
+#header,#content,#footnotes,#footer{width:100%;margin:0 auto;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
+#header::before,#header::after,#content::before,#content::after,#footnotes::before,#footnotes::after,#footer::before,#footer::after{content:" ";display:table}
+#header::after,#content::after,#footnotes::after,#footer::after{clear:both}
+#content{margin-top:1.25em}
+#content::before{content:none}
+#header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
+#header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
+#header>h1:only-child{border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
+#header .details span:first-child{margin-left:-.125em}
+#header .details span.email a{color:rgba(0,0,0,.85)}
+#header .details br{display:none}
+#header .details br+span::before{content:"\00a0\2013\00a0"}
+#header .details br+span.author::before{content:"\00a0\22c5\00a0";color:rgba(0,0,0,.85)}
+#header .details br+span#revremark::before{content:"\00a0|\00a0"}
+#header #revnumber{text-transform:capitalize}
+#header #revnumber::after{content:"\00a0"}
+#content>h1:first-child:not([class]){color:rgba(0,0,0,.85);border-bottom:1px solid #dddddf;padding-bottom:8px;margin-top:0;padding-top:1rem;margin-bottom:1.25rem}
+#toc{border-bottom:1px solid #e7e7e9;padding-bottom:.5em}
+#toc>ul{margin-left:.125em}
+#toc ul.sectlevel0>li>a{font-style:italic}
+#toc ul.sectlevel0 ul.sectlevel1{margin:.5em 0}
+#toc ul{font-family:"Open Sans","DejaVu Sans",sans-serif;list-style-type:none}
+#toc li{line-height:1.3334;margin-top:.3334em}
+#toc a{text-decoration:none}
+#toc a:active{text-decoration:underline}
+#toctitle{color:#7a2518;font-size:1.2em}
+@media screen and (min-width:768px){#toctitle{font-size:1.375em}
+body.toc2{padding-left:15em;padding-right:0}
+body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
+#toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
+#toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
+#toc.toc2>ul{font-size:.9em;margin-bottom:0}
+#toc.toc2 ul ul{margin-left:0;padding-left:1em}
+#toc.toc2 ul.sectlevel0 ul.sectlevel1{padding-left:0;margin-top:.5em;margin-bottom:.5em}
+body.toc2.toc-right{padding-left:0;padding-right:15em}
+body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #e7e7e9;left:auto;right:0}}
+@media screen and (min-width:1280px){body.toc2{padding-left:20em;padding-right:0}
+#toc.toc2{width:20em}
+#toc.toc2 #toctitle{font-size:1.375em}
+#toc.toc2>ul{font-size:.95em}
+#toc.toc2 ul ul{padding-left:1.25em}
+body.toc2.toc-right{padding-left:0;padding-right:20em}}
+#content #toc{border:1px solid #e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;border-radius:4px}
+#content #toc>:first-child{margin-top:0}
+#content #toc>:last-child{margin-bottom:0}
+#footer{max-width:none;background:rgba(0,0,0,.8);padding:1.25em}
+#footer-text{color:hsla(0,0%,100%,.8);line-height:1.44}
+#content{margin-bottom:.625em}
+.sect1{padding-bottom:.625em}
+@media screen and (min-width:768px){#content{margin-bottom:1.25em}
+.sect1{padding-bottom:1.25em}}
+.sect1:last-child{padding-bottom:0}
+.sect1+.sect1{border-top:1px solid #e7e7e9}
+#content h1>a.anchor,h2>a.anchor,h3>a.anchor,#toctitle>a.anchor,.sidebarblock>.content>.title>a.anchor,h4>a.anchor,h5>a.anchor,h6>a.anchor{position:absolute;z-index:1001;width:1.5ex;margin-left:-1.5ex;display:block;text-decoration:none!important;visibility:hidden;text-align:center;font-weight:400}
+#content h1>a.anchor::before,h2>a.anchor::before,h3>a.anchor::before,#toctitle>a.anchor::before,.sidebarblock>.content>.title>a.anchor::before,h4>a.anchor::before,h5>a.anchor::before,h6>a.anchor::before{content:"\00A7";font-size:.85em;display:block;padding-top:.1em}
+#content h1:hover>a.anchor,#content h1>a.anchor:hover,h2:hover>a.anchor,h2>a.anchor:hover,h3:hover>a.anchor,#toctitle:hover>a.anchor,.sidebarblock>.content>.title:hover>a.anchor,h3>a.anchor:hover,#toctitle>a.anchor:hover,.sidebarblock>.content>.title>a.anchor:hover,h4:hover>a.anchor,h4>a.anchor:hover,h5:hover>a.anchor,h5>a.anchor:hover,h6:hover>a.anchor,h6>a.anchor:hover{visibility:visible}
+#content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
+#content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
+details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
+details{margin-left:1.25rem}
+details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;outline:none;-webkit-tap-highlight-color:transparent}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"";border:solid transparent;border-left:solid;border-width:.3em 0 .3em .5em;position:absolute;top:.5em;left:-1.25rem;transform:translateX(15%)}
+details[open]>summary::before{border:solid transparent;border-top:solid;border-width:.5em .3em 0;transform:translateY(15%)}
+details>summary::after{content:"";width:1.25rem;height:1em;position:absolute;top:.3em;left:-1.25rem}
+.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
+table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
+.paragraph.lead>p,#preamble>.sectionbody>[class=paragraph]:first-of-type p{font-size:1.21875em;line-height:1.6;color:rgba(0,0,0,.85)}
+.admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
+.admonitionblock>table td.icon{text-align:center;width:80px}
+.admonitionblock>table td.icon img{max-width:none}
+.admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
+.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
+.admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
+.sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
+.sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
+.exampleblock>.content>:first-child,.sidebarblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child,.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
+@media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
+@media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
+.literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class=highlight],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
+.literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
+.listingblock>.content{position:relative}
+.listingblock pre>code{display:block}
+.listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
+.listingblock:hover code[data-lang]::before{display:block}
+.listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
+.listingblock.terminal pre .command:not([data-prompt])::before{content:"$"}
+.listingblock pre.highlightjs{padding:0}
+.listingblock pre.highlightjs>code{padding:1em;border-radius:4px}
+.listingblock pre.prettyprint{border-width:0}
+.prettyprint{background:#f7f7f8}
+pre.prettyprint .linenums{line-height:1.45;margin-left:2em}
+pre.prettyprint li{background:none;list-style-type:inherit;padding-left:0}
+pre.prettyprint li code[data-lang]::before{opacity:1}
+pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
+table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
+table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
+table.linenotable td.code{padding-left:.75em}
+table.linenotable td.linenos,pre.pygments .linenos{border-right:1px solid;opacity:.35;padding-right:.5em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+pre.pygments span.linenos{display:inline-block;margin-right:.75em}
+.quoteblock{margin:0 1em 1.25em 1.5em;display:table}
+.quoteblock:not(.excerpt)>.title{margin-left:-1.5em;margin-bottom:.75em}
+.quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
+.quoteblock blockquote{margin:0;padding:0;border:0}
+.quoteblock blockquote::before{content:"\201c";float:left;font-size:2.75em;font-weight:bold;line-height:.6em;margin-left:-.6em;color:#7a2518;text-shadow:0 1px 2px rgba(0,0,0,.1)}
+.quoteblock blockquote>.paragraph:last-child p{margin-bottom:0}
+.quoteblock .attribution{margin-top:.75em;margin-right:.5ex;text-align:right}
+.verseblock{margin:0 1em 1.25em}
+.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans-serif;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
+.verseblock pre strong{font-weight:400}
+.verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
+.quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
+.quoteblock .attribution br,.verseblock .attribution br{display:none}
+.quoteblock .attribution cite,.verseblock .attribution cite{display:block;letter-spacing:-.025em;color:rgba(0,0,0,.6)}
+.quoteblock.abstract blockquote::before,.quoteblock.excerpt blockquote::before,.quoteblock .quoteblock blockquote::before{display:none}
+.quoteblock.abstract blockquote,.quoteblock.abstract p,.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{line-height:1.6;word-spacing:0}
+.quoteblock.abstract{margin:0 1em 1.25em;display:block}
+.quoteblock.abstract>.title{margin:0 0 .375em;font-size:1.15em;text-align:center}
+.quoteblock.excerpt>blockquote,.quoteblock .quoteblock{padding:0 0 .25em 1em;border-left:.25em solid #dddddf}
+.quoteblock.excerpt,.quoteblock .quoteblock{margin-left:0}
+.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{color:inherit;font-size:1.0625rem}
+.quoteblock.excerpt .attribution,.quoteblock .quoteblock .attribution{color:inherit;font-size:.85rem;text-align:left;margin-right:0}
+p.tableblock:last-child{margin-bottom:0}
+td.tableblock>.content{margin-bottom:1.25em;word-wrap:anywhere}
+td.tableblock>.content>:last-child{margin-bottom:-1.25em}
+table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
+table.grid-all>*>tr>*{border-width:1px}
+table.grid-cols>*>tr>*{border-width:0 1px}
+table.grid-rows>*>tr>*{border-width:1px 0}
+table.frame-all{border-width:1px}
+table.frame-ends{border-width:1px 0}
+table.frame-sides{border-width:0 1px}
+table.frame-none>colgroup+*>:first-child>*,table.frame-sides>colgroup+*>:first-child>*{border-top-width:0}
+table.frame-none>:last-child>:last-child>*,table.frame-sides>:last-child>:last-child>*{border-bottom-width:0}
+table.frame-none>*>tr>:first-child,table.frame-ends>*>tr>:first-child{border-left-width:0}
+table.frame-none>*>tr>:last-child,table.frame-ends>*>tr>:last-child{border-right-width:0}
+table.stripes-all>*>tr,table.stripes-odd>*>tr:nth-of-type(odd),table.stripes-even>*>tr:nth-of-type(even),table.stripes-hover>*>tr:hover{background:#f8f8f7}
+th.halign-left,td.halign-left{text-align:left}
+th.halign-right,td.halign-right{text-align:right}
+th.halign-center,td.halign-center{text-align:center}
+th.valign-top,td.valign-top{vertical-align:top}
+th.valign-bottom,td.valign-bottom{vertical-align:bottom}
+th.valign-middle,td.valign-middle{vertical-align:middle}
+table thead th,table tfoot th{font-weight:bold}
+tbody tr th{background:#f7f8f7}
+tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
+p.tableblock>code:only-child{background:none;padding:0}
+p.tableblock{font-size:1em}
+ol{margin-left:1.75em}
+ul li ol{margin-left:1.5em}
+dl dd{margin-left:1.125em}
+dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
+li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
+ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
+ul.unstyled,ol.unstyled{margin-left:0}
+li>p:empty:only-child::before{content:"";display:inline-block}
+ul.checklist>li>p:first-child{margin-left:-1em}
+ul.checklist>li>p:first-child>.fa-square-o:first-child,ul.checklist>li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
+ul.checklist>li>p:first-child>input[type=checkbox]:first-child{margin-right:.25em}
+ul.inline{display:flex;flex-flow:row wrap;list-style:none;margin:0 0 .625em -1.25em}
+ul.inline>li{margin-left:1.25em}
+.unstyled dl dt{font-weight:400;font-style:normal}
+ol.arabic{list-style-type:decimal}
+ol.decimal{list-style-type:decimal-leading-zero}
+ol.loweralpha{list-style-type:lower-alpha}
+ol.upperalpha{list-style-type:upper-alpha}
+ol.lowerroman{list-style-type:lower-roman}
+ol.upperroman{list-style-type:upper-roman}
+ol.lowergreek{list-style-type:lower-greek}
+.hdlist>table,.colist>table{border:0;background:none}
+.hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
+td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
+td.hdlist1{font-weight:bold;padding-bottom:1.25em}
+td.hdlist2{word-wrap:anywhere}
+.literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
+.colist td:not([class]):first-child{padding:.4em .75em 0;line-height:1;vertical-align:top}
+.colist td:not([class]):first-child img{max-width:none}
+.colist td:not([class]):last-child{padding:.25em 0}
+.thumb,.th{line-height:0;display:inline-block;border:4px solid #fff;box-shadow:0 0 0 1px #ddd}
+.imageblock.left{margin:.25em .625em 1.25em 0}
+.imageblock.right{margin:.25em 0 1.25em .625em}
+.imageblock>.title{margin-bottom:0}
+.imageblock.thumb,.imageblock.th{border-width:6px}
+.imageblock.thumb>.title,.imageblock.th>.title{padding:0 .125em}
+.image.left,.image.right{margin-top:.25em;margin-bottom:.25em;display:inline-block;line-height:0}
+.image.left{margin-right:.625em}
+.image.right{margin-left:.625em}
+a.image{text-decoration:none;display:inline-block}
+a.image object{pointer-events:none}
+sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
+sup.footnote a,sup.footnoteref a{text-decoration:none}
+sup.footnote a:active,sup.footnoteref a:active,#footnotes .footnote a:first-of-type:active{text-decoration:underline}
+#footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
+#footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
+#footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
+#footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
+#footnotes .footnote:last-of-type{margin-bottom:0}
+#content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
+div.unbreakable{page-break-inside:avoid}
+.big{font-size:larger}
+.small{font-size:smaller}
+.underline{text-decoration:underline}
+.overline{text-decoration:overline}
+.line-through{text-decoration:line-through}
+.aqua{color:#00bfbf}
+.aqua-background{background:#00fafa}
+.black{color:#000}
+.black-background{background:#000}
+.blue{color:#0000bf}
+.blue-background{background:#0000fa}
+.fuchsia{color:#bf00bf}
+.fuchsia-background{background:#fa00fa}
+.gray{color:#606060}
+.gray-background{background:#7d7d7d}
+.green{color:#006000}
+.green-background{background:#007d00}
+.lime{color:#00bf00}
+.lime-background{background:#00fa00}
+.maroon{color:#600000}
+.maroon-background{background:#7d0000}
+.navy{color:#000060}
+.navy-background{background:#00007d}
+.olive{color:#606000}
+.olive-background{background:#7d7d00}
+.purple{color:#600060}
+.purple-background{background:#7d007d}
+.red{color:#bf0000}
+.red-background{background:#fa0000}
+.silver{color:#909090}
+.silver-background{background:#bcbcbc}
+.teal{color:#006060}
+.teal-background{background:#007d7d}
+.white{color:#bfbfbf}
+.white-background{background:#fafafa}
+.yellow{color:#bfbf00}
+.yellow-background{background:#fafa00}
+span.icon>.fa{cursor:default}
+a span.icon>.fa{cursor:inherit}
+.admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
+.admonitionblock td.icon .icon-note::before{content:"\f05a";color:#19407c}
+.admonitionblock td.icon .icon-tip::before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
+.admonitionblock td.icon .icon-warning::before{content:"\f071";color:#bf6900}
+.admonitionblock td.icon .icon-caution::before{content:"\f06d";color:#bf3400}
+.admonitionblock td.icon .icon-important::before{content:"\f06a";color:#bf0000}
+.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);border-radius:50%;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value] *{color:#fff!important}
+.conum[data-value]+b{display:none}
+.conum[data-value]::after{content:attr(data-value)}
+pre .conum[data-value]{position:relative;top:-.125em}
+b.conum *{color:inherit!important}
+.conum:not([data-value]):empty{display:none}
+dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
+h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
+p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
+p,blockquote,dt,td.content,td.hdlist1,span.alt,summary{font-size:1.0625rem}
+p{margin-bottom:1.25rem}
+.sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
+.exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
+.print-only{display:none!important}
+@page{margin:1.25cm .75cm}
+@media print{*{box-shadow:none!important;text-shadow:none!important}
+html{font-size:80%}
+a{color:inherit!important;text-decoration:underline!important}
+a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
+a[href^="http:"]:not(.bare)::after,a[href^="https:"]:not(.bare)::after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
+abbr[title]{border-bottom:1px dotted}
+abbr[title]::after{content:" (" attr(title) ")"}
+pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
+thead{display:table-header-group}
+svg{max-width:100%}
+p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
+h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
+#header,#content,#footnotes,#footer{max-width:none}
+#toc,.sidebarblock,.exampleblock>.content{background:none!important}
+#toc{border-bottom:1px solid #dddddf!important;padding-bottom:0!important}
+body.book #header{text-align:center}
+body.book #header>h1:first-child{border:0!important;margin:2.5em 0 1em}
+body.book #header .details{border:0!important;display:block;padding:0!important}
+body.book #header .details span:first-child{margin-left:0!important}
+body.book #header .details br{display:block}
+body.book #header .details br+span::before{content:none!important}
+body.book #toc{border:0!important;text-align:left!important;padding:0!important;margin:0!important}
+body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-break-before:always}
+.listingblock code[data-lang]::before{display:block}
+#footer{padding:0 .9375em}
+.hide-on-print{display:none!important}
+.print-only{display:block!important}
+.hide-for-print{display:none!important}
+.show-for-print{display:inherit!important}}
+@media amzn-kf8,print{#header>h1:first-child{margin-top:1.25rem}
+.sect1{padding:0!important}
+.sect1+.sect1{border:0}
+#footer{background:none}
+#footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
+@media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="book">
+<div id="header">
+<h1>Reflections Part I – A Different Path: Chapter Two</h1>
+<div class="details">
+<span id="author" class="author">Kevin Sanborn</span><br>
+<span id="revnumber"> ,</span>
+<span id="revdate"></span>
+</div>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph text-center">
+<p><strong>Heigen Yuki bordering the Utaku territory</strong></p>
+</div>
+<div class="paragraph text-center">
+<p><strong>Ten years ago&#8230;&#8203;</strong></p>
+</div>
+<div class="paragraph">
+<p>Shinjo Takame fumed as she urged her pony over the rolling hills searching for the lost heads of cattle. If she didn&#8217;t get them back quickly she would get in so much trouble.</p>
+</div>
+<div class="paragraph">
+<p>It had been just a little nap on a hot lazy summer day, deep in the lands of the Shinjo near the banks of the river that bordered the Utaku. Just a short little nap in the shade of a lone tree sitting on a hill overlooking the surrounding countryside, while she was supposed to be watching one of the many herds of cows that belonged to her family. To keep them from doing what they had done: wandering off. And not just wander off in some meaningless direction, but they had crossed the shallow, slow moving river into the Lands of the Two Lakes, the home of the Utaku!</p>
+</div>
+<div class="paragraph">
+<p>Takame urged her pony into the cold waters that flowed from the mountains to the west and carefully made their way to the opposite bank. The imprint of the cow&#8217;s passage was clearly visible in the muddy bank. With skill of one born in the saddle, she guided her pony up the bank and galloped out into the rolling plains. "Stupid cows. I am in so much trouble, so much trouble," She kept muttering to herself as she scanned the plains, hoping the cows had gone only a little ways into Utaku territory. Maybe she could find them and return to her side of the river before the Utaku found out.</p>
+</div>
+<div class="paragraph">
+<p>That was not to be, as Takame crested a small fold in the plains she was confronted by a girl no older than herself on a young gray Utaku mare and accompanied by three Utaku ponies. The girl wore a cotton kimono of dull green and browns. A wide straw sugegasa sat on her head casting her face in shadow under the noonday sun. Across her lap was the composite wood, horn and sinew yumi of a similar but different design than the yumi of the Ujik-hai that the Unicorn favored. A fan of feathered arrows rose from behind her. Takame reined her pony to a halt a few ken from the Utaku. "Ummm. I am looking for some cows. Have you seen them?" Takame said hesitantly, not knowing what else to do.</p>
+</div>
+<div class="paragraph">
+<p>The short haired girl merely stared at her. Even cast in shadow, Takame could feel the Utaku&#8217;s eyes upon her. Time seemed to stand still until the girl calmly pointed to the west. Takame followed the girl&#8217;s direction, seeing the missing cows moving at a trot over the hill&#8217;s crest. Takame sighed in relief, turning back to the Utaku "Sorry," She said with a bow to the girl. As she did Takame noticed that the gray mare had neither bit, bridle, or reins. <em>It is as they said; the Utaku had an unnatural connection to their horses&#8230;&#8203;</em> Takame thought, feeling a creeping sensation up her spine. Takame looked back to the herd of cows moving past their position trying to fix her eyes on something normal and familiar. She scanned the area expecting to see more Utaku but saw none. In confusion she widened her search, all she could see was the one girl with the gray mare and the three ponies with her. As they waited she saw that the missing cows were being herded by six other ponies who nipped and shoved at the herd encouraging them to move quickly. Six ponies that were herding the cows on their own, without any signal or words from the Utaku. In fact the only sounds came from the cows and Takame herself. Takame looked at the Utaku as the ponies continued to herd the cows northward towards the river. She bit her lip unsure of what to do next. "Umm&#8230;&#8203; Ah&#8230;&#8203;Thank you. I am Shinjo Takame," She said with a bow.</p>
+</div>
+<div class="paragraph">
+<p>Again there was another uncomfortable silence before the Utaku responded in a flat emotionless voice, like a ghost. "You are welcome. I am Naoko Emi. My sisters are Vata Chinatsu, Namaku Dew-shine, Leaf in Wind and Sabina," The Utaku said. Both her and her horse, and the three ponies returned Takame&#8217;s bow. Takame stared at the grace of the horse and ponies, there had again been no signal seen or words heard to trigger the tricks from them. "You should return to your lands before you are missed, Shinjo Takame-san," Emi said, gesturing towards the northern bank of the river.</p>
+</div>
+<div class="paragraph">
+<p>Takame turned to see the cows starting their climb out of the river and up the far bank. "Thank you again, Utaku Emi-san," Takame said. With a quick tug on her horse&#8217;s reins and a nudge of her heel in his side, she turned around and followed the tracks of the cows back to the northern side of the river. Takame stopped at the top of the bank and turned back to look to the south again. There was no sign of the girl or the ponies, just empty fields of grass and the wind. She looked down at her hands, seeing them shaking, taking a deep breath and letting it go in a gasp, Takame becoming aware only now of the knot in her gut as if she had been holding her breath the whole time.</p>
+</div>
+<hr>
+<div class="paragraph text-center">
+<p><strong>Hisu Mori Toride</strong></p>
+</div>
+<div class="paragraph text-center">
+<p><strong>Five years ago&#8230;&#8203;</strong></p>
+</div>
+<div class="paragraph">
+<p>Matsu Mitsuko lay dying from the hand of her betrothed. "You are magnificent in battle, Shono," She gasped as she fell to the ground, her blood a bright scarlet against the dusty ground, the air full of burning embers. Her sight faded as she watched Shinjo Shono depart, not sparing her a glance as he left. Wearily she closed her eyes and waited for the last moment to come&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>A shadow crossed her closed eyes, weakly she opened them thinking that perhaps Shono had returned to claim her head as a bundori. <em>No, the Unicorn do not practice that craft, the Utaku certainly wouldn&#8217;t approve of that treatment of their defeated foes,</em> she thought. Instead she saw a familiar woman dismounting from a gray mare to kneel beside her. "So, sister-in-law, you still cling to life. That&#8217;s good. Your brother will be pleased I was not late. Let us not waste this opportunity the Fortunes have granted us," the woman said. Three dangerous looking men stepped forward to gather her up gently and place her on a stretcher. <em>Kamoshika,</em> Mitsuko recognized the Utaku light infantry ‘famed' for their ability to move unseen in the lands of their adversaries. Another quickly administered to her wound while a short haired Battle Maiden in browns and greens beseeched the spirits to grant her strength.</p>
+</div>
+<div class="paragraph">
+<p>"Why? I killed your sister, attacked your village," She asked, feeling strength flow back into her limbs. She would live to see another day.</p>
+</div>
+<div class="paragraph">
+<p>"A blade that is kept too long in its saya forgets how to cut. We expect the Lions to attack these villages regularly, we placed them here so you would attack them, it keeps both our blades sharp and you fought honorably and gave Hisako a good death. Well done," Her sister-in-law answered. She gave the order to the men and they lifted the stretcher up and moved quickly yet smoothly across the darkening landscape. Two in front and two in back. The other maiden mounted a swift looking bay mare and rode alongside the right side of the stretcher while Tomoko rode on the left.</p>
+</div>
+<div class="paragraph">
+<p>"You are not angry that she is dead?" Mitsuko asked, still a bit lightheaded from the loss of blood, confused by the Utaku&#8217;s benevolence.</p>
+</div>
+<div class="paragraph">
+<p>Tomoko looked at the Lioness, tilting her head in thought before she smiled. "Come now, Matsu. Our two families have fought one another for far too long to harbor such <em>dishonorable</em> emotions towards each other. We have too much respect for the Lioness to be upset by something as trivial as death by your hands. With every loss, we learn and become stronger. Hisako now rides in the Golden Fields. In time, when she hears Lady Utaku&#8217;s call, she will return to stand within the circle once more. What is there to be angry about?"</p>
+</div>
+<div class="paragraph">
+<p>"Well said, Utaku. Forgive me for questioning your honor," Mitsuko said.</p>
+</div>
+<div class="paragraph">
+<p>"Yes," Tomoko said with a smile. "Enough talk, rest. We have a long journey."</p>
+</div>
+<hr>
+<div class="paragraph text-center">
+<p><strong>Michi no Nagai Shogyo</strong></p>
+</div>
+<div class="paragraph text-center">
+<p><strong>Three Months before Departure&#8230;&#8203;</strong></p>
+</div>
+<div class="paragraph">
+<p>The next morning Takame left the Champion&#8217;s encampment to ride to the Lands of the Two Lakes, sacred lands of the Utaku. It was only a day&#8217;s ride from the assembled host of the Unicorn in Shiroi Kishi Heigen, as the crow flew, but the Utaku only allowed passage into their lands along one path, Uma Sano Umebachi Doro, Horses of the Plum Blossom Road, which ran along the western bank of Kawa Nemui, the Sleeping River.</p>
+</div>
+<div class="paragraph">
+<p>Lady Sun shone down and a pleasant breeze stirred the waist high grasses of Shiroi Kishi Heigen, their seed-heads brushing her boots, as she made her way northeast for a day before the fortress-city, Toshi no Aida ni Kawa,broke the horizon. It sat on a small island between the banks of the Firefly River that defined the southern border of the Utaku&#8217;s lands, With only one bridge on the southern side of the city providing access from the White Shore Plains, the city was used by Moto merchants to store surplus goods from the far flung trading empires to the west, the Iuchi to document and discuss various spiritual matter and the Ide to collect and disseminate information to the various leaders of the clan. It also was a convenient rest stop for travelers journeying to Daikoku Seido, the temple of wealth and good fortune, on the shore of the White Shore Lake, offering inns, eateries, and entertainment. She then turned east, aiming for the shukuba-machi Hae Moete-juku, a typical post-town. The Utaku&#8217;s post-towns were small, pleasant towns of around three hundred people, with well maintained buildings of timber and tiles, surrounding the road, where a traveler could stop during their journey for a safe night&#8217;s rest, a meal and purchase supplies. It sat on the eastern bank just south of where the Sleeping River and the Firefly River joined. Behind the post-town lay the Eastern Plains of the Utaku. Takame had ridden across it many times and had visited many of the farms and fields that the Utaku occupied across its territory. The Utaku managed it in their regimented way but since it was east of the river they didn&#8217;t consider it sacred and so were agreeable to the families of the Unicorn wandering its vast plains as long as such travelers respected their villages, their <em>castrum</em>, as they called the half-village-half-forts that was uniquely Utaku.</p>
+</div>
+<div class="paragraph">
+<p>Here was the center of the grain production for the Unicorns and a sizable portion of the empire&#8217;s as well, a powerful tool for the Unicorn in the political arena. Considering that it was dependent on the Utaku&#8217;s skillful management of these lands, none had challenged the Utaku&#8217;s ‘request'.</p>
+</div>
+<div class="paragraph">
+<p>She crossed the wooden bridge and entered Hae Moate-juku as Lady Sun was sinking below the western mountains and was able to secure a room in the ryokan for the night, a good meal, hot tea and warm sake. Her sleep was restless as she kept recalling in the quiet of the night her talk with Lady Altansarnai. Thinking about all the ways she would make a mess of this visit. "Stupid No-chan and his dumb rock&#8230;&#8203;" Takame muttered to herself as she stared up at the ceiling, listening to the wind, trying to get some sleep.</p>
+</div>
+<div class="paragraph">
+<p>Sleep finally came, yet morning arrived sooner than Takame wished.</p>
+</div>
+<div class="paragraph">
+<p>In the morning two men guided her horse, Naran, out from the ryokan&#8217;s stable. Not by his reins but by a simple gesture and odd grumble the older man made. Naran, normally rather spirited and needing a firm hand on the reins, moved docilely to the spot the older man indicated while the younger fit the saddle on her horse. The older man handed Takame the bit, bridle, and reins for her to fit on her horse. Takame slipped the tack on Naran examining him as she did. He was immaculate, thoroughly cleaned and her saddle was even cleaned and treated, shining with new oils and wax. A quick glance at his hooves showed a fresh trim and file as well. The tack, while cleaned, had not received any more attention than that on it. She bowed to the two men thanking them for their service, receiving a quiet bow in return. They were the only men she had seen in Hae Moete-juku except for the lone boy who ran along the road behind his bigger sister as they moved some goats across Michi no Nagai Shogyo, the Way of Lengthy Commerce. Nowhere else in the lands of the Unicorn did there exist permanent roads, not even dirt or gravel ones, of course there were a few short stretches of worn tracks around various landscapes but a road? No. The Utaku had three main roads that connected the corners of their lands: Michi no Nagai Shogyo, Uma sano Umebachi Doro, and Kita Kaido, the North Road. They were wide roads paved with tightly fitted flat stones, raised slightly higher in the center, rivaling even the roads of Otosan Uchi.</p>
+</div>
+<div class="paragraph">
+<p>Along these roads' length, post-towns, like Hae Moete-juku, were spaced a day&#8217;s walk apart allowing easy travel and rest. Takame kept Naran&#8217;s pace to a walk, mostly to not disturb the other travelers on the road, of which there were several, but she admitted to herself that she was not looking forward to this meeting and delayed it as much as honor would allow. At mid day she crossed paths with a magistrate patrol of four maidens traveling south. The lead maiden had a golden tasseled jitte stuck in her obi denoting her authority on the road; <em>Maidens of the Sankaido</em>. Their hoof-falls sounded harsh; metal on stone. ‘Horse shoes' the Utaku called the strange accessory, where the Utaku had gotten the invention from during their travels she didn&#8217;t know. Even without the flash of steel on the mounts' hooves, the beauty of the stallions told Takame that these were the Utaku War Horses ridden by Shiotome. Almost two hands taller than her gelding, who was by no means a lesser example of the Shinjo steeds, the Utaku War Horse exuded might and mayhem.</p>
+</div>
+<div class="paragraph">
+<p>The same could be said for their riders.</p>
+</div>
+<div class="paragraph">
+<p>Other than a glance at Takame and the other travelers on the road, they moved on without incident. Their presence assuring travelers they could continue their journey in relative safety.</p>
+</div>
+<div class="paragraph">
+<p>On the third day on Michi no Nagai Shogyo, Takame reached Mura nisa Kawa Nemui, Village by the Sleeping River. She was still many li south of the town when she recognized the first signs of the large town: horses, thousands of horses as far as the eye could see, dotted the lands, from the river to the horizon east of the road. She recognized the horses closest to her as the Namaku, the Utaku&#8217;s ponies. A mean-spirited breed that the wise kept distant from. Advice that her mother had given her while she was still young bubbled to her consciousness. "<em>Never</em> touch any Utaku horse. At best you will be badly bruised, at worst you will disappear into the ground, unrecognizable as to what you used to be&#8230;&#8203;"</p>
+</div>
+<div class="paragraph">
+<p>Advice she had taken to heart after her meeting with Emi and her four ‘sisters'. Advice that had proven true. She had witnessed an arrogant samurai many years before who had thought themselves master of the spirits and animals alike and had attempted to make friends with an Utaku Warhorse while its maiden was absent. One does not ‘make friends' with an Utaku War Horse.</p>
+</div>
+<div class="paragraph">
+<p>He was dead before he hit the ground.</p>
+</div>
+<div class="paragraph">
+<p>Every couple of years some new fool had to learn that lesson the hard way.</p>
+</div>
+<div class="paragraph">
+<p>While Mura nisa Kawa Nemui may have been called a village long ago before the Utaku got their hands on it, now it was a huge town dominated by six massive stables and several tenshukaku, large four story towers. One of those keeps was home to the Sankaido, clearly marked as such by the banner with the triple-crossed tasseled jitte of the maidens displayed on its face. Another tower had a large wheel displayed on its banner: headquarters of the Utaku&#8217;s six logistic legions. It took a lot of horsepower to move all that grain and the Utaku did it with a precision no one else could match.</p>
+</div>
+<div class="paragraph">
+<p>Tomorrow she would cross into the Land of the Two Lakes and her destiny would loom large over her. It was another restless night wishing she had chosen the other hand&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>Every Unicorn, sometime in their life, eventually journeyed to Mura nisa Kawa Nemui to look at_ The Bridge_. It spanned the slow wide river on three large stone pylons rising out of the river, supporting four tall arches made of even more stone and surfaced much like the roads it connected. The railings were carved in the image of dragons with their heads facing outward and their tails intertwined in the center. The two center arches were tall enough to allow large barges carrying grain southwards to pass underneath with ease. It was an incredible feat of engineering and art named <em>Wadatsumibashi, Bridge of the Water Dragon,</em> to honor the Dragon. She had visited once when she was fifteen, marveling at it. At the time she hadn&#8217;t been sure why they had built it, now she suspected it was because they <em>could</em>. A not so subtle message: you were entering a sacred place. She didn&#8217;t know why the Utaku felt so strongly about the lands west of the river, why they thought of it as sacred or what their connection to Wadatsumi was. All she did know was that the Clan Champions agreed with the Utaku.</p>
+</div>
+<div class="paragraph">
+<p>Lady Altansarnai&#8217;s advice came back to her: <em>they are not our enemies but neither are they our friends.</em> Takame wondered; if they were neither, then what were they?! ‘Shinjo&#8217;s Wrath' didn&#8217;t explain anything about them and everything she learned about them left her confused.</p>
+</div>
+<div class="paragraph">
+<p>These thoughts occupied her for the day as she traveled north on the stone roadway letting her eyes drift across the countryside. To the east, the river. To the west? She looked longingly at the wide open fields next to the road. The golden-green fields were as if behind an impenetrable wall such was the reputation of the Utaku. She remembered the sudden appearance of Naoko Emi the day she had trespassed. Was the woman just out of sight in some hidden fold of the plains waiting for Takame to wander off the road? She chuckled and shook her head at the memories of ‘Takame the girl': she had been on edge for days waiting for word of her misdeed to reach her mother but none came. She had never mentioned her lapse in attention either. Even to this day, because of the shared secret, Takame had felt a kind of connection to the girl Naoko Emi. She spent the morning wondering about the maiden and what had happened to her after all these years rather than dwell on her own future. Had Emi fallen during the Shadow War? Just before noon another group of Maidens of Sankaido approached, traveling south. Unlike the patrol on the Michi no Nagai Shogyo, these Shiotome stopped and waited for her to approach them. The lead maiden held up her hand, a purple tasseled jitte stuck in her sash denoting her authority. "Where to, Shinjo-san?" She asked politely, but without any emotion. Takame produced her travel papers signed by Altansarnai herself. "I journey to Shiro Utaku Shojo to speak with your Daimyo, Lady Toshiko." The Battle Maiden looked at Takame&#8217;s papers and nodded before handing them back. The four women bowed as one to her. "I am Nikutai Jai Li. Good journey, Takame-dono." She said, lifting her uma-yari in salute, the sun flashing off of its long straight blade. With that they left Takame on the road and continued their patrol south.</p>
+</div>
+<div class="paragraph">
+<p>Takame watched the Maidens move down the road. One of the Maidens had a patch over her left eye. Had she suffered that injury last year? It seemed odd that after such loss, the maidens, indeed the entire landscape, seemed&#8230;&#8203;. <em>serene</em>&#8230;&#8203; untouched by the experience.</p>
+</div>
+<div class="paragraph">
+<p>The weather remained perfect for the next five days travelling north until Shiro Utaku Shojo rose from the horizon. The massive castle dominated the hill it sat on which in turn being the tallest hill in the lands dominated its surrounding and the river that meandered around the imposing geography. At the base of the hill standing between it and the Sleeping River, Nodowa-cho, a large town, followed the graceful curve of the river&#8217;s path. Named after the neck protector for the crescent shape it resembled. Here the thick strip of forest along the river&#8217;s west bank had been cleared and buildings extended all the way down to the river&#8217;s edge sitting on a wide stretch of deposition abandoned by the river as it swung out around the outside bend in the river&#8217;s channel.</p>
+</div>
+<div class="paragraph">
+<p>Long shadows reached into the river&#8217;s water as night started to show on the eastern horizon. Many of the townsfolk were already hanging out brightly colored lanterns illuminating the main street with a myriad of colors. Takame realized that it would be too late to seek an audience with the daimyo tonight and she would need to find a place to stay. Takame scanned the town from its southern approach. Lights at the bottom of the river&#8217;s bank caught her attention. Far too many for a few people fishing&#8230;&#8203; the lanterns seemed to be clustered around large wide ramps that led down from large buildings to end at the river banks. As more lanterns chased away the shadows, what she saw sitting at the top of those ramps stopped her in her tracks: ten large ships in various stages of construction were surrounded by a hive of activity as well as four other ships nearly finished, anchored in the slow moving river.</p>
+</div>
+<div class="paragraph">
+<p>The Utaku were building ships! <em>Ships</em>, not boats, not the chokkibune and wasen the Utaku used to fish the rivers and lakes but actual three-masted ships almost identical to the drawings her brother had shown her only six days ago! Several of the buildings and the surroundings looked newly constructed as well. She watched for several minutes the activity surrounding the construction of the wooden vessels before realizing that people were watching her just standing in the middle of the road. She clicked her tongue and nudged her horse forward in disbelief. How long had the Utaku been building ships?</p>
+</div>
+<div class="paragraph">
+<p>"Excuse me, Utaku-san." Takame said, getting the attention of a food vender pushing her cart down the street. The young woman looked up at her with a smile. "I am sorry Shinjo-san. I am out of noodles for the day. Those Mantis seem to have bottomless stomachs." She laughed. "Just as long as their purses are bottomless it is a good day."</p>
+</div>
+<div class="paragraph">
+<p>"Mantis?" Takame said surprised looking around the crowded street. From her vantage she was able to see several of the sea green mon mixed within the familiar purple. She shook her head in disbelief, had she somehow wandered into a story, a trick of some mischievous kami?! "No, I was wondering about those ships." She pointed to the shipyard below."How long have the Utaku been building them?"</p>
+</div>
+<div class="paragraph">
+<p>"Since the land was freed of winter&#8217;s grip." The young woman said. "They should be finished in a few months and then they will be loaded with last year&#8217;s surplus and sailed down the river to the east to supply the expedition."</p>
+</div>
+<div class="paragraph">
+<p>Takame blinked, pausing in her thoughts. At times the Utaku could be maddeningly literal in their conversations. "How long have the Utaku practiced the craft of shipbuilding vessels of such size?" Takame specified.</p>
+</div>
+<div class="paragraph">
+<p>"Oh," the young woman said, understanding Takame&#8217;s question. She thought about it before answering. "Since the land was freed of winter&#8217;s grip," She answered. She saw that her answer wasn&#8217;t nearly enough for the samurai so added more. "A horde of Mantis showed up this spring with letters from the Empress as well as many gifts. She is equipping an expedition to explore new lands to the east. Isn&#8217;t that exciting?! They recruited every Utaku carpenter and boat builder along the river&#8217;s path and began building those ships. They have already sent twenty of them down river. My cousin and aunt work in the yard as carpenters, they return every night talking about boring ship things." The young woman scrunched up her face at the memory of the carpentry talks. Remembering that she was talking to a samurai, the woman bowed an apology. "Please forgive my rudeness," She said.</p>
+</div>
+<div class="paragraph">
+<p>Takame chucked. "No need, I have a brother who is a constant source of irritation. You have my sympathies." Takame smiled at the food vendor.</p>
+</div>
+<div class="paragraph">
+<p>The food vendor smiled back. It was an open and honest smile. "Didn&#8217;t you know about the expedition, Shinjo-san?"</p>
+</div>
+<div class="paragraph">
+<p>"I have heard of that, just not the ships, it is the reason why I am here," Takame said.</p>
+</div>
+<div class="paragraph">
+<p>"Oh," the food vender said. She paused a moment before adding. "I don&#8217;t think they are for sale. My cousin and aunt finished a beautiful chokkibune last winter. Would you be interested in buying that instead?"</p>
+</div>
+<div class="paragraph">
+<p>Takame laughed good naturedly. "I am here for the expedition, not the ships, Utaku-san, but thank you anyways. Could you tell me of a good ryokan to stay the night?" Takame asked, hoping to change the subject before she was talked into purchasing a fishing boat.</p>
+</div>
+<div class="paragraph">
+<p>The food vendor joined in her laughter, adding her friendly smile at the end. "There are many ryokan, Shinjo-san. But most are very full of noisy Mantis&#8230;&#8203; If you want to stay in a quiet ryokan; my other aunt runs the Himawariko&#8217;s Blessing: a small quiet place with a large sunflower painted on its kanban. It is only a short walk from the nearest bathhouse. We have only two guests and both of them are quiet, thoughtful women. One is my mother and the other is my father&#8217;s sister," The food vendor said. She pointed down the street. "It is the fourth right and then a left and right and down a short set of stairs&#8230;&#8203;" she looked up at Takame seeing the look of concern on Takame&#8217;s face. "&#8230;&#8203;let me take you there, it is hard to find otherwise&#8230;&#8203; I am Akiko, Shinjo-san." Akiko bowed.</p>
+</div>
+<div class="paragraph">
+<p>"Takame," she said, returning the bow from the saddle. She didn&#8217;t bother informing the Utaku of her recent promotion in status. She could continue to be just ‘Takame' for the next couple of days, for Akiko and her family. "Lead on, Akiko-san," She waved the food vendor forward, falling in behind her as she pulled the small cart up the street. Akiko stopped in front of the stables and waited for Takame to board her horse. With just her kit over her shoulders, Takame continued following Akiko, traveling the path she had spoken of, just past a small bathhouse tucked into another side street, she stopped at a small gate near the bank&#8217;s edge. A large sunflower was painted on the large wooden kanban hanging beside the gate to the inn, just as Akiko had said. A quick shove of the sliding gate and Akiko moved her cart onto a modest landing at the top of a short set of stairs. Below them, at the end of the stairs, was the entrance to the small inn. A warm inviting light illuminated the Shoji casting faint golden highlights of the stairs. Small as the ryokan may have been, its view was noteworthy: an unobstructed view of the wide river. Takame could see a few small boats moving slowly along its surface, fishing in the evening&#8217;s cool breeze.</p>
+</div>
+<div class="paragraph">
+<p>"I&#8217;m home!" Akiko called out as she opened the shoji to the genkan of the inn; the small room that sat a step below the inn&#8217;s ground floor, standing between the outside world and the interior of the building proper. "And I brought a guest!" She stopped to remove her zori before stepping into some slippers and entering the building. "I&#8217;ll get you a pair, Takame-san," Akiko said as she ducked into a room at the end of the short hallway just in front of the stairs. Takame sighed. <em>The Utaku, they held to the customs of the Empire almost as closely as the Crane.</em> She thought to herself. She balanced on one foot, then the other to remove her boots, placing the worn leather footwear next to Akiko&#8217;s zori. By the time she had completed the gymnastics required to comply with the Utaku&#8217;s customs, Akiko had come back with a pair of slippers for her to wear. Takame bowed in thanks. She was glad she had ten days to remember all the little courtesies and stepped into the slippers, careful to not step on the polished wooden floor with her bare feet. Feeling naked without her boots, she wiggled her toes in the slippers a bit, stepping behind Akiko, and followed her down the hallway to the right of the stairs to the main room.</p>
+</div>
+<div class="paragraph">
+<p>"Akiko-chan!" A woman&#8217;s voice answered back from deeper in the inn. "How many times have I told you not to shout, what would your mother say hearing you acting like a drunken Cr- good evening Shinjo-san." The owner of the voice said as she came out of the kitchen wiping her hands on the maekake wrapped around her waist, the apron showing the day&#8217;s labor upon its fabric. She bowed to Takame, "I am Bao, Akiko&#8217;s aunt. Welcome to our humble ryokan. Akiko, see to the kitchen."</p>
+</div>
+<div class="paragraph">
+<p>Takame returned the bow. "Thank you, Bao-san. I am Takame. Your ryokan is very nice." She looked out of the open shoji of the common room admiring the view of the river and the eastern horizon. A few stars were already starting to shine in the approaching night.</p>
+</div>
+<div class="paragraph">
+<p>Bao bowed. "You honor us, Takame-san. Can I show you to the guestroom so you can put down your gear?"</p>
+</div>
+<div class="paragraph">
+<p>"Please." Takame nodded. She followed Bao up the stairs. Just a few steps down the hallway, the shoji to the guest room was already open allowing the evening breeze to move freely through the rooms. "Our other two guests have already taken those spots." Bao said, pointing to a katana sitting in its stand against an armor chest, which rested neatly against the wall. Takame nodded as she moved into the room and set her gear down in the empty space, nearest the window. Bao moved to the closet and removed a bucket with the name of the inn carved on it, towels and a yukata. "If you wish, Takame-san, dinner won&#8217;t be for a few hours, plenty of time for a &#8230;&#8203;um&#8230;&#8203; bath?" Bao said hesitantly.</p>
+</div>
+<div class="paragraph">
+<p>"I am Shinjo, not Moto, Bao-san." Takame chuckled. "I have a passing familiarity with your family&#8217;s customs with baths," she joked. Though she, like most of the Unicorn were nomadic, the Utaku being the exception, she had used the Utaku bathhouses when presented with the opportunities over the years, such as when she had stopped to rest overnight in one of the many castrum, the Utaku village - forts, dotting the eastern plains. Just like there was a Stable Master in every town and village of the Utaku, there was <em>always</em> a bathhouse . Over the years she had made it a habit of visiting an Utaku village in her travels every couple of weeks for ‘sake and a soak'. An habit that had caused her brother to call her soft once, right before she had wrestled him into the dirt and made him take it back.</p>
+</div>
+<div class="paragraph">
+<p>Bao smiled and bowed. "We have an arrangement with the bathhouse up the street. Just show the attendant this bucket. You are our guest and you will not be charged for the visit, Takame-san." She set the kit back on its shelf in the closet then bowed and backed out of the room, closing the shoji, and leaving her guest alone to change.</p>
+</div>
+<hr>
+<div class="paragraph">
+<p>She returned to the inn refreshed, smelling of clover and roses. It caused her nose to itch, on the verge of a sneeze that refused to arrive. Still, she felt relaxed, looking forward to a good meal, and hopefully a peaceful sleep. In the distance, at the end of the side street, she could faintly hear the sounds of boisterous bushi enjoying the town&#8217;s amenities. <em>Mantis,</em> she thought to herself. In her experiences ‘boisterous' would not be a word she would use to describe Utaku.</p>
+</div>
+<div class="paragraph">
+<p>Another sound caught her ears as she opened the gate to Himawariko&#8217;s Blessing: the rapid melody of a couple of shamisen with their tell-tale clicks of the bachi against the dou. The music carried Takame to the wide open plains riding Naran swiftly through the golden grass. Not willing to interrupt the performance, she quietly made her way into the inn and peeked her head into the common room to see a geisha and Akiko playing the shamisen expertly to an audience of one: an auburn haired woman wearing a similar yukata to the one Takame wore. The woman turned her head from watching the two players to glance in Takame&#8217;s direction, she gestured to join her at the room&#8217;s only table. The woman lifted a tetsubin, steam escaping from the iron kettle, as Takame sat down. Takame gave the woman a short bow of thanks.</p>
+</div>
+<div class="paragraph">
+<p>Takame and the auburn haired woman sipped quietly on their tea while they listened to the music. Two other women joined them during the performance. Takame guessed from their yukata that they were recent attendants of the nearby bathhouse as well. Takame recognized the older woman; her thick shoulders and athletic body of a laborer had caught her attention while they soaked in the bath. The music went on for another half an hour until Bao came out of the kitchen signaling that the food was ready. Takame and the other women bowed to the two musicians, mirrored by them bowing to their audience. Akiko set her shamisen aside on its stand and went to assist her aunt in bringing the food out to the guest. The geisha set her instrument aside as well and moved over to the table.</p>
+</div>
+<div class="paragraph">
+<p>"You must be our roommate that arrived today." The auburn haired woman said. "I am Matsu Mitsuko, Chui of the Furious Roar Lion&#8217;s Pride and liaison to the Utaku." Mitsuko bowed, then calmly gestured to the rest of the women at the table. "Utaku Miku and her daughter Utaku Satami&#8230;&#8203;" Mitsuko waited till the geisha had taken her place, sitting down on a vacant zabuton, smoothing out her silk kimono with delicate, refined hands. "And this is Utaku Tomoko, Bao and Miku&#8217;s sister, Akiko&#8217;s mother <em>and</em> the destroyer of virtuous men&#8230;&#8203;" Mitsuko said. She picked up the tetsubin and filled the geisha&#8217;s tea cup.</p>
+</div>
+<div class="paragraph">
+<p>"Shinjo Takame." It took all her poise to not show her surprise at sitting across from the Lioness, bowing to the Utaku and Matsu. She focused on the pleasant setting and placed Mitsuko&#8217;s lineage to the back of her mind. <em>Politics.</em> "You and Akiko&#8217;s playing was very beautiful. You must be very proud."</p>
+</div>
+<div class="paragraph">
+<p>"Thank you, Takame-dono," Tomoko said.</p>
+</div>
+<div class="paragraph">
+<p>Takame held up her hand. She gave a small smile and half bow to demonstrate some humbleness. "Just Takame-san if you please. There is no banner raised for any to gather around my call at the moment." It wouldn&#8217;t occur to Takame until several days had passed to question how Tomoko had known her status within her own family.</p>
+</div>
+<div class="paragraph">
+<p>"Of course, Takame-san," Tomoko said.</p>
+</div>
+<div class="paragraph">
+<p>Takame sipped her tea, recalling Akiko&#8217;s descriptions of the two guests. She turned her attention to Mitsuko. "Mitsuko? That is an unfortunate name to have deep in the lands of the Unicorn, is it not? After all the business between Shono and his betrothed?"</p>
+</div>
+<div class="paragraph">
+<p>"I have not found it so. It is not an uncommon name in my family," Mitsuko said with a shrug. "We all have our own burdens to bear, do we not?"</p>
+</div>
+<div class="paragraph">
+<p>"My apologies, Mitsuko-san, I meant no disrespect," Takame said, with a low bow.</p>
+</div>
+<div class="paragraph">
+<p>"Do not trouble yourself, Shinjo-san, I am used to the question. Perhaps in a decade my name will not cause such questions," Mitsuko said.</p>
+</div>
+<div class="paragraph">
+<p>"Ah&#8230;&#8203;So you are Akiko&#8217;s aunt?" Takame asked, trying to change the subject quickly lest she embarrass herself even more. Though even as she said the words she realized that the idea that a Matsu lady had a niece who was a food vendor and innkeeper might have upset the Lion.</p>
+</div>
+<div class="paragraph">
+<p><em>Family</em> would explain why there was a Lioness in the lands of the Utaku though.</p>
+</div>
+<div class="paragraph">
+<p>"Yes," Mitsuko answered. She didn&#8217;t seem upset or even the least bit bothered by the admission.</p>
+</div>
+<div class="paragraph">
+<p>Their conversation was interrupted as Bao and Akiko brought out the meal. The rest of the evening was centered on enjoying the food and listening to Miko and Satami talking about the efforts in the shipyard. Takame glanced over to Akiko who rolled her eyes when she saw Takame looking at her. Takame had to suppress a smile at the young woman&#8217;s discomfort.</p>
+</div>
+<div class="paragraph">
+<p>After dinner was complete most of the Utaku retired for the night, leaving only Tomoko, Mitsuko and Takame occupying the common room. Tomoko shooed her sister Bao away, promising her to look after the guest herself. The geisha left Takame and Mitsuko alone to watch Lord Moon&#8217;s light dancing on the river&#8217;s surface, turning it to silver. She returned with a tray holding three ochoko and a tokkuri, setting it down on their table. "Sake? Takame-san, Mitsuko-san," Tomoko asked, holding up the tokkuri of sake. "It is from Ringo no Hana-Cho."</p>
+</div>
+<div class="paragraph">
+<p>"Oh! Yes please!" Takame said enthusiastically recognizing the name of the Utaku&#8217;s southern-most town famous for their apple and cherry trees. "Apple sake is one of my favorites." She held out her cup for Tomoko to fill. Mitsuko also held out hers and returned the favor for Tomoko. "To fortunate occurrences," Tomoko toasted. "Kampai!"</p>
+</div>
+<div class="paragraph">
+<p>"Kampai!" Mitsuko and Takame repeated. The sake went down easily&#8230;&#8203;</p>
+</div>
+<div class="paragraph text-center">
+<p><strong>To be continued&#8230;&#8203;</strong></p>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+ <br>
+Last updated 2026-02-18 22:04:42 UTC
+</div>
+</div>
+</body>
+</html>
